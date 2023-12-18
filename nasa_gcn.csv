@@ -1,0 +1,2992 @@
+,Subjects,Dates,From,Via,Contents,URLs
+0,GRB231205B: Swift/UVOT Upper Limits,2023-12-08T17:38:53Z,Mike Siegel at PSU/Swift MOC <mhs18@psu.edu>,Web form,"M. H. Siegel (PSU) and P. A. Evans (U. Leicester)
+report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 231205B
+216 s after the BAT trigger (Evans et al., GCN Circ. 35269).
+No optical afterglow consistent with the XRT position
+(Osborne et al. 35275) is detected in the initial UVOT exposures.
+Preliminary 3-sigma upper limits using the UVOT photometric system
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the first
+finding chart (FC) exposure and subsequent exposures are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)         Mag
+
+white_FC           237          387          147         >21.3
+white              237          536          167         >21.3
+v                  216          414           33         >18.6
+b                  492          512           19         >19.6
+u                  468          487           19         >18.2
+w1                 443          463           19         >19.3
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.204 in the direction of the burst
+(Schlegel et al. 1998).
+",https://gcn.nasa.gov/circulars/35308
+1,GRB 231208A: Glowbug gamma-ray detection,2023-12-08T16:59:19Z,C.C. Cheung at Naval Research Lab <Teddy.Cheung@nrl.navy.mil>,Web form,"C.C. Cheung, M. Kerr, J. E. Grove, R. Woolf (NRL), A. Goldstein (USRA), C.A. Wilson-Hodge (MSFC), and M.S. Briggs (UAH) report:                                                                                                                                                                                                                                                    
+
+The Glowbug gamma-ray telescope [1,2], operating on the International Space Station, reports the detection of GRB 231208A, which was also detected by Astrosat/CZTI (GCN 35306).
+
+Using an adaptive window with a resolution of 32-ms, the burst onset is determined to be 2023-12-08 02:29:43.384 with a duration of 5.1 s and a total significance of about 38 sigma.  The light curve comprises two primary peaks at ~T0+2s and ~T0+3s.
+
+Using a standard power-law function with an exponential high-energy cutoff [3] to model the emission over this duration results in a photon index dN/dE~E^x of x=2.5 and a cutoff energy (""Epeak"") of 136 keV.  The modeled 10-10000 keV fluence is 9.1e-07 erg/cm^2.
+
+The best-fit localization is RA, Decl. (J2000, deg) = 339.7, 21.2 with a radius of 14.8 deg (95% confidence) with a highly uncertain systematic uncertainty.
+
+The analysis results presented here are preliminary and use a response function that lacks a detailed characterization of the surrounding passive structure of the ISS.
+
+Glowbug is a NASA-funded technology demonstrator for sensitive, low-cost gamma-ray transient telescopes developed, built, and operated by the U.S. Naval Research Laboratory (NRL) with support from the University of Alabama in Huntsville, USRA, and NASA MSFC.  It was launched on 2023 March 15 aboard the Department of Defense Space Test Programâs STP-H9 to the ISS.  The detector comprises 12 large-area (15 cm x 15 cm) CsI:Tl panels covering the surface of a half cube, and two hexagonal (5-cm diameter, 10-cm length) CLLB scintillators, giving it a large field of view (instantaneous FoV ~2/3 sky) over a wide energy band of 50 keV to >2 MeV.
+
+[1] Grove, J.E. et al. 2020, Proc. Yamada Conf. LXXI, arXiv:2009.11959
+[2] Woolf, R.S. et al. 2022, Proc. SPIE, 12181, id. 121811O
+[3] Goldstein, A. et al. 2020, ApJ 895, 40, arXiv :1909.03006
+
+Distribution Statement A: Approved for public release.  Distribution is unlimited.
+",https://gcn.nasa.gov/circulars/35307
+2,GRB 231208A: AstroSat CZTI detection of a faint burst,2023-12-08T10:08:59Z,Gaurav Waratkar at IIT Bombay <gauravwaratkar@iitb.ac.in>,Web form,"P. K. Navaneeth (IUCAA), J. Joshi (IUCAA), G. Waratkar (IITB), A. Vibhute (IUCAA), V. Bhalerao (IITB), D. Bhattacharya (Ashoka University/IUCAA), A. R. Rao (IUCAA/TIFR), and S. Vadawale (PRL) report on behalf of the AstroSat CZTI collaboration:
+
+Analysis of AstroSat CZTI data with the CIFT framework (Sharma et al., 2021, JApA, 42, 73) showed the detection of a faint long-duration GRB 231208A.
+
+The source was detected in the CZT detectors in the 20-200 keV energy range. The light curve peaks at 2023-12-08 02:29:47.75 UTC. The measured peak count rate associated with the burst is 146 (+47, -32) counts/s above the background in the combined data of three quadrants (out of four), with a total of 231 (+88, -106) counts. The local mean background count rate was 265 (+3, -5) counts/s. Using cumulative rates, we measure a T90 of 2.4 (+0.7, -1.2) s. 
+
+CZTI is built by a TIFR-led consortium of institutes across India, including VSSC, URSC, IUCAA, SAC, and PRL. The Indian Space Research Organisation funded, managed, and facilitated the project.
+
+CZTI GRB detections are reported regularly on the payload site at:
+http://astrosat.iucaa.in/czti/?q=grb 
+
+",https://gcn.nasa.gov/circulars/35306
+3,LIGO/Virgo/KAGRA S231206ca: Updated Sky localization,2023-12-07T16:36:13Z,Sylvia Biscoveanu at MIT <sylvia.biscoveanu@ligo.org>,Web form,"The LIGO Scientific Collaboration, the Virgo Collaboration, and the KAGRA Collaboration report:
+
+We have conducted further analysis of the LIGO Hanford Observatory (H1) and LIGO Livingston Observatory (L1) data around the time of the compact binary merger (CBC) candidate S231206ca (GCN Circular 35297). Parameter estimation has been performed using Bilby [1] and a new sky map, Bilby.multiorder.fits, distributed via GCN Notice, is available for retrieval from the GraceDB event page:
+
+https://gracedb.ligo.org/superevents/S231206ca
+
+For the Bilby.multiorder.fits sky map, the 90% credible region is 2335 deg2. Marginalized over the whole sky, the a posteriori luminosity distance estimate is 3230 +/- 1141 Mpc (a posteriori mean +/- standard deviation).
+
+After parameter estimation by RapidPE-RIFT [2], the updated classification of the GW signal, in order of descending probability is BBH (>99%), Terrestrial (<1%), NSBH (<1%), or BNS (<1%).
+
+For further information about analysis methodology and the contents of this alert, refer to the LIGO/Virgo/KAGRA Public Alerts User Guide https://emfollow.docs.ligo.org/userguide/.
+
+[1] Ashton et al. ApJS 241, 27 (2019) and Morisaki et al. arXiv:2307.13380 (2023)
+[2] Rose et al. arXiv:2201.05263 (2022) and Pankow et al. PRD 92, 023002 (2015)
+",https://gcn.nasa.gov/circulars/35305
+4,IPN triangulation of GRB 231205A,2023-12-07T16:20:39Z,Dmitry Svinkin at Ioffe Institute <svinkin@mail.ioffe.ru>,legacy email,"A.S. Kozyrev, D.V. Golovin, M.L. Litvak, I.G. Mitrofanov, and A.B. Sanin
+on behalf of the HEND/Mars Odyssey team,
+
+D. Svinkin, D. Frederiks, A. Ridnaia, A. Lysenko,
+and T. Cline on behalf of the Konus-Wind team,
+
+A. Goldstein, M.S. Briggs, C. Wilson-Hodge,
+and E. Burns on behalf of the Fermi GBM team,
+
+E. Bozzo and C. Ferrigno, on behalf of the INTEGRAL SPI-ACS GRB team,
+
+S.-L. Xiong, Y. Huang, X.-Y. Zhao, and P. Wang
+on behalf of the GECAM team,
+
+and
+
+W. Boynton, C. Fellows, K. Harshman, H. Enos, R. Starr,
+and A.S. Gardner on on behalf of the GRS-Odyssey GRB team,
+report:
+
+The bright, short-duration GRB 231205A
+(Fermi-GBM detection: The Fermi GBM team, GCN Circ. 35263;
+GECAM-B detection: Tan et al., GCN Circ. 35266;
+ETJASMIN localization: Zhang et al., GCN Circ. 35268)
+has been detected by Fermi-GBM (trigger 723435916), Konus-Wind,
+INTEGRAL (SPI-ACS), GECAM-B (GRD), and Mars-Odyssey (HEND)
+so far, at about  8711 s UT (02:25:11).
+
+We have triangulated it to a preliminary, 3 sigma error box
+whose coordinates are:
+ ---------------------------------------------
+  RA(2000), deg                 Dec(2000), deg
+ ---------------------------------------------
+ Center:
+  202.936 (13h 31m 45s) +17.932 (+17d 55' 55"")
+ Corners:
+  203.258 (13h 33m 02s) +18.299 (+18d 17' 58"")
+  202.683 (13h 30m 44s) +17.694 (+17d 41' 38"")
+  202.612 (13h 30m 27s) +17.557 (+17d 33' 25"")
+  203.188 (13h 32m 45s) +18.166 (+18d 09' 57"")
+ ---------------------------------------------
+The error box area is 119 sq. arcmin, and its maximum
+dimension is 58 arcmin (the minimum one is 2.4 arcmin).
+The Sun distance was 62 deg.
+
+This localization may be improved.
+
+The IPN localization is consistent with, but reduces the area of,
+the Fermi-GBM final localization and ETJASMIN localization.
+
+A triangulation map and HEALPix FITS file are posted at
+http://www.ioffe.ru/LEA/GRBs/GRB231205_T08710/IPN
+
+The Konus-Wind time history and spectrum will be given
+in a forthcoming GCN Circular.
+
+
+",https://gcn.nasa.gov/circulars/35304
+5,GRB 231205B: Swift-BAT refined analysis,2023-12-07T14:01:00Z,Tyler Parsotan  at NASA GSFC <tyler.parsotan@nasa.gov>,email,"T. Parsotan (GSFC), S. D. Barthelmy (GSFC),
+H. A. Krimm (NSF), S. Laha (GSFC/UMBC),
+A. Y. Lien (U Tampa), C. B. Markwardt (GSFC),
+D. M. Palmer (LANL), T. Sakamoto (AGU),
+M. Stamatikos (OSU) (i.e. the Swift-BAT team):
+
+Using the data set from T-60 to T+243 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 231205B (trigger #1200812)
+(Evans, et al., GCN Circ. 35269). The BAT ground-calculated position is
+RA, Dec = 54.151, 27.150 deg which is
+RA(J2000) = 03h 36m 36.3s
+Dec(J2000) = +27d 09' 00.7""
+with an uncertainty of 1.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 50%.
+
+The mask-weighted light curve shows a strong peak near the time of trigger.
+There is also emission prior to the main peak of the lightcurve at ~T-30 sec.
+T90 (15-350 keV) is 46.94 +- 7.84 sec (estimated error including systematics).
+
+The time-averaged spectrum from T-29.66 to T+54.16 sec is best fit by a simple
+power-law model. The power law index of the time-averaged spectrum is
+1.38 +- 0.05. The fluence in the 15-150 keV band is 7.4 +- 0.2 x 10^-06 erg/cm2.
+The 1-sec peak photon flux measured from T-5.04 sec in the 15-150 keV band
+is 7.1 +- 0.4 ph/cm2/sec. All the quoted errors are at the 90% confidence
+level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/1200812/BA/ <http://gcn.gsfc.nasa.gov/notices_s/1200812/BA/> <http://gcn.gsfc.nasa.gov/notices_s/1200812/BA/> <http://gcn.gsfc.nasa.gov/notices_s/1200812/BA/&gt;>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",https://gcn.nasa.gov/circulars/35303
+6,GRB 231205B: 1.3m DFOT Optical upper limit,2023-12-07T13:20:11Z,Amit Kumar Ror at ARIES <mitturor77894@gmail.com>,email,"Amit K. Ror, Rahul Gupta, Amar Aryan, and Shashi B. Pandey (ARIES) report:
+
+We observed the field of GRB 231205B detected by Swift (Evans et al. 2023,
+GCN 35269) with the 1.3m Devasthal Fast Optical Telescope (DFOT), located
+at the Devasthal Observatory of the Aryabhatta Research Institute of
+Observational Sciences (ARIES), India. The observations were started on
+2023-12-06 at 13:19:13 UT, i.e., ~ 0.86 days after the BAT trigger. We have
+taken multiple frames with an exposure time of 300 s in the R filter. We
+stacked the images after the alignment. We did not detect optical afterglow
+in our stacked image within the enhanced Swift-XRT observation error box
+(Osborne et al., 2023, GCN 35275). We obtain the following preliminary
+3-sigma upper limit in the stacked image:
+
+
+Date Start_UT T_start-T0 (days) Filter  Exp time (s)  Limiting magnitude
+=========================================================
+2023-12-06 13:19:13    ~0.86     R     300*36     > 22.6
+
+
+Our non-detection is consistent with Odeh et al. 2023, GCN 35270;
+Strausbaugh et al. 2023, GCN 35278; Jiang et al. 2023, GCN 35280; Jiang et
+al. 2023, GCN 35281; Gendre et al. 2023, GCN 35282; Sasada et al. 2023, GCN
+35284; Adami et al. 2023, GCN 35286; Komesh et al. 2023, GCN 35287; Brivio
+et al. 2023, GCN 35289; Malenakova et al. 2023, GCN 35292; and Pankov et
+al. 2023, GCN 35299
+
+The magnitude is not corrected for the Galactic extinction in the direction
+of the burst. Photometric calibration is performed using the standard stars
+from the USNO-B1.0 catalog. This circular may be cited.
+
+",https://gcn.nasa.gov/circulars/35302
+7,LIGO/Virgo/KAGRA S231206cc: Updated Sky localization and Source Classification,2023-12-07T12:40:22Z,Charlie Hoy at University of Portsmouth <charlie.hoy@port.ac.uk>,Web form,"The LIGO Scientific Collaboration, the Virgo Collaboration, and the KAGRA Collaboration report:
+
+We have conducted further analysis of the LIGO Hanford Observatory (H1) and LIGO Livingston Observatory (L1) data around the time of the compact binary merger (CBC) candidate S231206cc (GCN Circular 35298). Parameter estimation has been performed using Bilby [1] and a new sky map, Bilby.multiorder.fits, distributed via GCN Notice, is available for retrieval from the GraceDB event page:
+
+https://gracedb.ligo.org/superevents/S231206cc
+
+After parameter estimation by RapidPE-RIFT [2], the updated classification of the GW signal, in order of descending probability is BBH (100%), NSBH (<1%), Terrestrial (0%), or BNS (0%).
+
+For the Bilby.multiorder.fits sky map, the 90% credible region is 342 deg2. Marginalized over the whole sky, the a posteriori luminosity distance estimate is 1467 +/- 264 Mpc (a posteriori mean +/- standard deviation).
+
+For further information about analysis methodology and the contents of this alert, refer to the LIGO/Virgo/KAGRA Public Alerts User Guide https://emfollow.docs.ligo.org/userguide/.
+
+ [1] Ashton et al. ApJS 241, 27 (2019) and Morisaki et al. arXiv:2307.13380 (2023)
+ [2] Rose et al. arXiv:2201.05263 (2022) and Pankow et al. PRD 92, 023002 (2015)
+",https://gcn.nasa.gov/circulars/35301
+8,GRB 231206A: joint location of multiple instruments by ETJASMIN,2023-12-07T06:18:14Z,yqzhang_cl@163.com,Web form,"Yanting Zhang, Shaolin Xiong, Yue Huang, Shuo Xiao, Xiaoyun Zhao, Ping Wang, 
+report on behalf of the GECAM team:
+
+The short burst, GRB 231206A, has been detected by GECAM-B (Liu et al., GCN 35283) and INTEGRAL/SPI-ACS. 
+With the ETJASMIN pipeline (Energetic Transients joint analysis system for Multi-INstrument, Xiao et al.,
+MNRAS, 514, 2397, 2022) and the data of GECAM-B and INTEGRAL/SPI-ACS, we did a joint location for this burst.
+
+Firstly, we applied the Li-CCF method (Xiao et al., ApJ, 920, 43, 2021) to the high 
+temporal resolution (~0.1 ms) light curve of GECAM-B and the low-latency public 50 ms 
+light curve of INTEGRAL/SPI-ACS, and derived the triangulation location as the following annuli:
+
+--------------------------------------------------------------------------------------------------
+Annulus                 Ra (deg)      Dec (deg)     Radius (deg)      Radius-Error (deg, 3sigma)
+GECAM-B + SPI-ACS       37.933        78.224        103.958           47.522
+--------------------------------------------------------------------------------------------------
+
+Then, we combined this triangulation location, the stand-alone location provided by GECAM-B 
+(Liu et al., GCN 35283), as well as the Earth occultation of these instruments, 
+and derived a refined location, which is much smaller than the stand-alone ones. 
+
+The center (highest probability) of this refined location is:
+
+--------------------------------------
+            RA (deg)      Dec (deg)
+Center      314.648	  -20.742   
+--------------------------------------
+
+The 1-simga region of this refined location is about 295 deg^2. 
+
+The sky map and probability healpix data of this refined location could be found at:
+Sky map: http://twiki.ihep.ac.cn/pub/GECAM/GRBList/GRB231206-jointLoc-skymap-v01.png
+Data file: http://twiki.ihep.ac.cn/pub/GECAM/GRBList/GRB231206A-jointLoc-healpix-v01.fits
+
+Note that a part of the location region is below the Earth limb of GECAM-B and thus excluded.
+
+This location may be improved.
+
+ETJASMIN is developed for joint observation of high energy transients by the GECAM team.
+We acknowledge the public data of INTEGRAL/SPI-ACS. 
+",https://gcn.nasa.gov/circulars/35300
+9,GRB 231205B: optical upper limit in TSHAOand AbAO,2023-12-07T04:13:53Z,"Alexei Pozanenko at IKI, Moscow <apozanen@iki.rssi.ru>",legacy email,"N. Pankov (HSE, IKI), I. Reva (FAI), R. Inasaridze (AbAO), A. Pozanenko (IKI), S. Belkin (IKI, HSE) report on behalf of GRB-IKI-FuN:
+
+We observed the field of GRB 231205B (Evans et al, GCN 35269; Liu & Xiong, GCN 35279) with Zeiss-1000 telescope of Tien-Shan Observatory (TSHAO), and AS-32 telescope of Abastumani Observatory (AbAO). No new optical sources have been found at the enhanced XRT position (Osborne et al, GCN 35275) in our observations, which is consistent with results reported early (Odeh et al, GCN 35270; Strausbaugh & Cucchiara, GCN 35278; Jiang et al, GCN 35280; Jiang et al, GCN 35281; Gendre et al, GCN 35282; Sasada et al, GCN 35284; Adami et al, GCN 35286; Komesh et al, GCN 35287; Brivio et al, GCN 35289;  Malenakova et al, GCN 35292). Preliminary photometry is following:
+
+Date       UT start  t-T0     Exp.   Filter  OT Err.    UL  Telescope
+                   (mid, days)  (s)                    (3sigma) 
+2023-12-05 16:43:59  0.0208333 30x120  R   n/d    n/d  22.0  Zeiss-10000
+2023-12-05 17:16:09  0.0315857 59x60   R   n/d    n/d  19.6  AS-32
+
+
+",https://gcn.nasa.gov/circulars/35299
+10,LIGO/Virgo/KAGRA S231206cc: Identification of a GW compact binary merger candidate,2023-12-07T00:23:52Z,"Surojit Saha at Institute of Astronomy, National Tsing Hua University <surojitsaha@gapp.nthu.edu.tw>",Web form,"The LIGO Scientific Collaboration, the Virgo Collaboration, and the KAGRA Collaboration report:
+
+We identified the compact binary merger candidate S231206cc during real-time processing of data from LIGO Hanford Observatory (H1) and LIGO Livingston Observatory (L1) at 2023-12-06 23:39:01.498 UTC (GPS time: 1385941159.498). The candidate was found by the CWB [1], GstLAL [2], MBTA [3], PyCBC Live [4], and SPIIR [5] analysis pipelines.
+
+S231206cc is an event of interest because its false alarm rate, as estimated by the online analysis, is 1.9e-35 Hz, or about one in 1e27 years. The event's properties can be found at this URL:
+
+https://gracedb.ligo.org/superevents/S231206cc
+
+The classification of the GW signal, in order of descending probability, is BBH (>99%), NSBH (<1%), BNS (<1%), or Terrestrial (<1%).
+
+Assuming the candidate is astrophysical in origin, the probability that the lighter compact object is consistent with a neutron star mass (HasNS) is <1%. [6] Using the masses and spins inferred from the signal, the probability of matter outside the final compact object (HasRemnant) is <1%. [6] Both HasNS and HasRemnant consider the support of several neutron star equations of state. The probability that either of the binary components lies between 3 and 5 solar masses (HasMassgap) is <1%.
+
+Two sky maps are available at this time and can be retrieved from the GraceDB event page:
+ * bayestar.multiorder.fits,1, an initial localization generated by BAYESTAR [7], distributed via GCN notice about 30 seconds after the candidate event time.
+ * bayestar.multiorder.fits,2, an initial localization generated by BAYESTAR [7], distributed via GCN notice about 5 minutes after the candidate event time.
+
+The preferred sky map at this time is bayestar.multiorder.fits,2. For the bayestar.multiorder.fits,2 sky map, the 90% credible region is 445 deg2. Marginalized over the whole sky, the a posteriori luminosity distance estimate is 1261 +/- 294 Mpc (a posteriori mean +/- standard deviation).
+
+For further information about analysis methodology and the contents of this alert, refer to the LIGO/Virgo/KAGRA Public Alerts User Guide https://emfollow.docs.ligo.org/userguide/.
+
+ [1] Klimenko et al. PRD 93, 042004 (2016)
+ [2] Tsukada et al. PRD 108, 043004 (2023) and Ewing et al. arXiv:2305.05625 (2023)
+ [3] Aubin et al. CQG 38, 095004 (2021)
+ [4] Dal Canton et al. ApJ 923, 254 (2021)
+ [5] Chu et al. PRD 105, 024023 (2022)
+ [6] Chatterjee et al. ApJ 896, 54 (2020)
+ [7] Singer & Price PRD 93, 024013 (2016)
+",https://gcn.nasa.gov/circulars/35298
+11,LIGO/Virgo/KAGRA S231206ca: Identification of a GW compact binary merger candidate,2023-12-07T00:16:10Z,"Surojit Saha at Institute of Astronomy, National Tsing Hua University <surojitsaha@gapp.nthu.edu.tw>",Web form,"The LIGO Scientific Collaboration, the Virgo Collaboration, and the KAGRA Collaboration report:
+
+We identified the compact binary merger candidate S231206ca during real-time processing of data from LIGO Hanford Observatory (H1) and LIGO Livingston Observatory (L1) at 2023-12-06 23:31:34.528 UTC (GPS time: 1385940712.528). The candidate was found by the CWB [1], GstLAL [2], MBTA [3], PyCBC Live [4], and SPIIR [5] analysis pipelines.
+
+S231206ca is an event of interest because its false alarm rate, as estimated by the online analysis, is 3.2e-10 Hz, or about one in 1e2 years. The event's properties can be found at this URL:
+
+https://gracedb.ligo.org/superevents/S231206ca
+
+The classification of the GW signal, in order of descending probability, is BBH (>99%), Terrestrial (<1%), BNS (<1%), or NSBH (<1%).
+
+Assuming the candidate is astrophysical in origin, the probability that the lighter compact object is consistent with a neutron star mass (HasNS) is <1%. [6] Using the masses and spins inferred from the signal, the probability of matter outside the final compact object (HasRemnant) is <1%. [6] Both HasNS and HasRemnant consider the support of several neutron star equations of state. The probability that either of the binary components lies between 3 and 5 solar masses (HasMassgap) is <1%.
+
+Two sky maps are available at this time and can be retrieved from the GraceDB event page:
+ * bayestar.multiorder.fits,0, an initial localization generated by BAYESTAR [7], distributed via GCN notice about 25 seconds after the candidate event time.
+ * bayestar.multiorder.fits,1, an initial localization generated by BAYESTAR [7], distributed via GCN notice about 5 minutes after the candidate event time.
+
+The preferred sky map at this time is bayestar.multiorder.fits,1. For the bayestar.multiorder.fits,1 sky map, the 90% credible region is 1986 deg2. Marginalized over the whole sky, the a posteriori luminosity distance estimate is 3223 +/- 983 Mpc (a posteriori mean +/- standard deviation).
+
+For further information about analysis methodology and the contents of this alert, refer to the LIGO/Virgo/KAGRA Public Alerts User Guide https://emfollow.docs.ligo.org/userguide/.
+
+ [1] Klimenko et al. PRD 93, 042004 (2016)
+ [2] Tsukada et al. PRD 108, 043004 (2023) and Ewing et al. arXiv:2305.05625 (2023)
+ [3] Aubin et al. CQG 38, 095004 (2021)
+ [4] Dal Canton et al. ApJ 923, 254 (2021)
+ [5] Chu et al. PRD 105, 024023 (2022)
+ [6] Chatterjee et al. ApJ 896, 54 (2020)
+ [7] Singer & Price PRD 93, 024013 (2016)
+",https://gcn.nasa.gov/circulars/35297
+12,GRB231115A: TURBO Pre-Burst Optical Upper Limits,2023-12-06T21:42:43Z,Robert Strausbaugh at Eastern Illinois University <rstrausbaugh@eiu.edu>,email,"R. Strausbaugh (Eastern Illinois University), Daniel Warshofsky (UMN), Pat Kelly (UMN), Mandeep S. S. Gill (UMN), Alexandre Toscano (UMN), Yilin Lu(UMN), Sydney Leggio (UMN), Aksinya Kamenshikova (UMN) report on behalf of a larger collaboration:
+
+
+We observed M82, including the localization region for the Fermi GRB 231115A (Fermi GBM team, GCN 35035), with the Total-Coverage Ultrafast Response to Binary-Mergers Observatory (TURBO) prototype telescope in St. Paul, Minnesota, USA, as part of a high-cadence ongoing survey for transients in nearby galaxies.  We visited the field 55 times on November 15 UT, with the last visit occurring at 9:06 UT in SDSS r and g bands respectively (corresponding to 6.5 hours before the GRB trigger time).
+
+
+Each exposure is 30 seconds.  We do not detect a source at the same location as the GROWTH-India counterpart (Kumar et al., GCN 35041) in either band.
+
+
+The 3-sigma upper limits in the table below are calculated using the Pan-STARRS catalog as reference, and are not corrected for Galactic extinction.
+
+
+The TURBO prototype in St. Paul consists of two co-mounted 11-inch telescopes each with a 6.6 square degree field of view.
+
+
+TURBO, which is under construction, will consist of two arrays of 8 pairs of co-mounted 11-inch telescopes at two dark-sky sites: Magdalena Ridge Observatory, New Mexico, USA and Skinakas Observatory, Crete, Greece.
+
+
+mjd
+
+g upper limit (AB)
+
+r upper limit (AB)
+
+60262.97035880
+
+-
+
+16.0
+
+60262.97244213
+
+16.9
+
+-
+
+60263.00063657408
+
+
+-
+
+15.9
+
+60263.00407407407
+
+-
+
+15.7
+
+60263.007106481484
+
+-
+
+16.1
+
+60263.012094907404
+
+-
+
+15.6
+
+60263.015555555554
+
+-
+
+15.9
+
+60263.01940972222
+
+-
+
+16.0
+
+60263.02327546296
+
+-
+
+15.9
+
+60263.02715277778
+
+-
+
+16.3
+
+60263.03057870371
+
+-
+
+16.1
+
+60263.034212962964
+
+-
+
+16.1
+
+60263.03765046296
+
+-
+
+16.4
+
+60263.04111111111
+
+-
+
+15.7
+
+60263.04293981481
+
+-
+
+15.8
+
+60263.04591435185
+
+16.5
+
+15.7
+
+60263.04896990741
+
+-
+
+16.4
+
+60263.05202546297
+
+16.5
+
+15.8
+
+60263.055
+
+16.5
+
+15.6
+
+60263.058020833334
+
+-
+
+15.8
+
+60263.061006944445
+
+-
+
+16.0
+
+60263.06407407407
+
+-
+
+15.9
+
+60263.070497685185
+
+-
+
+16.3
+
+60263.07403935185
+
+-
+
+16.2
+
+60263.07748842592
+
+-
+
+15.8
+
+60263.080462962964
+
+-
+
+16.3
+
+60263.08472222222
+
+-
+
+16.1
+
+60263.087592592594
+
+16.5
+
+16.4
+
+60263.09365740741
+
+16.4
+
+16.3
+
+60263.09645833333
+
+15.9
+
+16.5
+
+60263.099375
+
+-
+
+16.4
+
+60263.1171412037
+
+-
+
+16.7
+
+60263.120150462964
+
+16.3
+
+16.3
+
+60263.12315972222
+
+-
+
+15.4
+
+60263.14434027778
+
+16.6
+
+15.6
+
+60263.14716435185
+
+16.0
+
+15.7
+
+60263.15039351852
+
+15.7
+
+16.1
+
+60263.15372685185
+
+16.5
+
+16.0
+
+60263.156539351854
+
+15.8
+
+16.0
+
+60263.159421296295
+
+16.0
+
+16.3
+
+60263.162314814814
+
+16.6
+
+15.8
+
+60263.165138888886
+
+15.8
+
+16.8
+
+60263.16957175926
+
+16.3
+
+16.2
+
+60263.172997685186
+
+16.4
+
+-
+
+60263.176516203705
+
+16.5
+
+16.5
+
+60263.19818287037
+
+16.8
+
+15.8
+
+60263.21885416667
+
+16.9
+
+16.8
+
+60263.22230324074
+
+17.4
+
+17.0
+
+60263.24633101852
+
+17.3
+
+16.4
+
+60263.268900462965
+
+17.3
+
+16.6
+
+60263.27537037037
+
+16.9
+
+16.9
+
+60263.27885416667
+
+17.3
+
+17.0
+
+60263.283229166664
+
+17.0
+
+16.9
+
+60263.28666666667
+
+16.9
+
+17.0
+
+60263.29603009259
+
+17.4
+
+16.8
+
+
+",https://gcn.nasa.gov/circulars/35296
+13,GRB 231205B: AGILE detection,2023-12-06T21:37:52Z,Claudio Casentini at INAF-IAPS <claudio.casentini@inaf.it>,Web form,"C. Casentini (INAF/IAPS), F. Verrecchia (SSDC, and INAF/OAR),  C. Pittori (SSDC, and INAF/OAR), M. Tavani (INAF/IAPS, and Univ. Roma Tor Vergata), A. Argan, M. Cardillo, Y. Evangelista, L. Foffano, G. Piano (INAF/IAPS), L. Baroncelli, A. Bulgarelli, A. Ciabattoni, 
+A. Di Piano, V. Fioretti (INAF/OAS-Bologna), G. Panebianco (Univ. Bologna - INAF/OAS Bologna),  N. Parmiggiani (INAF/OAS-Bologna), F. Lucarelli (SSDC, and INAF/OAR), P.W. Cattaneo (INFN Pavia), F. Longo (Univ. Trieste, and INFN Trieste), M. Marisaldi (INAF/OAS-Bologna, and Bergen University), M. Pilia, A. Trois (INAF/OA-Cagliari), A. Ursi (ASI and INAF/IAPS), I. Donnarumma, E. Menegoni (ASI), 
+A. Giuliani (INAF/IASF-Mi), F. Cutrona (Univ. Milano Bicocca) and P. Tempesta (TeleSpazio) report on behalf of the AGILE Team:
+
+The AGILE satellite detected the GRB 231205B at T0 =  2023-12-05 16:43:59 s (UTC), reported by Swift (GCNs #35269, #35275, #35291) andÂ GECAM-BÂ (GCN #35279).
+
+The burst is clearly visible in the AGILE scientific ratemeters of the MiniCALorimeter (MCAL; 0.4-100 MeV), and AntiCoincidence (AC; 50-200 keV) detectors. The event lasted about 18 s and it released a total number of 11057 counts in the MCAL detector (above a background rate of 539 Hz) and 54466 counts in the AC-Top detector (above a background rate of 2889 Hz).
+
+In the scientific ratemeters of the AC-Top detector is visible a GRB precursor,  centered around -25 s to the Swift T0 and lasting 10 seconds.
+
+The AGILE ratemeters light curves can be found at: http://www.agilescienceapp.it/notices/GRB231205B_AGILE_RM_ND.png
+
+Additional analysis of AGILE data is in progress. Automatic MCAL GRB alert Notices can be found at: https://gcn.gsfc.nasa.gov/agile_mcal.html.
+",https://gcn.nasa.gov/circulars/35295
+14,Fermi  trigger No 723581802: Global MASTER-Net observations report,2023-12-06T20:17:17Z,Vladimir Lipunov at Moscow State U/Krylov Obs <lipunov@xray.sai.msu.ru>,legacy email,"V. Lipunov, V.Kornilov, E. Gorbovskoy, K. Zhirkov, N.Tyurina, P.Balanutsa, A.Kuznetsov, V.Senik,  D. Vlasenko,
+G.Antipov, D.Zimnukhov, E.Minkina, A.Chasovnikov, V.Topolev, D.Kuvshinov, D. Cheryasov, Ya.Kechin, Yu.Tselik, A. Sosnovskij
+(Lomonosov Moscow State University, SAI, Physics Department),
+
+R. Podesta, C.Lopez, F. Podesta, C.Francile
+(Observatorio Astronomico Felix Aguilar OAFA),
+
+R. Rebolo, M. Serra
+(The Instituto de Astrofisica de Canarias),
+
+D. Buckley
+(South African Astronomical Observatory),
+
+O.A. Gress, N.M. Budnev, O.Ershova
+(Irkutsk State University, API),
+
+L.Carrasco, J.R.Valdes, V.Chavushyan, V.M.Patino Alvarez, J.Martinez,
+A.R.Corella, L.H.Rodriguez
+(INAOE, Guillermo Haro Astrophysics Observatory),
+
+A. Tlatov, D. Dormidontov
+(Kislovodsk Solar Station of the Pulkovo Observatory),
+
+V. Yurkov, A. Gabovich
+(Blagoveschensk Educational State University)
+
+MASTER-SAAO robotic telescope  (Global MASTER-Net: http://observ.pereplet.ru, Lipunov et al., 2010, Advances in Astronomy, vol. 2010, 30L)  located in South Africa (South African Astronomical Observatory) started inspect of the Fermi GRB231206.79 (trigger No 723581802,02h 47m 28.80s , +03d 54m 36.0s, R=8.34) errorbox  569 sec after notice time and 604 sec after trigger time at 2023-12-06 19:06:41 UT, with upper limit up to  19.9 mag. The observations began at zenith distance = 46 deg. The sun  altitude  is -17.1 deg. 
+
+MASTER-Tavrida robotic telescope  located in Russia (Lomonosov MSU, SAI Crimea astronomical station) started inspect of the Fermi GRB231206.79 errorbox  1092 sec after notice time and 1127 sec after trigger time at 2023-12-06 19:15:24 UT, with upper limit up to  19.4 mag. The observations began at zenith distance = 40 deg. The sun  altitude  is -54.4 deg. 
+
+The galactic latitude b = -48 deg., longitude l = 170 deg.
+
+
+Real time updated cover map and OT discovered available here: 
+https://master.sai.msu.ru/site/master2/observ.php?id=2326390
+
+We obtain a following upper limits.  
+
+Tmid-T0  |      Date Time      |          Site       |             Coord (J2000)          |Filt.| Expt. | Limit| Comment
+_________|_____________________|_____________________|____________________________________|_____|_______|_______|________
+
+     634 | 2023-12-06 19:06:41 |         MASTER-SAAO | (03h 12m 07.17s , +06d 46m 04.0s) |   C |    60 | 19.8 |        
+     634 | 2023-12-06 19:06:41 |         MASTER-SAAO | (03h 21m 43.18s , +06d 35m 27.8s) |   C |    60 | 19.9 |        
+     725 | 2023-12-06 19:08:12 |         MASTER-SAAO | (02h 40m 28.91s , +02d 56m 45.6s) |   C |    60 | 19.4 |        
+     725 | 2023-12-06 19:08:12 |         MASTER-SAAO | (02h 50m 02.02s , +02d 46m 09.7s) |   C |    60 | 19.8 |        
+     805 | 2023-12-06 19:09:32 |         MASTER-SAAO | (02h 40m 23.05s , +01d 02m 56.1s) |   C |    60 | 19.7 |        
+     805 | 2023-12-06 19:09:32 |         MASTER-SAAO | (02h 49m 55.65s , +00d 52m 20.4s) |   C |    60 | 19.9 |        
+     896 | 2023-12-06 19:11:03 |         MASTER-SAAO | (02h 40m 54.04s , +04d 52m 42.3s) |   C |    60 | 19.4 |        
+     896 | 2023-12-06 19:11:03 |         MASTER-SAAO | (02h 50m 28.44s , +04d 42m 08.2s) |   C |    60 | 19.9 |        
+    1157 | 2023-12-06 19:15:24 |      MASTER-Tavrida | (02h 29m 53.23s , +03d 43m 34.4s) |   C |    60 | 19.0 |        
+    1304 | 2023-12-06 19:17:51 |      MASTER-Tavrida | (03h 00m 59.09s , +07d 35m 01.7s) |   C |    60 | 19.4 |        
+    1377 | 2023-12-06 19:19:04 |      MASTER-Tavrida | (02h 46m 52.80s , +11d 22m 04.2s) |   C |    60 | 19.1 |        
+    1451 | 2023-12-06 19:20:18 |      MASTER-Tavrida | (03h 00m 31.67s , +05d 38m 56.6s) |   C |    60 | 19.4 |        
+    1527 | 2023-12-06 19:21:34 |      MASTER-Tavrida | (02h 30m 04.15s , +05d 38m 41.0s) |   C |    60 | 19.1 |        
+    1601 | 2023-12-06 19:22:48 |      MASTER-Tavrida | (03h 00m 26.41s , +03d 46m 44.2s) |   C |    60 | 19.4 |        
+    1675 | 2023-12-06 19:24:02 |      MASTER-Tavrida | (03h 01m 28.63s , +09d 28m 41.3s) |   C |    60 | 19.4 |        
+    1750 | 2023-12-06 19:25:17 |      MASTER-Tavrida | (02h 45m 06.21s , +01d 49m 54.9s) |   C |    60 | 18.5 |        
+    1825 | 2023-12-06 19:26:32 |      MASTER-Tavrida | (02h 30m 51.96s , +09d 26m 29.5s) |   C |    60 | 18.7 |        
+    1898 | 2023-12-06 19:27:46 |      MASTER-Tavrida | (02h 31m 33.51s , +11d 20m 42.5s) |   C |    60 | 18.0 |        
+    2269 | 2023-12-06 19:33:56 |      MASTER-Tavrida | (02h 29m 50.50s , +03d 42m 51.8s) |   C |    60 | 18.6 |        
+    2341 | 2023-12-06 19:35:08 |      MASTER-Tavrida | (02h 37m 58.70s , +03d 43m 33.6s) |   C |    60 | 18.5 |        
+    2415 | 2023-12-06 19:36:22 |      MASTER-Tavrida | (02h 46m 10.76s , +09d 27m 32.0s) |   C |    60 | 18.6 |        
+    2488 | 2023-12-06 19:37:35 |      MASTER-Tavrida | (02h 54m 14.71s , +09d 26m 18.6s) |   C |    60 | 19.3 |        
+    2561 | 2023-12-06 19:38:48 |      MASTER-Tavrida | (03h 00m 58.26s , +07d 34m 11.9s) |   C |    60 | 19.0 |        
+    2634 | 2023-12-06 19:40:01 |      MASTER-Tavrida | (03h 08m 54.34s , +07d 33m 40.9s) |   C |    60 | 19.1 |        
+    2708 | 2023-12-06 19:41:15 |      MASTER-Tavrida | (02h 46m 50.77s , +11d 21m 21.3s) |   C |    60 | 18.6 |        
+    2780 | 2023-12-06 19:42:27 |      MASTER-Tavrida | (02h 55m 03.87s , +11d 20m 44.6s) |   C |    60 | 19.2 |        
+    2854 | 2023-12-06 19:43:41 |      MASTER-Tavrida | (03h 00m 29.11s , +05d 38m 06.2s) |   C |    60 | 19.4 |        
+    3005 | 2023-12-06 19:46:12 |      MASTER-Tavrida | (03h 08m 32.22s , +05d 38m 45.9s) |   C |    60 | 18.9 |        
+    3156 | 2023-12-06 19:48:44 |      MASTER-Tavrida | (02h 29m 59.22s , +05d 38m 18.5s) |   C |    60 | 18.3 |        
+    3229 | 2023-12-06 19:49:56 |      MASTER-Tavrida | (02h 38m 05.05s , +05d 37m 41.9s) |   C |    60 | 18.3 |        
+    3303 | 2023-12-06 19:51:10 |      MASTER-Tavrida | (03h 00m 15.71s , +03d 43m 54.9s) |   C |    60 | 18.7 |        
+    3376 | 2023-12-06 19:52:23 |      MASTER-Tavrida | (03h 08m 22.80s , +03d 44m 46.6s) |   C |    60 | 18.8 |        
+    3450 | 2023-12-06 19:53:37 |      MASTER-Tavrida | (03h 01m 28.77s , +09d 27m 47.3s) |   C |    60 | 19.1 |        
+    3523 | 2023-12-06 19:54:50 |      MASTER-Tavrida | (03h 09m 32.69s , +09d 26m 23.3s) |   C |    60 | 19.0 |        
+    3597 | 2023-12-06 19:56:04 |      MASTER-Tavrida | (02h 45m 09.56s , +01d 50m 49.2s) |   C |    60 | 18.4 |        
+    3669 | 2023-12-06 19:57:16 |      MASTER-Tavrida | (02h 53m 03.04s , +01d 50m 16.8s) |   C |    60 | 18.7 |        
+    3744 | 2023-12-06 19:58:31 |      MASTER-Tavrida | (02h 30m 46.92s , +09d 26m 02.0s) |   C |    60 | 18.6 |        
+    3816 | 2023-12-06 19:59:43 |      MASTER-Tavrida | (02h 38m 57.23s , +09d 25m 25.7s) |   C |    60 | 18.7 |        
+    3889 | 2023-12-06 20:00:56 |      MASTER-Tavrida | (02h 31m 27.24s , +11d 18m 00.5s) |   C |    60 | 18.7 |        
+    3969 | 2023-12-06 20:02:16 |      MASTER-Tavrida | (02h 39m 38.68s , +11d 18m 32.9s) |   C |    60 | 18.7 |        
+    4414 | 2023-12-06 20:09:41 |      MASTER-Tavrida | (02h 29m 48.51s , +03d 42m 39.2s) |   C |    60 | 18.5 |        
+    4486 | 2023-12-06 20:10:53 |      MASTER-Tavrida | (02h 37m 48.51s , +03d 44m 00.9s) |   C |    60 | 18.3 |        
+Filter C is a clear (unfiltred) band. 
+
+
+The observation and reduction will continue. 
+The message may be cited.
+
+
+",https://gcn.nasa.gov/circulars/35294
+15,GRB 231206B: Fermi GBM Final Real-time Localization,2023-12-06T19:07:09Z,Fermi GBM Team at MSFC/Fermi-GBM <do_not_reply@GIOC.nsstc.nasa.gov>,email,"The Fermi GBM team reports the detection of a likely SHORT GRB
+
+At 18:56:37 UT on 6 Dec 2023, the Fermi Gamma-ray Burst Monitor (GBM) triggered and located GRB 231206B (trigger 723581802.598578 / 231206789).
+
+The on-ground calculated location, using the Fermi GBM trigger data, is RA = 41.9, Dec = 3.9 (J2000 degrees, equivalent to J2000 02h 47m, 3d 53'), with a statistical uncertainty of 8.3 degrees.
+
+The angle from the Fermi LAT boresight is 108.0 degrees.
+
+The skymap can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2023/bn231206789/quicklook/glg_skymap_all_bn231206789.png
+
+The HEALPix FITS file, including the estimated localization systematic, can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2023/bn231206789/quicklook/glg_healpix_all_bn231206789.fit
+
+The GBM light curve can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2023/bn231206789/quicklook/glg_lc_medres34_bn231206789.gif
+
+
+",https://gcn.nasa.gov/circulars/35293
+16,GRB 231205B: Ondrejov D50 optical upper limit,2023-12-06T18:45:19Z,"Martin Jelinek at Astro.Inst-AVCR,Ondrejov <martin.jelinek@asu.cas.cz>",legacy email,"Alzbeta Malenakova, Martin Jelinek, Jan Strobl,  Rene Hudec,
+Cyril Polasek (ASU CAS Ondrejov, CZ),
+and Sergey Karpov (Institute of Physics, Prague, CZ)
+
+report:
+
+The 50 cm robotic telescope D50 located at Ondrejov
+observatory (Czech Republic) reacted robotically to the
+Swift-BAT alert of GRB 231205B (Evans et al., GCNC 35269),
+reported also by GECAM-B (Liu et al., GCNC 35279), obtaining a
+series of 20 s unfiltered images starting at 16:45:46 UT, i.e.
+107 s post trigger.
+
+We do not detect any new optical source in the XRT error box
+(neither any new or strongly variable source in the BAT
+errorbox) in single images (detection limit r' > 18.7) nor in
+a combined 30 x 20 s frame (mean exp time 290 s post trigger,
+with a limit r' > 21.0) similarly to Odeh et al. (GCNC 35270),
+Jiang et al.  (GCNC 35280), Jiang et al. (GCNC 35281) and
+Komesh et al. (GCNC 35287).  All magnitudes are calibrated
+with Atlas Refcat 2.0 (Tonry et al., ApJ 867, 105, 2018).
+
+",https://gcn.nasa.gov/circulars/35292
+17,GRB 231205B: Swift-XRT refined Analysis,2023-12-06T15:26:36Z,Phil Evans at U of Leicester <pae9@star.le.ac.uk>,email,"S. Dichiara (PSU), A.P. Beardmore (U. Leicester), J.P. Osborne (U.
+Leicester), E. Ambrosi	(INAF-IASFPA) , M. Capalbi (INAF-IASFPA), M.
+Perri (SSDC & INAF-OAR), J.A. Kennea (PSU), A. Tohuvavohu (U. Toronto)
+and P.A. Evans report on behalf of the Swift-XRT team:
+
+We have analysed 6.5 ks of XRT data for GRB 231205B, from 224 s to 68.4
+ks after the  BAT trigger. The data comprise 3 s in Windowed Timing
+(WT) mode (taken while Swift was slewing), with the remainder in Photon
+Counting (PC) mode. 
+
+The light curve can be modelled with an initial power-law decay with an
+index of alpha=0.27 (+0.04, -0.05), followed by a break at T+6137 s to
+an alpha of 1.32 (+/-0.08).
+
+A spectrum formed from the PC mode data can be fitted with an absorbed
+power-law with a photon spectral index of 2.06 (+/-0.10). The
+best-fitting absorption column is  4.5 (+/-0.5) x 10^21 cm^-2, in
+excess of the Galactic value of 1.5 x 10^21 cm^-2 (Willingale et al.
+2013). The counts to observed (unabsorbed) 0.3-10 keV flux conversion
+factor deduced from this spectrum  is 3.8 x 10^-11 (6.2 x 10^-11) erg
+cm^-2 count^-1. 
+
+A summary of the PC-mode spectrum is thus:
+Total column:	     4.5 (+/-0.5) x 10^21 cm^-2
+Galactic foreground: 1.5 x 10^21 cm^-2
+Excess significance: 9.6 sigma
+Photon index:	     2.06 (+/-0.10)
+
+If the light curve continues to decay with a power-law decay index of
+1.32, the count rate at T+24 hours will be 0.063 count s^-1,
+corresponding to an observed (unabsorbed) 0.3-10 keV flux of 2.3 x
+10^-12 (3.9 x 10^-12) erg cm^-2 s^-1.
+
+The results of the XRT-team automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/01200812.
+
+This circular is an official product of the Swift-XRT team.
+
+",https://gcn.nasa.gov/circulars/35291
+18,Fermi-LAT gamma-ray observations of IceCube-231202A,2023-12-06T14:52:23Z,chiara.bartolini-1@unitn.it,Web form,"C. Bartolini (Univ of Trento & INFN Bari), S. Garrappa (Weizmann Institute of Science), S. Buson (Univ of Wuerzburg), J. Sinapius (DESY) and Leonard Pfeiffer (Univ of Wuerzburg) on behalf of the Fermi-LAT collaboration:
+
+We report an analysis of observations of the vicinity of the IC231202A high-energy neutrino event (GCN 35225) with all-sky survey data from the Large Area Telescope (LAT), on board the Fermi Gamma-ray Space Telescope. The IceCube event was detected on 2023-12-02 at 17:08:24.09 UT (T0) with J2000 position RA =  139.04 (+1.52, -1.96) deg, Decl. = +0.37 (+1.11, -1.40) deg (90% PSF containment).  According to the fourth Fermi LAT source catalog (4FGL-DR4), there is one 4FGL-DR4 cataloged gamma-ray (>100 MeV; The Fermi-LAT collaboration 2022, ApJS, 260, 53) source, 4FGL J0909.1+0121 (PKS 0906+01), in the 90% IC231202A uncertainty localization region. Based on a preliminary analysis of the LAT data over one month and day timescale prior T0, this object is not significantly detected at gamma rays.
+
+We searched for intermediate (days to years) timescale emission from a new gamma-ray source. Preliminary analysis indicates no significant (> 5 sigma) new excess emission (> 100 MeV) at the IC231202A best-fit position. Assuming a power-law spectrum (photon index = 2.0 fixed) for a point source at the IC231202A best-fit position, the >100 MeV flux upper limit (95% confidence) is <6.0e-10 ph cm^-2 s^-1 for ~15-years (2008-08-04 to 2023-12-02 UTC), and < 4.3e-9 (<6.1 e-8) ph cm^-2 s^-1 for a 1-month (1-day) integration time before T0.
+
+Since Fermi normally operates in an all-sky scanning mode, regular monitoring of this region will continue. For this observation the Fermi-LAT contact person is C. Bartolini (chiara.bartolini at ba.infn.it).
+
+The Fermi-LAT is a pair conversion telescope designed to cover the energy band from 20 MeV to greater than 300 GeV. It is the product of an international collaboration between NASA and DOE in the U.S. and many scientific institutions across France, Italy, Japan and Sweden.
+",https://gcn.nasa.gov/circulars/35290
+19,GRB 231205B: REM optical/NIR upper limits,2023-12-06T14:26:13Z,Riccardo Brivio <riccardo.brivio@inaf.it>,Web form,"R. Brivio, M. Ferro, P. D'Avanzo, S. Covino, D. Fugazza (INAF-OAB) on behalf of the REM team, report:
+
+We observed the field of GRB 231205B (Evans et al., GCN 35269) with the REM 60cm robotic telescope located at the ESO Observatory of La Silla (Chile). The observations were carried out in the g,r,i,z, J,H,K bands, starting on 2023 Dec 06 at 00:32:29 UT (i.e. about 7.81 hours after the Swift trigger) and lasted for about 1 hour.
+From preliminary analysis, we do not find any source at the enhanced XRT position (Osborne et al., GCN 35275), down the the following 3 sigma upper limits:
+
+r > 20.4 (AB; calibrated against the Pan-STARRS catalogue)
+at a mid time of t-t0 ~ 8.54 h after the GRB trigger;
+
+H > 17.8 (Vega; calibrated against the 2MASS catalogue)
+at a mid time of t-t0 ~ 8.24 h after the GRB trigger.
+",https://gcn.nasa.gov/circulars/35289
+20,GRB 231129C: ASIM MXGS observation and localization,2023-12-06T12:42:06Z,"Martino Marisaldi at U of Bergen, Norway <martino.marisaldi@uib.no>",Web form,"M. Marisaldi (University of Bergen), A. Mezentsev (University of Bergen), P.Connell, Javier Navarro-Gonzalez (University of Valencia), 
+N. Ãstgaard (University of Bergen), V. Reglero (University of Valencia) 
+and T. Neubert (DTU Space) report on behalf of the ASIM Team:
+ 
+At  19:10:18 UT on 29 November 2023, the Atmosphere-Space Interactions Monitor (ASIM)
+mission triggered on the long bright GRB 231129C.
+ 
+The burst was also detected by Fermi-GBM (Sharma et al., GCN Circ. 35221, and Sharma et al., GCN Circ. 227),
+MAXI/GSC (Kawakubo et al., GCN Circ. 35223), CALET (Shimizu et al., GCN Circ. 35228),
+AstroSat CZTI (Waratkar et al., GCN Circ. 35230), GECAM-B (Zheng et al., GCN Circ. 35231),
+Swift-XRT (Gropp et al., GCN Circ. 35234), Glowbug (Cheung et al., GCN Circ. 35235),
+GRBAlpha (Dafcikova et al., GCN Circ. 35236), Fermi-LAT (Arimoto et al., GCN Circ. 35238,
+AGILE (Panebianco et al., GCN Circ. 35244), and Konus-Wind (Lysenko et al., GCN Circ. 35256).
+ 
+Photon by photon data with <1 microsecond time resolution have been
+collected for a time interval of 19 seconds.
+The emission is detected in the MXGS High Energy Detector (HED), sensitive in the range 0.3 to >30 MeV,  
+and in the MXGS Low Energy Detector (LED), sensitive in the range 0.05 to 0.4 MeV.
+ 
+In January 2022 ASIM was relocated so that the MXGS coded mask imaging system is pointing towards the Earthâs limb, observing a large fraction of unocculted sky, therefore enabling localization of the GRB prompt emission.
+This GRB was observed within the MXGS Field of View resulting in a very high significant localization (>100 sigma) at
+ 
+R.A.,Dec(2000) = 00:51:12.56  -81:45:35.5
+ 
+consistent within a 25 arcmin error (radius, 99% confidence level) with the Swift-XRT X-ray afterglow (Gropp et al., GCN Circ. 35251) and the MASTER OT detection (Antipov et al., GCN Circ.35240).
+
+ASIM is an ESA mission onboard the International Space Station dedicated to the 
+observation of Terrestrial Gamma-ray Flashes (TGFs) and Transient Luminous Events (TLEs) 
+operative since June 2018 (Neubert et al., Space Sci Rev (2019) 215:26 
+https://doi.org/10.1007/s11214-019-0592-z  ). 
+The payload includes the Modular X- and Gamma-Ray Sensor (MXGS) 
+(Ãstgaard et al., Space Sci Rev (2019) 215:23 https://doi.org/10.1007/s11214-018-0573-7  ), 
+and the the Modular Multispectral Imaging Array  (MMIA) 
+(Chanrion et al., Space Sci Rev (2019) 215:28 https://doi.org/10.1007/s11214-019-0593-y  ). 
+The ASIM Science Data Centre (ASDC) website is https://asdc.space.dtu.dk/
+ 
+",https://gcn.nasa.gov/circulars/35288
+21,GRB 231205B: NUTTelA-TAO / BSTI Early Optical Limits,2023-12-06T09:54:28Z,Toktarkhan Komesh at Nazarbayev University <toktarkhan.komesh@nu.edu.kz>,Web form,"T. Komesh (NU), B. Grossan (UCB, NU), Zh. Maksut (NU), Zh. Abdullayev (NU), M. Krugov (FAI) and E. Abdikamalov (NU) report on behalf of the Energetic Cosmos Laboratory:
+
+The Nazarbayev University Transient Telescope at Assy-Turgen Astrophysical Observatory (NUTTelA-TAO) observed the field of GRB 231205B, 10 s after receipt an automated GCN / BAT position alert, observing in Sloan g', r' and i' bands, with the Burst Simultaneous Three-Channel Imager (BSTI; Grossan, Kumar & Smoot 2019, JHEA, 32, 14).
+
+We started observations at 16:45:33 UT on 2023-12-05, 94 s after the BAT trigger. Observations were made in clear conditions. No source consistent with the XRT (J.P. Osborne et al., GCN Circ. 35275) was detected. We report the following results:
+
+start time  t-t0(s)  end time    UL g'   UL r'  ULi'   exposure_time (s)
+-----------------------------------------------------------------------
+16:45:33     94     16:46:29     19.9     19.5    18.3          52.5
+16:46:43    164     16:49:13 	 20.3     19.9    19.0          150
+
+start time is in UT. t-t0(s) gives the time since trigger, in seconds. UL i', gives the 5 sigma upper limit sensitivity in magnitudes, for images co-added to the given exposure time. The first row in the table corresponds to co-adds of an initial short exposure image sequence of 0.5 s for g' and r' (these sub-second exposures are read-noise suppressed by our EMCCD cameras, with high gain electron multiplication active; other images are taken in conventional CCD operation mode), and 7.5 s for i'. The second row corresponds to co-adds from a continuing series of 3 s exposures for g' and r', and 15 s for i'.  Calibration was done with the 3 bright Pan-STARRS catalog stars on our images.
+
+----------------------------------
+NU = Nazarbayev University, Nur-Sultan, Kazakhstan
+UCB = University of California, Berkeley, USA
+FAI = Fesenkov Astrophysical Institute, Kazakhstan
+
+This research has been funded by the Science Committee of the Ministry of Science and Higher Education of the Republic of Kazakhstan (Grant No. AP14870504). The NUTTelA-TAO Team acknowledges the support of the staff of the Assy-Turgen Astrophysical Observatory, Almaty, Kazakhstan, and the Fesenkov Astrophysical Institute, Almaty, Kazkhstan.
+",https://gcn.nasa.gov/circulars/35287
+22,GRB 231205B: r'-band observations from MISTRAL at Observatoire de Haute-Provence,2023-12-06T09:41:50Z,Christophe Adami at LAM <christophe.adami@lam.fr>,Web form,"C. Adami (LAM), E. Le Floc'h, D. GÃ¶tz, F. SchÃ¼ssler,D. Turpin (CEA Paris-Saclay), A. de Ugarte Postigo (OCA/CNRS), 
+S. Basa (LAM), S. D. Vergani (GEPI, Obs. de Paris), report on behalf of a larger collaboration:
+
+We observed the field of GRB231205B (GCN 35269; Evans et al., GCN 35270, Odeh et al.) using the MISTRAL spectro-imager 
+mounted at the T193cm telescope at Observatoire de Haute-Provence (France) under a poor seeing of ~3arcsec.
+
+We began our observations on 2023 05 December 20:56:18 UT (~5.2h after the trigger time) with a series of r'-band (300s + 
+6x720s) images. Last image was taken at 22:26:25 UT. Consistently with Evans et al. and Odeh et al., we do not detect any 
+credible optical counterpart to GRB231205B within the GCN 35269 Swift XRT error box.
+
+Using the r-band PanStarr public image, the faintest detected object in our r-band image with a measured PanStarr magnitude is
+at rmeanKronmag=20.65.
+Using the i-band PanStarr public image, the faintest detected object in our r-band image with a measured PanStarr magnitude is
+at imeanKronmag=21.60.
+
+We acknowledge the excellent support from Observatoire de Haute-Provence, in particular Jean Balcaen..
+
+",https://gcn.nasa.gov/circulars/35286
+23,GRB 231206A: GECAM-B detection of a short burst (correction),2023-12-06T08:32:26Z,Yue Wang <m18509381757@163.com>,Web form,"Jia-Cong Liu , Shao-Lin Xiong report on behalf of the GECAM team:
+
+There is a typo in our previous report (GCN 35283). Here we make the correction:
+The time-averaged spectrum of GECAM-B realtime data from about T0-0.1 s to T0 could be
+adequately fit by a cut-off power-law with an average flux of about 6.04E-6 erg/cm^2/s in 20-1000 keV. 
+
+We are very sorry for any inconvenience.
+",https://gcn.nasa.gov/circulars/35285
+24,GRB 231205B : MITSuME Akeno optical upper limits,2023-12-06T08:05:47Z,Mahito Sasada at Tokyo Institute of Technology <sasada@hp.phys.titech.ac.jp>,Web form,"M. Sasada, I. Takahashi, M. Niwano, S. Sato, N. Higuchi, S. Hayatsu, H. Takei,  H. Seki, Y. Yatsu and N. Kawai  (Tokyo Tech) report on behalf of the MITSuME collaboration:
+
+We observed the field of GRB 231205B (Evans et al., GCN 35269) with the optical three-color (g', Rc, and Ic) CCD cameras attached to the MITSuME 50-cm telescope Akeno. 
+
+The observation started at 2023-12-05 16:46:02 UT (123 seconds after the Swift/BAT trigger). We stacked the images with good conditions. We did not detect any uncatalogued sources within the enhanced Swift/XRT error region (Osborne et al., GCN 35275), consistent with other non-detections (Odeh et al., GCN 35270; Strausbaugh et al., GCN 25278; Jiang et al., GCN 35280; Jiang et al., GCN 35281, Gendre et al., GCN 35282). We obtained the 5-sigma limits of the stacked images as follows.
+
+T0+[sec] | MID-UT | T-EXP[sec] | 5-sigma limits
+------------------------------------------------------------------------------------------------
+517 | 2023-12-05 16:52:36 | 100 | g'>17.2, Rc>16.6, Ic>16.2
+5970 | 2023-12-05 18:23:29 | 420 | gâ>17.5, Rc>17.5, Ic>17.2
+------------------------------------------------------------------------------------------------
+T0+ : Elapsed time after the trigger
+T-EXP: Total Exposure time
+
+We used the PS1 catalog for flux calibration. The catalog magnitudes in PS1 g, r and i bands were converted to our g', Rc and Ic band magnitudes following Tonry et al. (2012), Table 6. The magnitudes are expressed in the AB system. The images were processed in real-time through the MITSuME GPU reduction pipeline (Niwano et al. 2021, PASJ, Vol.73, Issue 1, Pages 4-24; https://github.com/MNiwano/Eclaire).
+
+",https://gcn.nasa.gov/circulars/35284
+25,GRB 231206A: GECAM-B detection of a short burst ,2023-12-06T07:38:51Z,Yue Wang <m18509381757@163.com>,Web form,"Jia-Cong Liu , Shao-Lin Xiong report on behalf of the GECAM team:
+
+GECAM-B was triggered in-flight by a short burst, GRB 231206A, at 2023-12-06T02:37:43.250 UTC (T0), which was also observed by INTEGRAL/SPI-ACS . 
+
+According to the realtime alert data, the GECAM-B light curve shows a peak with a total duration of ~0.5 sec (15-1050 keV). 
+
+The time-averaged spectrum of GECAM-B realtime data from about T0 to T0+0.1 s could be
+adequately fit by a cut-off power-law with a fluence about 6.04E-6 erg/cm^2 in 20-1000 keV. 
+
+Using the automatic in-flight localization pipeline with the realtime alert data, 
+GECAM-B localized this burst to the following position (J2000): 
+RA: 313.15 deg 
+DEC: -23.54 deg
+Err: 8.0 deg (1-sigma, statistical only)
+The systematic error of this location is estimated to be several degrees.
+
+The GECAM light curve could be found here: 
+http://twiki.ihep.ac.cn/pub/GECAM/GRBList/GRB231206A_LC.png
+
+We note that these results are based on realtime alert data and thus very preliminary. Refined analysis will be reported later.
+
+Gravitational wave high-energy Electromagnetic Counterpart All-sky Monitor(GECAM) mission originally consists of two microsatellites (GECAM-A and GECAM-B) launched in Dec. 2020. As the third member of GECAM constellation, GECAM-C was launched onboard SATech-01 experimental satellite in July 2022. GECAM mission is funded by the Chinese Academy of Sciences (CAS).
+",https://gcn.nasa.gov/circulars/35283
+26,GRB 231205B: Zadko observatory - Gingin optical observations,2023-12-06T07:38:19Z,Bruce Gendre at UVI <bruce.gendre@gmail.com>,legacy email,"B. Gendre, E. Moore, E. Van Dongen, F. Panther,
+D. Coward, J. A. Moore (OzGrav-UWA), A. Klotz (IRAP-CNRS-OMP),
+and P. Thierry (AGORA),
+report:
+
+We imaged the field of GRB 231205B detected by SWIFT
+(Evans et al., GCN 35269, trigger 1200812) with the
+Zadko robotic telescope (D=100cm) located at Gingin, Australia.
+
+The observations started 201.6s after the GRB trigger (126.1s
+after the notice). The elevation of the field decreased from
+25 degrees above horizon and weather conditions were poor,
+with high altitude clouds.
+
+The date of trigger : t0 = 2023-12-05T16:43:59.500
+
+The first image is a 10.0s exposure in tracking mode. At the
+position of the XRT afterglow (Osborne et al, GCN 35275), we
+do not detect any OT with a limiting magnitude of:
+t0+201.6s to t0+211.6s : R > 16.2
+
+We co-added a series of exposures:
+t0+217.3s to t0+344.2s : R > 17.2
+
+Magnitudes were estimated with the nearby USNO-B1 stars
+and are not corrected for galactic dust extinction.
+
+N.B. Galactic coordinates are lon=162.4895 lat=-22.7655
+and the galactic extinction in R band is 0.3 magnitudes
+estimated from D. Schlegel et al. 1998ApJ...500..525S.
+
+This message may be cited.
+
+",https://gcn.nasa.gov/circulars/35282
+27,GRB 231205B: Gaoyazi/GOT optical upper limit,2023-12-06T06:45:03Z,Dong Xu at NAOC/CAS <dxu@nao.cas.cn>,email,"S.Q. Jiang, S.Y. Fu, X. Liu, Z.P. Zhu, J. An, T.H. Lu, D. Xu (NAOC), L.F. Huo, M.M. Yang, S.W. Luo, Z. K. Feng (XJTS) report:
+
+We observed the field of GRB 231205B detected by Swift (Evans et al., GCN 35269) using the GOT-0.5m telescope located at Gaoyazi, Xinjiang, China. Observations started at 16:46:51 UT on 2023-12-05, i.e., 172 s after the Swift/BAT trigger, and we obtained 5x3, 5x5, 5x10, 5x15, 5x20, 5x40, 10x60, 10x90, 10x120, 10x200 s frames with the Sloan r filter.
+
+No optical counterpart is detected in our stacked image at the Enhanced XRT position (Osborne et al., GCN 35275), down to the following 3-sigma limiting magnitude of m(r)>21.2 @ 0.80 hr
+calibrated with nearby PanSTARRS stars and the magnitude is not corrected for Galactic extinction.
+
+
+",https://gcn.nasa.gov/circulars/35281
+28,GRB 231205B: Nanshan/HMT optical upper limit,2023-12-06T06:40:55Z,Dong Xu at NAOC/CAS <dxu@nao.cas.cn>,email,"S.Q. Jiang, S.Y. Fu, X. Liu, Z.P. Zhu, J. An, T.H. Lu, D. Xu (NAOC), X. Gao (Urumqi No.1 Senior High School), J.Z. Liu (XAO) report:
+
+We observed the field of GRB 231205B detected by Swift (Evans et al., GCN 35269) using the HMT-0.5m telescope located at Nanshan, Xinjiang, China. Observations started at 16:57:41 UT on 2023-12-05, i.e., 13.7 mins after the Swift/BAT trigger, we obtained a series of 20 s, 40 s, 60 s, 90 s, 120 s, 200 s frames without any filter.
+
+No optical source is detected in our stacked image at the Enhanced XRT position (Osborne et al., GCN 35275), down to the 3-sigma limiting magnitude of m(r)>21.3 mag(AB) @ 0.61 hr post-burst, calibrated with the nearby PanSTAR field in the Sloan r-filter and the magnitude is not corrected for Galactic extinction.
+
+
+",https://gcn.nasa.gov/circulars/35280
+29,GRB 231205B: GECAM-B detection of a long burst ,2023-12-06T05:43:25Z,Yue Wang <m18509381757@163.com>,Web form,"Jia-Cong Liu , Shao-Lin Xiong report on behalf of the GECAM team:
+
+GECAM-B was triggered in-flight by a long burst, GRB 231205B, at 2023-12-05T16:43:34.100 UTC (T0), which was also observed by Swift/BAT (GCN #35269) . 
+
+According to the realtime alert data, the GECAM-B light curve shows roughly two peaks with a total duration of ~40 sec (15-1050 keV). 
+
+The time-averaged spectrum of GECAM-B realtime data from about T0 to T0+4 s could be
+adequately fit by a Band function with a fluence about 8.20E-7 erg/cm^2 in 20-1000 keV. 
+
+The GECAM light curve could be found here: 
+http://twiki.ihep.ac.cn/pub/GECAM/GRBList/GRB231205B_LC.png
+
+GECAM location is consistent with that of Swift/BAT within the error.
+We note that these results are based on realtime alert data and thus very preliminary. Refined analysis will be reported later.
+
+Gravitational wave high-energy Electromagnetic Counterpart All-sky Monitor(GECAM) mission originally consists of two microsatellites (GECAM-A and GECAM-B) launched in Dec. 2020. As the third member of GECAM constellation, GECAM-C was launched onboard SATech-01 experimental satellite in July 2022. GECAM mission is funded by the Chinese Academy of Sciences (CAS).
+",https://gcn.nasa.gov/circulars/35279
+30,GRB 231205B: LCOGT Optical Upper Limits,2023-12-06T04:03:52Z,Robert Strausbaugh at Eastern Illinois University <rstrausbaugh@eiu.edu>,email,"R. Strausbaugh (Eastern Illinois University), A. Cucchiara (NASA) report on behalf of a larger collaboration:
+
+We observed the Swift GRB 231205B field (Evans et al., GCN 35269) with the LCOGT 1-meter Sinistro instrument at the McDonald Observatory, USA site, on December 6, from 01:40 to 02:12 UT (corresponding to 8.95 to 9.48 hours from the GRB trigger time) with the SDSS r and i filters.
+
+We performed a series of 3x300s exposures in each band.  We do not detect a source within the Swift-XRT error region around the enhanced XRT position (Osborne et al., GCN 35275) in either band, consistent with other non-detections (Odeh et al., GCN 35270)
+
+The following 5-sigma upper limits are calculated using the PanSTARRS catalog as reference:
+
+r > 22.6
+i > 21.9
+
+These magnitudes are not corrected for galactic extinction.
+
+",https://gcn.nasa.gov/circulars/35278
+31,GRB 231205A: DDOTI Upper Limits on the Afterglow,2023-12-06T01:21:44Z,"Kin O. C. L. Mendoza at Instituto de Astronoma, UNAM <koclopez@astro.unam.mx>",legacy email,"OcÃ©lotl Lopez (UNAM), Alan M. Watson (UNAM), Rosa L. Becerra (UNAM),
+Margarita Pereyra (UNAM), Nat Butler (ASU), Simone Dichiara (Penn state
+university), Diego Gonzalez (UNAM), William H. Lee (UNAM), Alexander
+Kutyrev (GSFC/UMD), Srihari Ravi (ASU) and Eleonora Troja (Tor Vergara
+Roma) report:
+
+
+
+We observed the field of the Fermi GBM GRB 231205A (Fermi GBM Team, GCN
+Circ. 35263) with the DDOTI wide-field imager at the Observatorio
+AstronÃ³mico Nacional on Sierra San Pedro MÃ¡rtir (
+http://ddoti.astroscu.unam.mx) from 2023-12-05 12:55:13 to 13:10:57 UTC
+(10.50 to 11.75 hours after the trigger).
+
+
+We observed a region of 7 degrees in RA by 7 degrees in declination
+centered on the Fermi GBM Final Position of RA = 206.1 and Dec = 22.8
+(J2000 degrees). This region contains 1 instrumental field or about 49
+square degrees. We obtained 13.6 minutes of exposure per instrumental field
+in the w filter. We obtained AB photometry by calibration against the APASS
+catalog.
+
+
+We detect no likely candidates for the afterglow to our 10-sigma upper
+limits of w = 18.89-19.41 (inter-quartile).
+
+
+We thank the staff of the Observatorio AstronÃ³mico Nacional on San Pedro
+MÃ¡rtir.
+
+",https://gcn.nasa.gov/circulars/35277
+32,LIGO/Virgo/KAGRA S231205c: One counterpart neutrino candidate event from an IceCube neutrino search,2023-12-06T01:14:20Z,acz2122@columbia.edu,Web form,"IceCube Collaboration (http://icecube.wisc.edu/) reports:
+
+We have performed a search for track-like muon neutrino events detected by IceCube consistent with the sky localization of the low-significance gravitational-wave candidate event S231205c in a time range of 1000 seconds centered on the alert event time (2023-12-05T00:49:30 UTC to 2023-12-05T01:06:10 UTC) [1,2]. 
+During this time period IceCube was collecting good quality data. A single hypothesis test 
+was conducted,  using a Bayesian approach to quantify the joint GW + neutrino event significance, which assumes a binary merger scenario and accounts for known astrophysical priors, such as GW source distance, in the statistical significance estimation [3].  
+
+One track-like event is found in spatial and temporal coincidence with the gravitational-wave 
+Candidate S231205c calculated from the map circulated in the S231205c-2-Preliminary notice. This represents an overall p-value of 0.0083 for the Bayesian search. The p-value 
+measures the consistency of the observed track-like events with the known atmospheric backgrounds for this single map (not accounting for statistical trials from multiple GW events). 
+
+Further details are available at https://gcn.nasa.gov/missions/icecube and at https://roc.icecube.wisc.edu/public/LvkNuTrackSearch.
+
+Properties of the coincident events are shown below:
+
+ dt(s)     RA(deg)       Dec(deg)    Angular uncertainty(deg)  p-value(Bayesian)
+-----------------------------------------------------------------------------------------------------
+-198.05   220.38         +26.40           0.86                                  0.0083
+
+where:
+dt = Time of track event minus time of GW trigger (sec)
+Angular uncertainty = Angular uncertainty of track event: the radius of a circle 
+     representing 90% CL containment by area.
+p-value = the p-value for this specific track event from this search.
+
+The IceCube Neutrino Observatory is a cubic-kilometer neutrino detector operating at the 
+geographic South Pole, Antarctica. The IceCube realtime alert point of contact can be 
+reached at roc@icecube.wisc.edu
+
+[1] M. G. Aartsen et al 2020 ApJL 898 L10
+[2] Abbasi et al. Astrophys.J. 944 (2023) 1, 80
+[3] I. Bartos et al. 2019 Phys. Rev. D 100, 083017
+",https://gcn.nasa.gov/circulars/35276
+33,GRB 231205B: Enhanced Swift-XRT position,2023-12-06T00:40:47Z,Phil Evans at U of Leicester <pae9@star.le.ac.uk>,email,"J.P. Osborne, A.P. Beardmore, P.A. Evans and M.R. Goad (U. Leicester) 
+report on behalf of the Swift-XRT team.
+
+Using 1474 s of XRT Photon Counting mode data and 4 UVOT
+images for GRB 231205B, we find an astrometrically corrected X-ray
+position (using the XRT-UVOT alignment and matching UVOT field sources
+to the USNO-B1 catalogue): RA, Dec = 54.14875, +27.14134 which is equivalent
+to:
+
+RA (J2000): 03h 36m 35.70s
+Dec (J2000): +27d 08' 28.8""
+
+with an uncertainty of 2.0 arcsec (radius, 90% confidence).
+
+This position may be improved as more data are received. The latest
+position can be viewed at http://www.swift.ac.uk/xrt_positions. Position
+enhancement is described by Goad et al. (2007, A&A, 476, 1401) and Evans
+et al. (2009, MNRAS, 397, 1177).
+
+This circular was automatically generated, and is an official product of the
+Swift-XRT team.
+
+",https://gcn.nasa.gov/circulars/35275
+34,GRB 231204A: Glowbug gamma-ray detection,2023-12-05T20:09:43Z,C.C. Cheung at Naval Research Lab <Teddy.Cheung@nrl.navy.mil>,Web form,"C.C. Cheung, M. Kerr, J. E. Grove, R. Woolf (NRL), A. Goldstein (USRA), C.A. Wilson-Hodge (MSFC), and M.S. Briggs (UAH) report:                                                                                                                                                                                                                                                    
+
+The Glowbug gamma-ray telescope [1,2], operating on the International Space Station, reports the detection of GRB 231204A, which was also detected by Fermi/GBM, AstroSat/CZTI, and CALET (GCN 35258, 35267, 35272).
+
+Using an adaptive window with a resolution of 32-ms, the burst onset is determined to be 2023-12-04 20:00:02.808 with a duration of 11.3 s and a total significance of about 27.2 sigma.  The light curve comprises a dominant triple-peaked structure from T0 to ~T0+6s and a fainter pulse at ~T0+9s.
+
+Using a standard power-law function with an exponential high-energy cutoff [3] to model the emission over this duration results in a photon index dN/dE~E^x of x=0.6 and a cutoff energy (""Epeak"") of 619 keV.  The modeled 10-10000 keV fluence is 1.3e-05 erg/cm^2.
+
+The analysis results presented here are preliminary and use a response function that lacks a detailed characterization of the surrounding passive structure of the ISS.
+
+Glowbug is a NASA-funded technology demonstrator for sensitive, low-cost gamma-ray transient telescopes developed, built, and operated by the U.S. Naval Research Laboratory (NRL) with support from the University of Alabama in Huntsville, USRA, and NASA MSFC.  It was launched on 2023 March 15 aboard the Department of Defense Space Test Programâs STP-H9 to the ISS.  The detector comprises 12 large-area (15 cm x 15 cm) CsI:Tl panels covering the surface of a half cube, and two hexagonal (5-cm diameter, 10-cm length) CLLB scintillators, giving it a large field of view (instantaneous FoV ~2/3 sky) over a wide energy band of 50 keV to >2 MeV.
+
+[1] Grove, J.E. et al. 2020, Proc. Yamada Conf. LXXI, arXiv:2009.11959
+[2] Woolf, R.S. et al. 2022, Proc. SPIE, 12181, id. 121811O
+[3] Goldstein, A. et al. 2020, ApJ 895, 40, arXiv :1909.03006
+
+Distribution Statement A: Approved for public release.  Distribution is unlimited.
+",https://gcn.nasa.gov/circulars/35274
+35,Swift GRB231205.70: Global MASTER-Net observations report,2023-12-05T19:28:39Z,Vladimir Lipunov at Moscow State U/Krylov Obs <lipunov@xray.sai.msu.ru>,legacy email,"V. Lipunov, V.Kornilov, E. Gorbovskoy, K. Zhirkov, N.Tyurina, P.Balanutsa, A.Kuznetsov, V.Senik,  D. Vlasenko,
+G.Antipov, D.Zimnukhov, E.Minkina, A.Chasovnikov, V.Topolev, D.Kuvshinov, D. Cheryasov, Ya.Kechin, Yu.Tselik, A. Sosnovskij
+(Lomonosov Moscow State University, SAI, Physics Department),
+
+R. Podesta, C.Lopez, F. Podesta, C.Francile
+(Observatorio Astronomico Felix Aguilar OAFA),
+
+R. Rebolo, M. Serra
+(The Instituto de Astrofisica de Canarias),
+
+D. Buckley
+(South African Astronomical Observatory),
+
+O.A. Gress, N.M. Budnev, O.Ershova
+(Irkutsk State University, API),
+
+L.Carrasco, J.R.Valdes, V.Chavushyan, V.M.Patino Alvarez, J.Martinez,
+A.R.Corella, L.H.Rodriguez
+(INAOE, Guillermo Haro Astrophysics Observatory),
+
+A. Tlatov, D. Dormidontov
+(Kislovodsk Solar Station of the Pulkovo Observatory),
+
+V. Yurkov, A. Gabovich
+(Blagoveschensk Educational State University)
+
+MASTER-SAAO robotic telescope  (Global MASTER-Net: http://observ.pereplet.ru, Lipunov et al., 2010, Advances in Astronomy, vol. 2010, 30L)  located in South Africa (South African Astronomical Observatory) was pointed to the Swift GRB231205.70 (trigger No 1200812,03h 36m 36.96s , +27d 08m 45.6s, R=0.05) errorbox  8923 sec after notice time and 9002 sec after trigger time at 2023-12-05 19:14:01 UT, with upper limit up to  17.6 mag. The observations began at zenith distance = 66 deg. The sun  altitude  is -18.4 deg. 
+
+The galactic latitude b = -22 deg., longitude l = 163 deg.
+
+
+Real time updated cover map and OT discovered available here: 
+https://master.sai.msu.ru/site/master2/observ.php?id=2325501
+
+We obtain a following upper limits.  
+
+Tmid-T0  |          Site       |Filt.| Expt. | Limit| Comment
+_________|_____________________|_____|_______|______|________
+
+    9092 |         MASTER-SAAO |   C |   180 | 17.6 |        
+    9092 |         MASTER-SAAO |   C |   180 | 16.9 |        
+Filter C is a clear (unfiltred) band. 
+
+
+The observation and reduction will continue. 
+The message may be cited.
+
+
+",https://gcn.nasa.gov/circulars/35273
+36,GRB 231204A: CALET Gamma-Ray Burst Monitor detection,2023-12-05T19:10:01Z,Yuta Kawakubo at Louisiana State University <kawakubo1@lsu.edu>,Web form,"T. Tamura (Kanagawa U), A. Yoshida, T. Sakamoto, S. Sugita (AGU),
+Y. Kawakubo (LSU), K. Yamaoka (Nagoya U), S. Nakahira (JAXA),
+Y. Asaoka (ICRR), S. Torii, Y. Akaike, K. Kobayashi (Waseda U),
+Y. Shimizu (Kanagawa U), N. Cannady (GSFC/UMBC),
+M. L. Cherry (LSU), S. Ricciarini (U of Florence),
+P. S. Marrocchesi (U of Siena),
+and the CALET collaboration:
+
+The long GRB 231204A (Fermi GBM Final Real-time Localization: 
+Fermi GBM team, GCN Circ. 35258; AstroSat CZTI detection: 
+Waratkar et al., GCN Circ. 35267) triggered the CALET Gamma-ray
+Burst Monitor (CGBM) at 20:00:00.75 UTC on 4 December 2023
+(http://cgbm.calet.jp/cgbm_trigger/flight/1385755095/).
+The burst signal was seen by only the SGM detector.
+
+The burst light curve shows a weak pulse that starts
+at T+3.1 sec, peaks at T+4.1 sec, and ends at T+7.9 sec.
+The T90 and T50 durations measured by the SGM data are 4.5 +/- 0.5 sec
+and 2.5 +/- 0.1 sec (40-1000 keV), respectively.
+
+The ground-processed light curve is available at
+
+http://cgbm.calet.jp/cgbm_trigger/ground/1385755095/index.html
+
+The CALET data used in this analysis are provided by
+the Waseda CALET Operation Center located at Waseda University.
+",https://gcn.nasa.gov/circulars/35272
+37,Fermi-LAT daily aperture light curve of T CrB now available,2023-12-05T18:52:43Z,C.C. Cheung at Naval Research Lab <Teddy.Cheung@nrl.navy.mil>,Web form,"C. C. Cheung (NRL), T. J. Johnson (GMU, resident at NRL), P. Jean (IRAP, Toulouse), G. Marti-Devesa (Univ. of Innsbruck), on behalf of the Fermi Large Area Telescope Collaboration: 
+
+T Coronae Borealis (T CrB) is a known recurrent nova with the next, long-anticipated explosion expected in early 2024. The 2024 nova eruption prediction is based on the approximately 80-year recurrence between prior outbursts and the recent detection of the start of a pre-eruption dip (in March/April 2023; ATel #16107), which may indicate a change in the accretion state (e.g., Luna et al. 2020, ApJL, 902, L14). This dip was also observed prior to its last outburst in 1946. Because of its proximity (distance ~0.9 kpc; Schaefer 2022, MNRAS, 517, 6150), T CrB is expected to be detected brightly as a gamma-ray transient with a peak (E >100 MeV) flux of ~(1-2) x 10^-5 photons cm^-2 s^-1 if it is similar to other known recurrent symbiotic novae detected by Fermi-LAT (e.g., V407 Cyg; Ackermann et al. 2014, Sci, 345, 554; RS Oph 2021; Cheung et al. 2022, ApJ, 935, 44).
+
+In consideration of its expected bright outburst in gamma rays, a preliminary Fermi-LAT aperture light curve (daily and weekly bins) is updated daily and publicly available at: https://fermi.gsfc.nasa.gov/ssc/data/access/lat/msl_lc/source/T_CrB . For this source the Fermi LAT contact is C.C. Cheung (Teddy.Cheung@nrl.navy.mil).
+
+The Fermi LAT is a pair conversion telescope designed to cover the energy band from 20 MeV to greater than 300 GeV. It is the product of an international collaboration between NASA and DOE in the U.S. and many scientific institutions across France, Italy, Japan and Sweden.
+
+Note: the text of this notice was also posted as: https://www.astronomerstelegram.org/?read=16336
+",https://gcn.nasa.gov/circulars/35271
+38,GRB 231205B: AKO Optical Upper Limit,2023-12-05T18:46:35Z,Mohammad Odeh at Al Khatim Observatory M44 <mshodeh@gmail.com>,legacy email,"Mohammad Odeh (Al-Khatim Observatory, AKO, operated by the International
+Astronomical Center in Abu Dhabi, UAE), and Dalya Akl (American University
+of Sharjah, UAE), report:
+
+We observed the field of GRB 231205B, which was detected by Swift/BAT (GCN
+35269) with our 0.36m f/7.7 robotic telescope on December 05 starting at
+17:37:44 UT (corresponding to 0.9 hours from the GRB trigger time) using an
+(Ic) filter.
+
+We obtained 17x180s images. We do not detect a credible source within the
+Swift-XRT error region (Evans et al., GCN 35269). The following 5-sigma
+ upper limit is calculated using the ATLAS catalog as a reference: Ic =
+20.0.
+
+",https://gcn.nasa.gov/circulars/35270
+39,GRB 231205B: Swift detection of a burst,2023-12-05T17:11:16Z,K.L. Page at U Leicester <klp5@leicester.ac.uk>,email,"
+P. A. Evans (U Leicester), S. Dichiara (PSU),
+N. J. Klingler (GSFC/UMBC/CRESSTII), K. L. Page (U Leicester),
+D. M. Palmer (LANL), T. M. Parsotan (GSFC/UMBC/CRESSTII) and
+M. A. Williams (PSU) report on behalf of the Neil Gehrels Swift
+Observatory Team:
+
+At 16:43:59 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 231205B (trigger=1200812).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 54.154, +27.146 which is 
+   RA(J2000) = 03h 36m 37s
+   Dec(J2000) = +27d 08' 47""
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single peak
+structure with a duration of about 40 sec.  However there
+may be activity before the start of the immediately-available
+data, as the burst occurred during a pre-planned slew.  The peak count
+rate was ~6000 counts/sec (15-350 keV), at T-3, before the
+nominal trigger time. 
+
+The XRT began observing the field at 16:47:54.0 UT, 234.5 seconds after
+the BAT trigger. Using promptly downlinked data we find an uncatalogued
+X-ray source located at RA, Dec 54.14912, 27.14099 which is equivalent
+to:
+   RA(J2000)  = 03h 36m 35.79s
+   Dec(J2000) = +27d 08' 27.6""
+with an uncertainty of 3.5 arcseconds (radius, 90% containment). This
+location is 23 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at https://www.swift.ac.uk/sper. No
+spectrum from the promptly downlinked event data is yet available to
+determine the column density. 
+
+UVOT took a finding chart exposure starting 237 seconds after the
+BAT trigger. No credible afterglow candidate has been found in
+the initial data products. 
+
+Burst Advocate for this burst is P. A. Evans (pae9 AT leicester.ac.uk). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/)
+
+
+",https://gcn.nasa.gov/circulars/35269
+40,GRB 231205A: joint location of multiple instruments by ETJASMIN ,2023-12-05T16:33:30Z,yqzhang_cl@163.com,Web form,"Yanting Zhang, Shaolin Xiong, Yue Huang, Shuo Xiao, Xiaoyun Zhao, Ping Wang, 
+report on behalf of the GECAM team:
+
+The short burst, GRB 231205A, has been detected by GECAM-B (Tan et al., GCN 35266), Fermi/GBM (Fermi/GBM team, GCN 35263) and INTEGRAL/SPI-ACS. With the ETJASMIN pipeline (Energetic Transients joint analysis system for Multi-INstrument, Xiao et al., MNRAS, 514, 2397, 2022) and the realtime data of GECAM-B, INTEGRAL/SPI-ACS and Fermi/GBM, we did a low-latency joint location for this burst.
+
+Firstly, we applied the Li-CCF method (Xiao et al., ApJ, 920, 43, 2021) to the realtime high temporal resolution (~1 ms) light curve of GECAM-B and the low-latency public 50 ms light curve of INTEGRAL/SPI-ACS, and derived the triangulation location as the following annuli:
+
+--------------------------------------------------------------------------------------------------
+Annulus                 Ra (deg)      Dec (deg)     Radius (deg)      Radius-Error (deg, 3sigma)
+GECAM-B + SPI-ACS       209.519       59.889        40.961            1.272
+--------------------------------------------------------------------------------------------------
+
+Then, we combined this annulus location, the stand-alone locations provided by GECAM-B (Tan et al., GCN 35266) and Fermi/GBM (Fermi/GBM team, GCN 35263), as well as the Earth occultation of these instruments, and derived a refined location, which is much smaller than stand-alone ones. 
+
+This refined location (~3 sigma region) could be approximately described by a polygon region,
+whose center and corners are:
+
+--------------------------------------
+            Ra (deg)      Dec (deg)
+Center      205.313	  19.155   
+Corner1     215.859       19.155
+Corner2     209.883       18.724
+Corner3     202.148       18.871
+Corner4     194.766       20.427
+Corner5     205.313       19.524
+--------------------------------------
+
+For this refined location, the sky map and probability data could be found at:
+Sky map: http://twiki.ihep.ac.cn/pub/GECAM/GRBList/GRB231205A-jointLoc-skymap-v01.png
+Data file: http://twiki.ihep.ac.cn/pub/GECAM/GRBList/GRB231205A-jointLoc-healpix-v01.fits
+
+
+ETJASMIN is developed for joint observation of high energy transients by the GECAM team.
+We acknowledge the public data of Fermi/GBM and INTEGRAL/SPI-ACS. 
+",https://gcn.nasa.gov/circulars/35268
+41,GRB 231204A: AstroSat CZTI detection,2023-12-05T14:16:15Z,Gaurav Waratkar at IIT Bombay <gauravwaratkar@iitb.ac.in>,Web form,"G. Waratkar (IITB), P. K. Navaneeth (IUCAA), A. Vibhute (IUCAA), V. Bhalerao (IITB), D. Bhattacharya (Ashoka University/IUCAA), A. R. Rao (IUCAA/TIFR), and S. Vadawale (PRL) report on behalf of the AstroSat CZTI collaboration:
+
+Analysis of AstroSat CZTI data with the CIFT framework (Sharma et al., 2021, JApA, 42, 73) showed the detection of the long-duration GRB 231204A which was also detected by Fermi-GBM (Fermi GBM Team, GCN Circ. 35258).
+
+The source was clearly detected in the CZT detectors in the 20-200 keV energy range. The light curve peaks at 2023-12-04 20:00:04.5 UTC. The measured peak count rate associated with the burst is 230.7 (+39.0, -34.4) counts/s above the background in the combined data of all quadrants, with a total of 1319 (+234, -237) counts. The local mean background count rate was 347.5 (+2.1, -2.9) counts/s. Using cumulative rates, we measure a T90 of 13 (+7, -5) s.
+
+It was also clearly detected in the CsI anticoincidence (Veto) detector in the 100-500 keV energy range. The light curve peaks at 2023-12-04 20:00:06.6 UTC. The measured peak count rate is 873.2 (+83.1, -58.1) counts/s above the background in the combined Veto data of all quadrants, with a total of 6070 (+508, -547) counts. The local mean background count rate was 1532.5 (+4.8, -5.7) counts/s. We measure a T90 of 12 (+8, -3) s from the cumulative Veto light curve.
+
+CZTI is built by a TIFR-led consortium of institutes across India, including VSSC, URSC, IUCAA, SAC, and PRL. The Indian Space Research Organisation funded, managed, and facilitated the project.
+
+CZTI GRB detections are reported regularly on the payload site at:
+http://astrosat.iucaa.in/czti/?q=grb 
+
+",https://gcn.nasa.gov/circulars/35267
+42,GRB 231205A: GECAM-B detection of a short burst,2023-12-05T03:48:51Z,tanwj@ihep.ac.cn,Web form,"GRB 231205A: GECAM-B detection of a short burst
+
+Wenjun Tan, Shaolin Xiong, report on behalf of the GECAM team:
+
+GECAM-B was triggered in-flight by a short burst, GRB 231205A
+at 2023-12-05T02:25:11.450 UTC(T0), which was also observed by 
+Fermi/GBM (Fermi/GBM team, GCN 35263).
+
+According to the realtime alert data of GECAM-B, this burst consists 
+of one bright short pulse followed by weaker emission with a total 
+duration (T90) of about ~0.3 sec (30-1020 keV).
+
+Using the automatic on-ground localization pipeline with the realtime alert data, 
+GECAM-B localized this burst to the following position (J2000): 
+Ra: 202.8 deg 
+Dec: 26.8 deg
+Err: 6.1 deg (1-sigma, statistical only)
+GECAM location is consistent with that of Fermi/GBM within the error.
+
+The time-averaged spectrum of GECAM-B realtime data from about T0-0.05 s to T0 could be
+adequately fit by a cut-off power-law with a fluence about 1.10E-6 erg/cm^2 in 20-1000 keV. 
+
+We note that these results are based on realtime alert data and thus very preliminary. 
+
+Gravitational wave high-energy Electromagnetic Counterpart All-sky Monitor
+(GECAM) mission originally consists of two microsatellites (GECAM-A and GECAM-B)
+launched in Dec. 2020. As the third member of GECAM constellation, 
+GECAM-C was launched onboard SATech-01 experimental satellite in July 2022. 
+GECAM mission is funded by the Chinese Academy of Sciences (CAS).
+",https://gcn.nasa.gov/circulars/35266
+43,Fermi  trigger No 723435916: Global MASTER-Net observations report,2023-12-05T03:48:24Z,Vladimir Lipunov at Moscow State U/Krylov Obs <lipunov@xray.sai.msu.ru>,legacy email,"V. Lipunov, V.Kornilov, E. Gorbovskoy, K. Zhirkov, N.Tyurina, P.Balanutsa, A.Kuznetsov, V.Senik,  D. Vlasenko,
+G.Antipov, D.Zimnukhov, E.Minkina, A.Chasovnikov, V.Topolev, D.Kuvshinov, D. Cheryasov, Ya.Kechin, Yu.Tselik, A. Sosnovskij
+(Lomonosov Moscow State University, SAI, Physics Department),
+
+R. Podesta, C.Lopez, F. Podesta, C.Francile
+(Observatorio Astronomico Felix Aguilar OAFA),
+
+R. Rebolo, M. Serra
+(The Instituto de Astrofisica de Canarias),
+
+D. Buckley
+(South African Astronomical Observatory),
+
+O.A. Gress, N.M. Budnev, O.Ershova
+(Irkutsk State University, API),
+
+L.Carrasco, J.R.Valdes, V.Chavushyan, V.M.Patino Alvarez, J.Martinez,
+A.R.Corella, L.H.Rodriguez
+(INAOE, Guillermo Haro Astrophysics Observatory),
+
+A. Tlatov, D. Dormidontov
+(Kislovodsk Solar Station of the Pulkovo Observatory),
+
+V. Yurkov, A. Gabovich
+(Blagoveschensk Educational State University)
+
+MASTER-Tavrida robotic telescope  (Global MASTER-Net: http://observ.pereplet.ru, Lipunov et al., 2010, Advances in Astronomy, vol. 2010, 30L)  located in Russia (Lomonosov MSU, SAI Crimea astronomical station) started inspect of the Fermi GRB231205.10 (trigger No 723435916,13h 44m 14.40s , +22d 45m 00.0s, R=3.07) errorbox  35 sec after notice time and 81 sec after trigger time at 2023-12-05 02:26:33 UT, with upper limit up to  18.9 mag. The observations began at zenith distance = 56 deg. The sun  altitude  is -27.0 deg. 
+
+MASTER-Kislovodsk robotic telescope  located in Russia (Lomonosov MSU, Kislovodsk Solar Station of Pulkovo observatory) started inspect of the Fermi GRB231205.10 errorbox  94 sec after notice time and 140 sec after trigger time at 2023-12-05 02:27:32 UT, with upper limit up to  19.4 mag. The observations began at zenith distance = 50 deg. The sun  altitude  is -20.9 deg. 
+
+The galactic latitude b = 77 deg., longitude l = 16 deg.
+
+
+Real time updated cover map and OT discovered available here: 
+https://master.sai.msu.ru/site/master2/observ.php?id=2324126
+
+We obtain a following upper limits.  
+
+Tmid-T0  |      Date Time      |          Site       |             Coord (J2000)          |Filt.| Expt. | Limit| Comment
+_________|_____________________|_____________________|____________________________________|_____|_______|_______|________
+
+      92 | 2023-12-05 02:26:33 |      MASTER-Tavrida | (13h 44m 11.74s , +20d 55m 58.7s) |   C |    20 | 17.5 |        
+     118 | 2023-12-05 02:26:59 |      MASTER-Tavrida | (13h 44m 08.48s , +20d 57m 46.7s) |   C |    20 | 17.8 |        
+     150 | 2023-12-05 02:27:26 |      MASTER-Tavrida | (13h 44m 08.48s , +20d 56m 05.9s) |   C |    30 | 18.0 |        
+     156 | 2023-12-05 02:27:32 |   MASTER-Kislovodsk | (13h 46m 05.07s , +20d 45m 36.4s) |   C |    30 | 17.3 |        
+     201 | 2023-12-05 02:27:32 |   MASTER-Kislovodsk | (13h 46m 05.07s , +20d 45m 36.4s) |   C |   120 | 18.3 |  Coadd 
+     156 | 2023-12-05 02:27:32 |   MASTER-Kislovodsk | (13h 50m 29.92s , +20d 22m 37.7s) |   C |    30 | 17.9 |        
+     201 | 2023-12-05 02:27:32 |   MASTER-Kislovodsk | (13h 50m 29.91s , +20d 22m 37.7s) |   C |   120 | 18.9 |  Coadd 
+     187 | 2023-12-05 02:28:02 |      MASTER-Tavrida | (13h 44m 11.33s , +20d 57m 34.1s) |   C |    30 | 18.0 |        
+     211 | 2023-12-05 02:28:22 |   MASTER-Kislovodsk | (13h 46m 09.73s , +20d 45m 58.2s) |   C |    40 | 17.4 |        
+     211 | 2023-12-05 02:28:22 |   MASTER-Kislovodsk | (13h 50m 34.68s , +20d 22m 57.9s) |   C |    40 | 18.0 |        
+     229 | 2023-12-05 02:28:40 |      MASTER-Tavrida | (13h 44m 05.57s , +20d 56m 54.6s) |   C |    40 | 18.3 |        
+     276 | 2023-12-05 02:29:22 |   MASTER-Kislovodsk | (13h 46m 07.89s , +20d 47m 15.7s) |   C |    50 | 17.7 |        
+     276 | 2023-12-05 02:29:22 |   MASTER-Kislovodsk | (13h 50m 33.01s , +20d 24m 14.6s) |   C |    50 | 18.1 |        
+     281 | 2023-12-05 02:29:27 |      MASTER-Tavrida | (13h 44m 05.18s , +20d 57m 54.1s) |   C |    50 | 18.1 |        
+     346 | 2023-12-05 02:30:27 |      MASTER-Tavrida | (13h 44m 10.23s , +20d 56m 52.7s) |   C |    60 | 18.3 |        
+     351 | 2023-12-05 02:30:32 |   MASTER-Kislovodsk | (13h 46m 07.82s , +20d 45m 43.5s) |   C |    60 | 18.0 |        
+     351 | 2023-12-05 02:30:32 |   MASTER-Kislovodsk | (13h 50m 33.08s , +20d 22m 42.4s) |   C |    60 | 18.3 |        
+     566 | 2023-12-05 02:34:06 |      MASTER-Tavrida | (13h 40m 30.06s , +26d 12m 33.8s) |   C |    60 | 18.5 |        
+     639 | 2023-12-05 02:34:50 |   MASTER-Kislovodsk | (13h 47m 54.37s , +22d 30m 13.6s) |   C |   120 | 19.1 |        
+     639 | 2023-12-05 02:34:50 |   MASTER-Kislovodsk | (13h 43m 23.72s , +22d 53m 26.5s) |   C |   120 | 18.6 |        
+     668 | 2023-12-05 02:35:19 |      MASTER-Tavrida | (13h 41m 15.13s , +23d 04m 31.8s) |   C |   120 | 18.7 |        
+     789 | 2023-12-05 02:37:10 |   MASTER-Kislovodsk | (13h 43m 17.58s , +22d 52m 29.1s) |   C |   140 | 18.5 |        
+     789 | 2023-12-05 02:37:10 |   MASTER-Kislovodsk | (13h 47m 48.38s , +22d 29m 16.7s) |   C |   140 | 18.9 |        
+     812 | 2023-12-05 02:37:28 |      MASTER-Tavrida | (13h 41m 22.64s , +23d 03m 32.4s) |   C |   150 | 18.7 |        
+     985 | 2023-12-05 02:40:06 |      MASTER-Tavrida | (13h 41m 14.64s , +23d 02m 33.6s) |   C |   180 | 18.9 |        
+    1174 | 2023-12-05 02:43:15 |      MASTER-Tavrida | (13h 41m 21.41s , +23d 02m 39.5s) |   C |   180 | 18.9 |        
+    1924 | 2023-12-05 02:55:45 |   MASTER-Kislovodsk | (13h 35m 12.26s , +26d 33m 16.6s) |   C |   180 | 19.4 |        
+    2065 | 2023-12-05 02:59:05 |   MASTER-Kislovodsk | (13h 39m 21.80s , +22d 14m 27.0s) |   C |    60 | 18.2 |        
+    2065 | 2023-12-05 02:59:05 |   MASTER-Kislovodsk | (13h 43m 55.57s , +21d 51m 18.1s) |   C |    60 | 18.9 |        
+    2145 | 2023-12-05 03:00:26 |   MASTER-Kislovodsk | (13h 40m 03.37s , +22d 14m 25.8s) |   C |    60 | 12.3 |        
+    2256 | 2023-12-05 03:02:17 |      MASTER-Tavrida | (13h 40m 29.46s , +26d 13m 03.5s) |   C |    60 | 18.5 |        
+    2305 | 2023-12-05 03:03:06 |   MASTER-Kislovodsk | (13h 45m 04.66s , +20d 21m 40.4s) |   C |    60 | 18.3 |        
+    2305 | 2023-12-05 03:03:06 |   MASTER-Kislovodsk | (13h 49m 34.53s , +19d 58m 27.8s) |   C |    60 | 18.7 |        
+    2328 | 2023-12-05 03:03:29 |      MASTER-Tavrida | (13h 49m 23.21s , +26d 13m 51.0s) |   C |    60 | 18.4 |        
+    2386 | 2023-12-05 03:04:27 |   MASTER-Kislovodsk | (13h 55m 39.83s , +22d 14m 52.7s) |   C |    60 | 17.9 |        
+    2386 | 2023-12-05 03:04:27 |   MASTER-Kislovodsk | (14h 00m 12.79s , +21d 51m 38.8s) |   C |    60 | 18.5 |        
+    2466 | 2023-12-05 03:05:47 |   MASTER-Kislovodsk | (13h 30m 05.97s , +26d 04m 28.1s) |   C |    60 | 18.2 |        
+    2466 | 2023-12-05 03:05:47 |   MASTER-Kislovodsk | (13h 34m 49.41s , +25d 41m 30.3s) |   C |    60 | 18.9 |        
+    2546 | 2023-12-05 03:07:07 |   MASTER-Kislovodsk | (13h 28m 51.97s , +20d 21m 34.3s) |   C |    60 | 17.9 |        
+    2546 | 2023-12-05 03:07:07 |   MASTER-Kislovodsk | (13h 33m 23.18s , +19d 58m 27.7s) |   C |    60 | 18.8 |        
+    2558 | 2023-12-05 03:07:19 |      MASTER-Tavrida | (13h 45m 24.11s , +18d 37m 21.3s) |   C |    60 | 18.4 |        
+    2808 | 2023-12-05 03:11:29 |   MASTER-Kislovodsk | (13h 35m 30.39s , +18d 28m 30.9s) |   C |    60 | 17.6 |        
+    2808 | 2023-12-05 03:11:29 |   MASTER-Kislovodsk | (13h 39m 57.89s , +18d 05m 20.6s) |   C |    60 | 18.2 |        
+    2888 | 2023-12-05 03:12:49 |   MASTER-Kislovodsk | (13h 22m 53.75s , +22d 14m 43.3s) |   C |    60 | 17.8 |        
+    2888 | 2023-12-05 03:12:49 |   MASTER-Kislovodsk | (13h 27m 28.81s , +21d 51m 42.7s) |   C |    60 | 18.3 |        
+    3029 | 2023-12-05 03:14:10 |   MASTER-Kislovodsk | (13h 35m 16.88s , +26d 35m 10.2s) |   C |   180 | 18.9 |        
+    3216 | 2023-12-05 03:18:17 |      MASTER-Tavrida | (13h 40m 31.87s , +26d 12m 15.3s) |   C |    60 | 18.7 |        
+    3250 | 2023-12-05 03:18:51 |   MASTER-Kislovodsk | (13h 50m 56.33s , +24d 10m 13.1s) |   C |    60 | 17.7 |        
+    3250 | 2023-12-05 03:18:51 |   MASTER-Kislovodsk | (13h 55m 33.54s , +23d 47m 08.4s) |   C |    60 | 18.2 |        
+    3288 | 2023-12-05 03:19:29 |      MASTER-Tavrida | (13h 49m 29.84s , +26d 13m 32.0s) |   C |    60 | 18.6 |        
+    3330 | 2023-12-05 03:20:11 |   MASTER-Kislovodsk | (13h 34m 24.34s , +24d 09m 36.2s) |   C |    60 | 17.9 |        
+    3330 | 2023-12-05 03:20:11 |   MASTER-Kislovodsk | (13h 39m 02.60s , +23d 46m 37.1s) |   C |    60 | 18.3 |        
+    3360 | 2023-12-05 03:20:40 |      MASTER-Tavrida | (13h 57m 24.39s , +26d 13m 48.1s) |   C |    60 | 18.5 |        
+    3410 | 2023-12-05 03:21:31 |   MASTER-Kislovodsk | (13h 44m 59.67s , +20d 20m 28.1s) |   C |    60 | 17.6 |        
+    3410 | 2023-12-05 03:21:31 |   MASTER-Kislovodsk | (13h 49m 29.50s , +19d 57m 19.7s) |   C |    60 | 17.7 |        
+    3490 | 2023-12-05 03:22:51 |   MASTER-Kislovodsk | (13h 55m 46.27s , +22d 14m 28.3s) |   C |    60 | 17.2 |        
+    3490 | 2023-12-05 03:22:51 |   MASTER-Kislovodsk | (14h 00m 19.16s , +21d 51m 18.4s) |   C |    60 | 17.6 |        
+    3517 | 2023-12-05 03:23:18 |      MASTER-Tavrida | (13h 45m 20.59s , +18d 35m 49.4s) |   C |    60 | 18.5 |        
+    3590 | 2023-12-05 03:24:31 |      MASTER-Tavrida | (13h 53m 53.04s , +18d 36m 05.3s) |   C |    60 | 18.0 |        
+    3731 | 2023-12-05 03:26:52 |   MASTER-Kislovodsk | (14h 01m 18.20s , +20d 21m 47.0s) |   C |    60 | 16.8 |        
+    3747 | 2023-12-05 03:27:08 |      MASTER-Tavrida | (14h 01m 17.13s , +24d 19m 11.7s) |   C |    60 | 18.5 |        
+    3811 | 2023-12-05 03:28:12 |   MASTER-Kislovodsk | (13h 35m 26.87s , +18d 27m 52.6s) |   C |    60 | 17.1 |        
+    3811 | 2023-12-05 03:28:12 |   MASTER-Kislovodsk | (13h 39m 54.52s , +18d 04m 44.0s) |   C |    60 | 17.7 |        
+    3891 | 2023-12-05 03:29:32 |   MASTER-Kislovodsk | (13h 22m 50.41s , +22d 17m 03.3s) |   C |    60 | 17.2 |        
+    3891 | 2023-12-05 03:29:32 |   MASTER-Kislovodsk | (13h 27m 26.03s , +21d 54m 06.4s) |   C |    60 | 17.6 |        
+    4200 | 2023-12-05 03:34:41 |      MASTER-Tavrida | (13h 49m 29.04s , +26d 13m 37.3s) |   C |    60 | 18.5 |        
+    4272 | 2023-12-05 03:35:53 |      MASTER-Tavrida | (13h 57m 23.60s , +26d 12m 33.5s) |   C |    60 | 18.4 |        
+    4419 | 2023-12-05 03:38:20 |      MASTER-Tavrida | (13h 45m 26.74s , +18d 36m 49.4s) |   C |    60 | 18.7 |        
+    4491 | 2023-12-05 03:39:32 |      MASTER-Tavrida | (13h 53m 46.25s , +18d 35m 39.3s) |   C |    60 | 18.2 |        
+    4565 | 2023-12-05 03:40:46 |      MASTER-Tavrida | (14h 05m 50.91s , +22d 25m 22.0s) |   C |    60 | 18.2 |        
+    4711 | 2023-12-05 03:43:12 |      MASTER-Tavrida | (14h 01m 11.89s , +24d 18m 29.4s) |   C |    60 | 18.3 |        
+Filter C is a clear (unfiltred) band. 
+
+
+The observation and reduction will continue. 
+The message may be cited.
+
+
+",https://gcn.nasa.gov/circulars/35265
+44,Fermi  trigger No 723326169: Global MASTER-Net observations report,2023-12-05T03:47:58Z,Vladimir Lipunov at Moscow State U/Krylov Obs <lipunov@xray.sai.msu.ru>,legacy email,"V. Lipunov, V.Kornilov, E. Gorbovskoy, K. Zhirkov, N.Tyurina, P.Balanutsa, A.Kuznetsov, V.Senik,  D. Vlasenko,
+G.Antipov, D.Zimnukhov, E.Minkina, A.Chasovnikov, V.Topolev, D.Kuvshinov, D. Cheryasov, Ya.Kechin, Yu.Tselik, A. Sosnovskij
+(Lomonosov Moscow State University, SAI, Physics Department),
+
+R. Podesta, C.Lopez, F. Podesta, C.Francile
+(Observatorio Astronomico Felix Aguilar OAFA),
+
+R. Rebolo, M. Serra
+(The Instituto de Astrofisica de Canarias),
+
+D. Buckley
+(South African Astronomical Observatory),
+
+O.A. Gress, N.M. Budnev, O.Ershova
+(Irkutsk State University, API),
+
+L.Carrasco, J.R.Valdes, V.Chavushyan, V.M.Patino Alvarez, J.Martinez,
+A.R.Corella, L.H.Rodriguez
+(INAOE, Guillermo Haro Astrophysics Observatory),
+
+A. Tlatov, D. Dormidontov
+(Kislovodsk Solar Station of the Pulkovo Observatory),
+
+V. Yurkov, A. Gabovich
+(Blagoveschensk Educational State University)
+
+MASTER-Kislovodsk robotic telescope  (Global MASTER-Net: http://observ.pereplet.ru, Lipunov et al., 2010, Advances in Astronomy, vol. 2010, 30L)  located in Russia (Lomonosov MSU, Kislovodsk Solar Station of Pulkovo observatory) started inspect of the Fermi GRB231203.83 (trigger No 723326169,13h 09m 19.20s , +42d 32m 24.0s, R=15.19) errorbox  78590 sec after notice time and 78625 sec after trigger time at 2023-12-04 17:46:29 UT, with upper limit up to  19.4 mag. The observations began at zenith distance = 77 deg. The sun  altitude  is -44.9 deg. 
+
+MASTER-Tunka robotic telescope  located in Russia (Applied Physics Institute, Irkutsk State University) started inspect of the Fermi GRB231203.83 errorbox  1 days 1635 sec after notice time and 1 days 1670 sec after trigger time at 2023-12-04 20:23:54 UT, with upper limit up to  16.1 mag. The observations began at zenith distance = 40 deg. The sun  altitude  is -40.9 deg. 
+
+MASTER-Tavrida robotic telescope  located in Russia (Lomonosov MSU, SAI Crimea astronomical station) started inspect of the Fermi GRB231203.83 errorbox  1 days 23364 sec after notice time and 1 days 23399 sec after trigger time at 2023-12-05 02:26:03 UT, with upper limit up to  18.6 mag. The observations began at zenith distance = 51 deg. The sun  altitude  is -27.0 deg. 
+
+The galactic latitude b = 74 deg., longitude l = 109 deg.
+
+
+Real time updated cover map and OT discovered available here: 
+https://master.sai.msu.ru/site/master2/observ.php?id=2322870
+
+We obtain a following upper limits.  
+
+Tmid-T0  |      Date Time      |          Site       |             Coord (J2000)          |Filt.| Expt. | Limit| Comment
+_________|_____________________|_____________________|____________________________________|_____|_______|_______|________
+
+   78655 | 2023-12-04 17:46:29 |   MASTER-Kislovodsk | (13h 19m 32.18s , +59d 38m 46.2s) |   C |    60 | 17.4 |        
+   88085 | 2023-12-04 20:23:54 |        MASTER-Tunka | (13h 00m 14.43s , +59d 01m 04.5s) |   C |    30 | 15.3 |        
+   88144 | 2023-12-04 20:24:53 |        MASTER-Tunka | (13h 00m 20.71s , +59d 00m 03.0s) |   C |    30 | 16.1 |        
+   88200 | 2023-12-04 20:25:48 |        MASTER-Tunka | (13h 00m 14.39s , +58d 59m 03.9s) |   C |    30 | 16.0 |        
+   88255 | 2023-12-04 20:26:43 |        MASTER-Tunka | (13h 00m 21.40s , +58d 59m 20.1s) |   C |    30 | 15.9 |        
+  109804 | 2023-12-05 02:26:03 |      MASTER-Tavrida | (13h 42m 19.94s , +28d 37m 41.4s) |   C |    10 | 17.0 |        
+  110168 | 2023-12-05 02:31:41 |      MASTER-Tavrida | (13h 37m 18.56s , +28d 06m 02.1s) |   C |    60 | 18.3 |        
+  110240 | 2023-12-05 02:32:54 |      MASTER-Tavrida | (13h 34m 48.13s , +29d 59m 57.4s) |   C |    60 | 18.6 |        
+  111671 | 2023-12-05 02:55:45 |   MASTER-Kislovodsk | (13h 30m 27.11s , +26d 56m 19.7s) |   C |   180 | 18.9 |        
+  111671 | 2023-12-05 02:55:45 |   MASTER-Kislovodsk | (13h 35m 12.26s , +26d 33m 16.6s) |   C |   180 | 19.4 |        
+  111706 | 2023-12-05 02:57:19 |      MASTER-Tavrida | (13h 37m 18.68s , +28d 06m 28.9s) |   C |    60 | 18.2 |        
+  111778 | 2023-12-05 02:58:32 |      MASTER-Tavrida | (13h 46m 18.95s , +28d 07m 28.0s) |   C |    60 | 18.3 |        
+  111851 | 2023-12-05 02:59:45 |      MASTER-Tavrida | (13h 34m 47.07s , +30d 00m 31.0s) |   C |    60 | 18.6 |        
+  111924 | 2023-12-05 03:00:57 |      MASTER-Tavrida | (13h 44m 02.56s , +30d 01m 42.6s) |   C |    60 | 18.3 |        
+  112213 | 2023-12-05 03:05:47 |   MASTER-Kislovodsk | (13h 30m 05.97s , +26d 04m 28.1s) |   C |    60 | 18.2 |        
+  112674 | 2023-12-05 03:13:28 |      MASTER-Tavrida | (13h 37m 17.73s , +28d 07m 18.3s) |   C |    60 | 18.4 |        
+  112776 | 2023-12-05 03:14:10 |   MASTER-Kislovodsk | (13h 30m 31.58s , +26d 58m 04.0s) |   C |   180 | 18.5 |        
+  112776 | 2023-12-05 03:14:10 |   MASTER-Kislovodsk | (13h 35m 16.88s , +26d 35m 10.2s) |   C |   180 | 18.9 |        
+  112746 | 2023-12-05 03:14:40 |      MASTER-Tavrida | (13h 46m 15.83s , +28d 06m 06.3s) |   C |    60 | 18.3 |        
+  112818 | 2023-12-05 03:15:52 |      MASTER-Tavrida | (13h 34m 49.36s , +30d 00m 39.3s) |   C |    60 | 18.6 |        
+  112890 | 2023-12-05 03:17:04 |      MASTER-Tavrida | (13h 43m 59.76s , +30d 01m 47.1s) |   C |    60 | 18.5 |        
+  113726 | 2023-12-05 03:30:59 |      MASTER-Tavrida | (13h 46m 15.12s , +28d 06m 08.5s) |   C |    60 | 18.4 |        
+  113797 | 2023-12-05 03:32:11 |      MASTER-Tavrida | (13h 44m 03.01s , +30d 00m 35.3s) |   C |    60 | 18.4 |        
+Filter C is a clear (unfiltred) band. 
+
+
+The observation and reduction will continue. 
+The message may be cited.
+
+
+",https://gcn.nasa.gov/circulars/35264
+45,GRB 231205A: Fermi GBM Final Real-time Localization,2023-12-05T02:35:45Z,Fermi GBM Team at MSFC/Fermi-GBM <do_not_reply@GIOC.nsstc.nasa.gov>,email,"The Fermi GBM team reports the detection of a likely SHORT GRB
+
+At 02:25:11 UT on 5 Dec 2023, the Fermi Gamma-ray Burst Monitor (GBM) triggered and located GRB 231205A (trigger 723435916.407408 / 231205101).
+
+The on-ground calculated location, using the Fermi GBM trigger data, is RA = 206.1, Dec = 22.8 (J2000 degrees, equivalent to J2000 13h 44m, 22d 48'), with a statistical uncertainty of 3.1 degrees.
+
+The angle from the Fermi LAT boresight is 79.0 degrees.
+
+The skymap can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2023/bn231205101/quicklook/glg_skymap_all_bn231205101.png
+
+The HEALPix FITS file, including the estimated localization systematic, can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2023/bn231205101/quicklook/glg_healpix_all_bn231205101.fit
+
+The GBM light curve can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2023/bn231205101/quicklook/glg_lc_medres34_bn231205101.gif
+
+
+",https://gcn.nasa.gov/circulars/35263
+46,LIGO/Virgo/KAGRA S231129ac: Upper limits from Swift/BAT-GUANO,2023-12-05T01:46:00Z,Samuele Ronchini at PSU <sjs8171@psu.edu>,Web form,"Samuele Ronchini (PSU), Tyler Parsotan (NASA GSFC), Jamie A. Kennea (PSU), James DeLaunay (PSU), Gayathri Raman (PSU), Aaron Tohuvavohu (U Toronto) report:
+
+Swift/BAT was observing 93.6% of the GW localization probability (Bilby.multiorder.fits) at merger time. A fraction 57% of the GW localization posterior is contained inside the BAT coded FoV.
+
+The LVK notice, distributed in near real-time, triggered the Swift Mission Operations Center operated Gamma-ray Urgent Archiver for Novel Opportunities (GUANO; Tohuvavohu et al. 2020, ApJ, 900, 1).
+
+Upon trigger by this notice, GUANO sent a command to the Swift Burst Alert Telescope (BAT) to save 200 seconds of BAT event-mode data from [-50,+150] seconds around the time of the burst. All the requested event mode data was delivered to the ground.
+
+Using the NITRATES analysis (DeLaunay + Tohuvavohu 2022, ApJ, 941, 169), we searched for emission on 8 timescales from 0.128s to 16.384s in the interval [-20,+20] seconds around the merger time. We find no evidence for a signal, and derive the following upper limits.
+
+We quote the 5-sigma flux upper limits in the 15-350 keV band, weighted over the GW localization, for four spectral templates (soft, normal, and hard GRB-like templates described in [arXiv:1612.02395], and spectral shape from GRB170817A [arXiv:1710.05446]) and for four time bins. 
+In units of 10^-7 erg/s/cm^2:
+
+time_bin (s) soft  normal hard  GRB170817
+------------------------------------
+0.256        7.22  5.29   4.76  5.82
+1.024        4.07  2.98   2.68  3.28
+4.096        2.78  2.03   1.83  2.24
+16.38        2.33  1.71   1.53  1.88
+
+
+The upper limits as function of sky position are plotted here, alongside the GW localization:
+https://doi.org/10.5281/zenodo.10251985
+The solid and dashed lines indicate the 90% and 50% GW contour levels, respectively.
+
+The corresponding fits file can be found here:
+https://doi.org/10.5281/zenodo.10251987
+
+GUANO is a fully autonomous, extremely low latency, spacecraft
+commanding pipeline designed for targeted recovery of BAT event mode
+data around the times of compelling astrophysical events to enable
+more sensitive GRB searches.
+
+A live reporting of Swift/BAT event data recovered by GUANO can be
+found at: https://www.swift.psu.edu/guano/
+",https://gcn.nasa.gov/circulars/35262
+47,IceCube-231202A: Upper limits from a search for additional neutrino events in IceCube,2023-12-05T00:39:33Z,Jessie Thwaites at IceCube/U Wisc-Madison <thwaites@wisc.edu>,Web form,"The IceCube Collaboration (http://icecube.wisc.edu/) reports:
+
+IceCube has performed a search [1] for additional track-like muon neutrino events arriving from the direction of IceCube-231202A (https://gcn.nasa.gov/circulars/35255) in a time range of 1000 seconds centered on the alert event time (2023-12-02 17:00:04.090 UTC to 2023-12-02 17:16:44.090 UTC) during which IceCube was collecting good quality data. Excluding the event that prompted the alert, zero track-like events are found within the 90% containment region of IceCube-231202A. The IceCube sensitivity to neutrino point sources with an E^-2.5 spectrum (E^2 dN/dE at 1 TeV) within the locations spanned by the 90% spatial containment region of IceCube-231202A ranges from 1.4e-01 to 1.5e-01 GeV cm^-2 in a 1000 second time window. 90% of events IceCube would detect from a source at this declination with an E^-2.5 spectrum have energies in the approximate energy range between 3e+02 GeV and 2e+05 GeV. 
+
+A subsequent search was performed including 2 days of data centered on the alert event time (2023-12-01 17:08:24.090 UTC to 2023-12-03 17:08:24.090 UTC). In this case, we report a p-value of 1.00, consistent with no significant excess of track events. The IceCube sensitivity to neutrino point sources with an E^-2.5 spectrum (E^2 dN/dE at 1 TeV) within the locations spanned by the 90% spatial containment region of IceCube-231202A is 1.6e-01 GeV cm^-2 in a 2 day time window. 
+
+The IceCube Neutrino Observatory is a cubic-kilometer neutrino detector operating at the geographic South Pole, Antarctica. The IceCube realtime alert point of contact can be reached at roc@icecube.wisc.edu.
+
+[1] IceCube Collaboration, R. Abbasi  et al., ApJ 910 4 (2021)
+",https://gcn.nasa.gov/circulars/35261
+48,Fermi  trigger No 723412808: Global MASTER-Net observations report,2023-12-04T22:31:40Z,Vladimir Lipunov at Moscow State U/Krylov Obs <lipunov@xray.sai.msu.ru>,legacy email,"V. Lipunov, V.Kornilov, E. Gorbovskoy, K. Zhirkov, N.Tyurina, P.Balanutsa, A.Kuznetsov, V.Senik,  D. Vlasenko,
+G.Antipov, D.Zimnukhov, E.Minkina, A.Chasovnikov, V.Topolev, D.Kuvshinov, D. Cheryasov, Ya.Kechin, Yu.Tselik, A. Sosnovskij
+(Lomonosov Moscow State University, SAI, Physics Department),
+
+R. Podesta, C.Lopez, F. Podesta, C.Francile
+(Observatorio Astronomico Felix Aguilar OAFA),
+
+R. Rebolo, M. Serra
+(The Instituto de Astrofisica de Canarias),
+
+D. Buckley
+(South African Astronomical Observatory),
+
+O.A. Gress, N.M. Budnev, O.Ershova
+(Irkutsk State University, API),
+
+L.Carrasco, J.R.Valdes, V.Chavushyan, V.M.Patino Alvarez, J.Martinez,
+A.R.Corella, L.H.Rodriguez
+(INAOE, Guillermo Haro Astrophysics Observatory),
+
+A. Tlatov, D. Dormidontov
+(Kislovodsk Solar Station of the Pulkovo Observatory),
+
+V. Yurkov, A. Gabovich
+(Blagoveschensk Educational State University)
+
+MASTER-Tavrida robotic telescope  (Global MASTER-Net: http://observ.pereplet.ru, Lipunov et al., 2010, Advances in Astronomy, vol. 2010, 30L)  located in Russia (Lomonosov MSU, SAI Crimea astronomical station) started inspect of the Fermi GRB231204.83 (trigger No 723412808,21h 37m 36.00s , +54d 39m 00.0s, R=2.37) errorbox  5494 sec after notice time and 5549 sec after trigger time at 2023-12-04 21:32:33 UT, with upper limit up to  17.7 mag. The observations began at zenith distance = 63 deg. The sun  altitude  is -68.3 deg. 
+
+The galactic latitude b =  2 deg., longitude l = 98 deg.
+
+
+Real time updated cover map and OT discovered available here: 
+https://master.sai.msu.ru/site/master2/observ.php?id=2323877
+
+We obtain a following upper limits.  
+
+Tmid-T0  |      Date Time      |          Site       |             Coord (J2000)          |Filt.| Expt. | Limit| Comment
+_________|_____________________|_____________________|____________________________________|_____|_______|_______|________
+
+    5580 | 2023-12-04 21:32:33 |      MASTER-Tavrida | (21h 42m 27.77s , +54d 06m 27.0s) |   C |    60 | 17.2 |        
+    5653 | 2023-12-04 21:33:47 |      MASTER-Tavrida | (21h 24m 29.27s , +56d 00m 43.8s) |   C |    60 | 17.6 |        
+    5726 | 2023-12-04 21:35:00 |      MASTER-Tavrida | (21h 35m 22.00s , +52d 12m 46.6s) |   C |    60 | 17.0 |        
+    5800 | 2023-12-04 21:36:14 |      MASTER-Tavrida | (21h 16m 25.39s , +54d 04m 55.9s) |   C |    60 | 17.5 |        
+    5874 | 2023-12-04 21:37:27 |      MASTER-Tavrida | (21h 51m 42.12s , +56d 00m 22.6s) |   C |    60 | 17.3 |        
+    5947 | 2023-12-04 21:38:41 |      MASTER-Tavrida | (21h 34m 46.41s , +57d 54m 44.1s) |   C |    60 | 17.6 |        
+    6107 | 2023-12-04 21:41:20 |      MASTER-Tavrida | (22h 00m 12.96s , +52d 10m 29.1s) |   C |    60 | 17.1 |        
+    6886 | 2023-12-04 21:54:20 |      MASTER-Tavrida | (21h 42m 28.76s , +54d 05m 02.3s) |   C |    60 | 17.2 |        
+    6959 | 2023-12-04 21:55:32 |      MASTER-Tavrida | (21h 56m 12.96s , +54d 06m 09.2s) |   C |    60 | 17.1 |        
+    7032 | 2023-12-04 21:56:45 |      MASTER-Tavrida | (21h 24m 25.90s , +55d 59m 42.1s) |   C |    60 | 17.5 |        
+    7104 | 2023-12-04 21:57:58 |      MASTER-Tavrida | (21h 38m 46.30s , +56d 00m 30.0s) |   C |    60 | 17.5 |        
+    7177 | 2023-12-04 21:59:10 |      MASTER-Tavrida | (21h 35m 29.28s , +52d 11m 26.0s) |   C |    60 | 17.2 |        
+    7250 | 2023-12-04 22:00:23 |      MASTER-Tavrida | (21h 48m 29.09s , +52d 10m 17.8s) |   C |    60 | 17.1 |        
+    7335 | 2023-12-04 22:01:48 |      MASTER-Tavrida | (21h 16m 32.81s , +54d 04m 52.1s) |   C |    60 | 17.6 |        
+    7407 | 2023-12-04 22:03:01 |      MASTER-Tavrida | (21h 30m 11.34s , +54d 05m 59.8s) |   C |    60 | 17.7 |        
+    7481 | 2023-12-04 22:04:14 |      MASTER-Tavrida | (21h 51m 44.06s , +55d 58m 41.0s) |   C |    60 | 17.4 |        
+    7554 | 2023-12-04 22:05:27 |      MASTER-Tavrida | (22h 06m 07.71s , +55d 59m 60.0s) |   C |    60 | 17.4 |        
+    7628 | 2023-12-04 22:06:41 |      MASTER-Tavrida | (21h 34m 42.78s , +57d 53m 22.9s) |   C |    60 | 17.6 |        
+    7700 | 2023-12-04 22:07:54 |      MASTER-Tavrida | (21h 49m 48.64s , +57d 54m 14.5s) |   C |    60 | 17.7 |        
+    7848 | 2023-12-04 22:10:21 |      MASTER-Tavrida | (21h 23m 37.18s , +52d 10m 23.0s) |   C |    60 | 17.7 |        
+    7921 | 2023-12-04 22:11:35 |      MASTER-Tavrida | (22h 00m 22.18s , +52d 10m 13.8s) |   C |    60 | 17.0 |        
+    8431 | 2023-12-04 22:20:04 |      MASTER-Tavrida | (21h 21m 10.19s , +57d 52m 23.8s) |   C |    60 | 17.7 |        
+Filter C is a clear (unfiltred) band. 
+
+
+The observation and reduction will continue. 
+The message may be cited.
+
+
+",https://gcn.nasa.gov/circulars/35260
+49,GRB 231203A: Fermi GBM Observation,2023-12-04T22:31:12Z,rachel.hamburg@ijclab.in2p3.fr,Web form,"R. Hamburg (CNRS/IN2P3) and C. Meegan (UAH) report on behalf of
+the Fermi Gamma-ray Burst Monitor Team:
+
+""At 07:01:30.77 UT on 03 December 2023, the Fermi Gamma-ray Burst Monitor (GBM)
+triggered and located GRB 231203A (trigger 723279695/231203293),
+which was also detected by Swift/BAT-GUANO  (DeLaunay et al. 2023, GCN 35257).
+The Fermi Final Localization was reported in GCN 35252.
+
+The angle from the Fermi LAT boresight is 59 degrees.
+
+The GBM light curve consists of multiple peaks with a duration (T90)
+of about 37 s (50-300 keV). The time-averaged spectrum
+from T0-1.1 to T0+28.6 s is best fit by
+a power law function with an exponential high-energy cutoff.
+The power law index is -0.92 +/- 0.05 and the cutoff energy,
+parameterized as Epeak, is 687 +/- 114 keV. 
+
+The spectrum is also well fit by a Band function with Epeak = 543 +/- 108,
+alpha = -0.86 +/- 0.07, and beta = -2.10 +/- 0.30.
+
+The event fluence (10-1000 keV) in this time interval is
+(9.7 +/- 0.4)E-06 erg/cm^2. The 1-sec peak photon flux measured
+starting from T0+0.45 s in the 10-1000 keV band is 4.5 +/- 0.2 ph/s/cm^2.
+
+The spectral analysis results presented above are preliminary;
+final results will be published in the GBM GRB Catalog:
+https://heasarc.gsfc.nasa.gov/W3Browse/fermi/fermigbrst.html
+
+For Fermi GBM data and info, please visit the official Fermi GBM Support Page:
+https://fermi.gsfc.nasa.gov/ssc/data/access/gbm/""
+",https://gcn.nasa.gov/circulars/35259
+50,GRB 231204A: Fermi GBM Final Real-time Localization,2023-12-04T20:10:25Z,Fermi GBM Team at MSFC/Fermi-GBM <do_not_reply@GIOC.nsstc.nasa.gov>,email,"The Fermi GBM team reports the detection of a likely LONG GRB
+
+At 20:00:03 UT on 4 Dec 2023, the Fermi Gamma-ray Burst Monitor (GBM) triggered and located GRB 231204A (trigger 723412808.99994 / 231204833).
+
+The on-ground calculated location, using the Fermi GBM trigger data, is RA = 324.4, Dec = 54.7 (J2000 degrees, equivalent to J2000 21h 37m, 54d 42'), with a statistical uncertainty of 2.4 degrees.
+
+The angle from the Fermi LAT boresight is 19.0 degrees.
+
+The skymap can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2023/bn231204833/quicklook/glg_skymap_all_bn231204833.png
+
+The HEALPix FITS file, including the estimated localization systematic, can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2023/bn231204833/quicklook/glg_healpix_all_bn231204833.fit
+
+The GBM light curve can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2023/bn231204833/quicklook/glg_lc_medres34_bn231204833.gif
+
+
+",https://gcn.nasa.gov/circulars/35258
+51,GRB 231203A: Swift/BAT-GUANO detection of a burst outside the coded FOV ,2023-12-04T16:20:25Z,Jimmy DeLaunay at Penn State <delauj2@gmail.com>,Web form,"James DeLaunay (PSU), Samuele Ronchini (PSU), Gayathri Raman (PSU), Aaron Tohuvavohu (U Toronto), Jamie A. Kennea (PSU), Tyler Parsotan (NASA GSFC) report: 
+
+Swift/BAT did not localize GRB 231203A onboard (T0: 2023-12-03T07:01:30.77 UTC, Fermi trig 723279723) 
+
+The Fermi notice, distributed in near real-time, triggered the Swift Mission Operations Center operated Gamma-ray Urgent Archiver for Novel Opportunities (GUANO; Tohuvavohu et al. 2020, ApJ, 900, 1). 
+
+Upon trigger by this notice, GUANO sent a command to the Swift Burst Alert Telescope (BAT) to save 200 seconds of BAT event-mode data from [-50,+150] seconds around the time of the burst. All the requested event mode data was delivered to the ground. 
+
+The BAT likelihood search, NITRATES (DeLaunay + Tohuvavohu 2022, ApJ, 941, 169), performed on the temporal window [T0-20 s, T0+20 s], detects the burst with a sqrt(TS) of 13.6 in a 2.048 s analysis time bin, starting at T0. 
+
+NITRATES results are consistent with a burst coming from outside the FOV, with DeltaLLHOut of 2.64.
+
+See Section 9.1 and Figures 10 and 17 in the NITRATES paper for brief descriptions and interpretation of sqrt(TS), DeltaLLHPeak, and DeltaLLHOut. 
+
+GUANO is a fully autonomous, extremely low latency, spacecraft commanding pipeline designed for targeted recovery of BAT event mode data around the times of compelling astrophysical events to enable more sensitive GRB searches. 
+
+A live reporting of Swift/BAT event data recovered by GUANO can be found at: https://www.swift.psu.edu/guano/
+",https://gcn.nasa.gov/circulars/35257
+52,Konus-Wind detection of GRB 231129C,2023-12-04T15:14:55Z,Alexandra Lysenko at Ioffe Institute <alexandra.lysenko@mail.ioffe.ru>,legacy email,"A. Lysenko, D. Frederiks, A. Ridnaia, D. Svinkin,
+A. Tsvetkova, M. Ulanov, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The bright long-duration GRB 231129C
+(Fermi-GBM detection: Sharma et al., GCN Circ. 35227;
+MAXI/GSC detection: Kawakubo et al., GCN Circ. 35223;
+CALET detection: Kawakubo et al., GCN Circ. 35228;
+AstroSat CZTI detection: Waratkar et al., GCN Circ. 35230;
+GECAM-B detection: Zheng et al., GCN Circ. 35231;
+Swift-XRT detection: Gropp et al., GCN Circ. 35234;
+Glowbug detection: Cheung et al., GCN Circ. 35235;
+GRBAlpha detection: Dafcikova et al., GCN Circ. 35236;
+Fermi-LAT detection: Arimoto et al., GCN Circ. 35238;
+AGILE detection: Panebianco et al., GCN Circ. 35244)
+triggered Konus-Wind at T0=69016.319 s UT (19:10:16.319).
+
+The burst light curve shows a bright, multi-peaked pulse
+featuring a very strong hard-to-soft spectral evolution.
+The pulse starts at ~T0-0.2 and has a total duration of ~9.6 s.
+The emission is seen up to ~15 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB231129_T69016/
+
+As observed by Konus-Wind, the burst
+had a fluence of 8.60(-0.23,+0.24)x10^-5 erg/cm2,
+and a 64-ms peak flux, measured from T0+0.106s,
+of 4.16(-0.52,+0.54)x10^-5 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+12.800 s)
+is best fit in the 20 keV - 20 MeV range
+by the GRB (Band) model with the following parameters:
+the low-energy photon index alpha = -0.17(-0.06,+0.06),
+the high energy photon index beta = -2.95(-0.12,+0.10),
+the peak energy Ep = 202(-6,+6) keV
+(chi2 = 151/97 dof).
+
+The spectrum near the maximum count rate
+(measured from T0 to T0+0.256 s)
+is best fit in the 20 keV - 20 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with alpha = -0.20(-0.14,+0.15)
+and Ep = 782(-52,+55) keV (chi2 = 69/51 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -3.3
+(chi2 = 69/50 dof).
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+
+
+",https://gcn.nasa.gov/circulars/35256
+53,IceCube-231202A - IceCube observation of a high-energy neutrino candidate track-like event,2023-12-04T14:18:52Z,Giacomo Sommani at Ruhr-UniversitÃ¤t Bochum <gsommani@icecube.wisc.edu>,Web form,"The IceCube Collaboration (http://icecube.wisc.edu/) reports:
+
+On 2023-12-02 at 17:08:24.09 UT IceCube detected a track-like event with a moderate probability of being of astrophysical origin. The event was selected by the ICECUBE_Astrotrack_Bronze alert stream. The average astrophysical neutrino purity
+for Bronze alerts is 30%. This alert has an estimated false alarm rate of 4.4035 events per year due to atmospheric backgrounds. The IceCube detector was in a normal operating state at the time of detection.
+
+After the initial automated alert (https://gcn.gsfc.nasa.gov/notices_amon_g_b/138632_31747601.amon), more sophisticated reconstruction algorithms have been applied offline, with the direction refined to:
+
+Date: 2023-12-02
+Time:  17:08:24.09 UT
+RA: 139.04 (+1.52, -1.96 deg 90% PSF containment) J2000
+Dec: +0.37 (+1.11, -1.40 deg  90% PSF containment) J2000
+
+Deployment of updated software delayed the availability of these results, we apologize for the delay.  We encourage follow-up by ground and space-based instruments to help identify a possible astrophysical source for the candidate neutrino.
+
+One gamma-ray source listed in the 4FGL-DR4 Fermi-LAT catalog is inside the 90% uncertainty region. The source is 4FGL J0909.1+0121, located 2.0 deg away from the best-fit position. The source is also listed in the Fermi 3FHL catalog as 3FHL J0909.1+0121.
+
+The IceCube Neutrino Observatory is a cubic-kilometer neutrino detector operating at the geographic South Pole, Antarctica. The IceCube realtime alert point of contact can be reached at roc@icecube.wisc.edu
+
+",https://gcn.nasa.gov/circulars/35255
+54,Fermi  trigger No 723279695: Global MASTER-Net observations report,2023-12-03T22:31:04Z,Vladimir Lipunov at Moscow State U/Krylov Obs <lipunov@xray.sai.msu.ru>,legacy email,"V. Lipunov, V.Kornilov, E. Gorbovskoy, K. Zhirkov, N.Tyurina, P.Balanutsa, A.Kuznetsov, V.Senik,  D. Vlasenko,
+G.Antipov, D.Zimnukhov, E.Minkina, A.Chasovnikov, V.Topolev, D.Kuvshinov, D. Cheryasov, Ya.Kechin, Yu.Tselik, A. Sosnovskij
+(Lomonosov Moscow State University, SAI, Physics Department),
+
+R. Podesta, C.Lopez, F. Podesta, C.Francile
+(Observatorio Astronomico Felix Aguilar OAFA),
+
+R. Rebolo, M. Serra
+(The Instituto de Astrofisica de Canarias),
+
+D. Buckley
+(South African Astronomical Observatory),
+
+O.A. Gress, N.M. Budnev, O.Ershova
+(Irkutsk State University, API),
+
+L.Carrasco, J.R.Valdes, V.Chavushyan, V.M.Patino Alvarez, J.Martinez,
+A.R.Corella, L.H.Rodriguez
+(INAOE, Guillermo Haro Astrophysics Observatory),
+
+A. Tlatov, D. Dormidontov
+(Kislovodsk Solar Station of the Pulkovo Observatory),
+
+V. Yurkov, A. Gabovich
+(Blagoveschensk Educational State University)
+
+MASTER-SAAO robotic telescope  (Global MASTER-Net: http://observ.pereplet.ru, Lipunov et al., 2010, Advances in Astronomy, vol. 2010, 30L)  located in South Africa (South African Astronomical Observatory) started inspect of the Fermi GRB231203.29 (trigger No 723279695,15h 58m 43.20s , -49d 46m 12.0s, R=7.12) errorbox  40985 sec after notice time and 41021 sec after trigger time at 2023-12-03 18:25:12 UT, with upper limit up to  16.1 mag. Observations started at twilight.  The observations began at zenith distance = 82 deg. The sun  altitude  is -10.6 deg. 
+
+The galactic latitude b =  2 deg., longitude l = 331 deg.
+
+
+Real time updated cover map and OT discovered available here: 
+https://master.sai.msu.ru/site/master2/observ.php?id=2322470
+
+We obtain a following upper limits.  
+
+Tmid-T0  |      Date Time      |          Site       |             Coord (J2000)          |Filt.| Expt. | Limit| Comment
+_________|_____________________|_____________________|____________________________________|_____|_______|_______|________
+
+   41051 | 2023-12-03 18:25:12 |         MASTER-SAAO | (16h 04m 38.84s , -55d 32m 22.0s) |   C |    60 | 13.8 |        
+   41971 | 2023-12-03 18:40:32 |         MASTER-SAAO | (16h 26m 22.69s , -57d 26m 40.3s) |   C |    60 | 16.0 |        
+   42221 | 2023-12-03 18:44:42 |         MASTER-SAAO | (16h 31m 35.93s , -55d 31m 00.8s) |   C |    60 | 16.1 |        
+Filter C is a clear (unfiltred) band. 
+
+
+The observation and reduction will continue. 
+The message may be cited.
+
+
+",https://gcn.nasa.gov/circulars/35254
+55,The Fermi GBM team reports the detection of a likely SHORT GRB,2023-12-03T22:30:35Z,Bagrat Mailyan at Florida Tech <mbagrat@gmail.com>,Web form,"At 19:56:04 UT on 3 Dec 2023, the Fermi Gamma-ray Burst Monitor (GBM) triggered and located GRB 231203B (trigger 723326169/ 231203831).
+The on-ground calculated location, using the Fermi GBM trigger data, is RA = 197.3, Dec = +42.54 (J2000 degrees, equivalent to J2000 13h 09m, 42d 32'), with a statistical uncertainty of 15.9 degrees.
+The angle from the Fermi LAT boresight is 17.0 degrees.
+The skymap can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2023/bn231203831/quicklook/glg_skymap_all_bn231203831.png
+The HEALPix FITS file, including the estimated localization systematic, can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2023/bn231203831/quicklook/glg_healpix_all_bn231203831.fit
+The GBM light curve can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2023/bn231203831/quicklook/glg_lc_medres34_bn231203831.gif
+
+
+
+
+
+
+",https://gcn.nasa.gov/circulars/35253
+56,GRB 231203A: Fermi GBM Final Real-time Localization,2023-12-03T07:11:59Z,Fermi GBM Team at MSFC/Fermi-GBM <do_not_reply@GIOC.nsstc.nasa.gov>,email,"The Fermi GBM team reports the detection of a likely LONG GRB
+
+At 07:01:30 UT on 3 Dec 2023, the Fermi Gamma-ray Burst Monitor (GBM) triggered and located GRB 231203A (trigger 723279695.772024 / 231203293).
+
+The on-ground calculated location, using the Fermi GBM trigger data, is RA = 239.7, Dec = -49.8 (J2000 degrees, equivalent to J2000 15h 58m, -49d 47'), with a statistical uncertainty of 7.1 degrees.
+
+The angle from the Fermi LAT boresight is 59.0 degrees.
+
+The skymap can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2023/bn231203293/quicklook/glg_skymap_all_bn231203293.png
+
+The HEALPix FITS file, including the estimated localization systematic, can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2023/bn231203293/quicklook/glg_healpix_all_bn231203293.fit
+
+The GBM light curve can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2023/bn231203293/quicklook/glg_lc_medres34_bn231203293.gif
+
+
+",https://gcn.nasa.gov/circulars/35252
+57,GRB 231129C: Swift-XRT afterglow detection,2023-12-02T14:30:18Z,Phil Evans at U of Leicester <pae9@star.le.ac.uk>,email,"J. D. Gropp (PSU), S. Dichiara (PSU), K.L. Page (U. Leicester), A.P.
+Beardmore (U. Leicester), M.G. Bernardini (INAF-OAB), E. Ambrosi 
+(INAF-IASFPA) , M. Capalbi (INAF-IASFPA), J.A. Kennea (PSU) and P.A.
+Evans (U. Leicester) reports on behalf of the Swift-XRT team:
+
+Swift-XRT has conducted further observations of the field of the
+Fermi/GBM-detected burst GRB 231129C. The observations now extend from
+T0+34.8 ks to T0+172.6 ks. The source previously reported, ""Source 2"",
+is believed to be the afterglow.  The position of this source is RA,
+Dec=11.1769, -81.9936 which is equivalent to:
+
+RA (J2000): 00:44:42.45
+Dec(J2000): -81:59:37.0
+
+with an uncertainty of 9.5 arcsec (radius, 90% confidence).  This
+position is 22.4 arcmin from the Fermi/GBM position.  We cannot
+determine at the present time whether the source is fading.
+
+The results of the XRT-team automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/00021633.
+The results of the full analysis of the tiled XRT observations are
+available at https://www.swift.ac.uk/xrt_products/TILED_GRB00117.
+
+This circular is an official product of the Swift-XRT team.
+
+
+",https://gcn.nasa.gov/circulars/35251
+58,Fermi  trigger No 723149952: Global MASTER-Net observations report,2023-12-01T22:31:27Z,Vladimir Lipunov at Moscow State U/Krylov Obs <lipunov@xray.sai.msu.ru>,legacy email,"V. Lipunov, V.Kornilov, E. Gorbovskoy, K. Zhirkov, N.Tyurina, P.Balanutsa, A.Kuznetsov, V.Senik,  D. Vlasenko,
+G.Antipov, D.Zimnukhov, E.Minkina, A.Chasovnikov, V.Topolev, D.Kuvshinov, D. Cheryasov, Ya.Kechin, Yu.Tselik, A. Sosnovskij
+(Lomonosov Moscow State University, SAI, Physics Department),
+
+R. Podesta, C.Lopez, F. Podesta, C.Francile
+(Observatorio Astronomico Felix Aguilar OAFA),
+
+R. Rebolo, M. Serra
+(The Instituto de Astrofisica de Canarias),
+
+D. Buckley
+(South African Astronomical Observatory),
+
+O.A. Gress, N.M. Budnev, O.Ershova
+(Irkutsk State University, API),
+
+L.Carrasco, J.R.Valdes, V.Chavushyan, V.M.Patino Alvarez, J.Martinez,
+A.R.Corella, L.H.Rodriguez
+(INAOE, Guillermo Haro Astrophysics Observatory),
+
+A. Tlatov, D. Dormidontov
+(Kislovodsk Solar Station of the Pulkovo Observatory),
+
+V. Yurkov, A. Gabovich
+(Blagoveschensk Educational State University)
+
+MASTER-SAAO robotic telescope  (Global MASTER-Net: http://observ.pereplet.ru, Lipunov et al., 2010, Advances in Astronomy, vol. 2010, 30L)  located in South Africa (South African Astronomical Observatory) started inspect of the Fermi GRB231201.79 (trigger No 723149952,03h 17m 48.00s , -54d 56m 24.0s, R=1.34) errorbox  59 sec after notice time and 94 sec after trigger time at 2023-12-01 19:00:41 UT, with upper limit up to  18.1 mag. Observations started at twilight.  The observations began at zenith distance = 34 deg. The sun  altitude  is -16.9 deg. 
+
+The galactic latitude b = -52 deg., longitude l = 269 deg.
+
+
+Real time updated cover map and OT discovered available here: 
+https://master.sai.msu.ru/site/master2/observ.php?id=2321367
+
+We obtain a following upper limits.  
+
+Tmid-T0  |      Date Time      |          Site       |             Coord (J2000)          |Filt.| Expt. | Limit| Comment
+_________|_____________________|_____________________|____________________________________|_____|_______|_______|________
+
+     104 | 2023-12-01 19:00:41 |         MASTER-SAAO | (03h 24m 11.37s , -55d 13m 46.5s) |   C |    20 | 14.8 |        
+     104 | 2023-12-01 19:00:41 |         MASTER-SAAO | (03h 09m 05.64s , -55d 03m 07.1s) |   C |    20 | 15.0 |        
+     144 | 2023-12-01 19:01:21 |         MASTER-SAAO | (03h 09m 12.39s , -55d 04m 06.6s) |   C |    20 | 15.0 |        
+     188 | 2023-12-01 19:02:00 |         MASTER-SAAO | (03h 24m 11.79s , -55d 15m 46.3s) |   C |    30 | 14.3 |        
+     188 | 2023-12-01 19:02:00 |         MASTER-SAAO | (03h 09m 05.30s , -55d 05m 06.2s) |   C |    30 | 13.1 |        
+    1682 | 2023-12-01 19:26:39 |         MASTER-SAAO | (03h 06m 37.02s , -54d 12m 09.5s) |   C |    60 | 13.5 |        
+    1853 | 2023-12-01 19:29:30 |         MASTER-SAAO | (03h 27m 36.96s , -55d 55m 05.8s) |   C |    60 | 17.3 |        
+    2795 | 2023-12-01 19:45:12 |         MASTER-SAAO | (03h 27m 32.84s , -55d 54m 01.7s) |   C |    60 | 13.8 |        
+    5238 | 2023-12-01 20:25:55 |         MASTER-SAAO | (03h 17m 40.93s , -53d 59m 19.1s) |   C |    60 | 16.0 |        
+    5238 | 2023-12-01 20:25:55 |         MASTER-SAAO | (03h 32m 23.55s , -54d 09m 55.9s) |   C |    60 | 16.0 |        
+    5328 | 2023-12-01 20:27:25 |         MASTER-SAAO | (03h 06m 37.02s , -54d 11m 01.3s) |   C |    60 | 14.9 |        
+    5408 | 2023-12-01 20:28:45 |         MASTER-SAAO | (03h 09m 46.68s , -57d 49m 05.2s) |   C |    60 | 12.3 |        
+    5408 | 2023-12-01 20:28:45 |         MASTER-SAAO | (03h 26m 01.10s , -57d 59m 42.1s) |   C |    60 | 13.0 |        
+    5499 | 2023-12-01 20:30:16 |         MASTER-SAAO | (03h 27m 29.14s , -55d 54m 35.9s) |   C |    60 | 18.1 |        
+    5579 | 2023-12-01 20:31:36 |         MASTER-SAAO | (03h 09m 04.24s , -52d 05m 38.0s) |   C |    60 | 14.4 |        
+    5579 | 2023-12-01 20:31:36 |         MASTER-SAAO | (03h 23m 08.79s , -52d 16m 13.7s) |   C |    60 | 14.8 |        
+Filter C is a clear (unfiltred) band. 
+
+
+The observation and reduction will continue. 
+The message may be cited.
+
+
+",https://gcn.nasa.gov/circulars/35250
+59,GRB 231129C: PROMPT optical upper limits for the MAXI/GSC X-ray counterpart and the MASTER afterglow candidate ,2023-12-01T18:24:28Z,"Hank Corbett at UNC,Chapel Hill <htcorbett4@gmail.com>",Web form,"Hank Corbett (University of North Carolina), Kendall Ackley (University of Warwick), Daniel E. Reichart (UNC), Joshua B. Haislip (UNC), Vladimir V. Kouprianov (UNC), Megan Dubay (UNC)
+
+We obtained 2x300s unfiltered exposures of the 90% error region of the MAXI/GSC X-ray transient (Kawakubo et al. GCN 35223) with the 0.8-m PROMPT-7 telescope. Exposures began at 2023-11-30 00:53 UT. Relative to images of the field 24-hours later, we do not detect any new sources within the MAXI/GSC error region with an upper limit of 21.9 calibrated to g-band reference stars from the ATLAS reference catalog (Tonry 2018). 
+
+We also observed the position of the MASTER OT detection (Antipov et al, GCN 35240) in a series of unfiltered 6x200s exposures beginning at 2023-12-01 01:56 UT, and do not detect the transient in the stacked image to an upper limit of 22.5. The field also includes the 90%  error circle for the Swift XRT candidate at RA 00:44:42.45 Dec -81:59:37.0, and we detect no transient sources to an upper limit of 22.5. We note that the error circle closely aligns with a faint (m_G=19.96) red star (Gaia 4630203649665987840).  
+
+Date | Filter | Mag  | Exp time (s)
+---------------------------------------------------------------
+2023-11-30 00:53 UT | Open  | > 21.9 @ 5-sigma | 2x300 s
+2023-11-30 00:53 UT | Open  | > 22.5 @ 5-sigma | 6x200 s 
+
+",https://gcn.nasa.gov/circulars/35249
+60,GRB 231129A: VZLUSAT-2 detection,2023-12-01T17:04:23Z,Marianna DafÄÃ­kovÃ¡ at Masaryk University <500025@mail.muni.cz>,Web form,"M. Dafcikova, J. Ripa (Masaryk U.), A. Pal (Konkoly Observatory),  N. Werner  (Masaryk U.), M. Ohno (Hiroshima U.),  L. Meszaros, B. Csak (Konkoly Observatory), H. Takahashi (Hiroshima U.), F. Munz , M. Topinka, F. Hroch, N. Husarikova, J.-P. Breuer (Masaryk U.), J. Hudec, J. Kapus, M. Frajt, M. Rezenov (Spacemanic s.r.o), R. Laszlo (Needronix), G. Galgoczi (Wigner Research Center/Eotvos U.), N. Uchida (ISAS/JAXA), T. Enoto (Kyoto U.), Zs. Frei (Eotvos U.), Y. Fukazawa, K. Hirose, H. Matake (Hiroshima U.), S. Hisadomi (Nagoya U.), Y. Ichinohe (Rikkyo U.), L. L. Kiss (Konkoly Observatory),  T. Mizuno (Hiroshima U.), K. Nakazawa (Nagoya U.), H. Odaka (Univ of Tokyo), K. Torigoe (Hiroshima U.), P. Svoboda, V. Daniel, J. Dudas, M. Junas, J. Gromes (VZLU), I. Vertat (FEL ZCU)  -- the VZLUSAT-2/GRB payload collaboration.
+
+The long-duration GRB 231129A (Swift/BAT detection: GCN 35208; INTEGRAL/IBIS detection: GCN 35209; GECAM-C detection: GCN 35210) was detected by the GRB detector on board of the VZLUSAT-2 3U CubeSat (https://www.vzlusat2.cz/en/).
+
+The data acquisition was performed by the GRB detector unit no. 1. The detection was confirmed at the peak time 2023-11-29 05:06:01 UTC. The T90 duration is 157 s and the significance during T90 reaches 21 sigma.
+
+The light curve obtained by VZLUSAT-2 is available here:
+https://vzlusat2.konkoly.hu/static/share/GRB231129A_GCN_VZLUSAT2.pdf
+
+All VZLUSAT-2 detections are listed at: https://monoceros.physics.muni.cz/hea/VZLUSAT-2/
+The GRB detectors on VZLUSAT-2 are a demonstration payload for a future CubeSat constellation (Werner et al. Proc. SPIE 2018). Two GRB modules of VZLUSAT-2 are placed in a perpendicular manner and each consists of a 75 x 75 x 5 mm3 CsI scintillator read out by a SiPM array, covering the energy range from ~30 keV to ~1000 keV. VZLUSAT-2 was launched on 2022 January 13 from Cape Canaveral.
+
+",https://gcn.nasa.gov/circulars/35248
+61,GRB 231129B: Swift-XRT observations,2023-12-01T16:04:46Z,Phil Evans at U of Leicester <pae9@star.le.ac.uk>,email,"T. Sbarrato (INAF-OAB), A. Tohuvavohu (U. Toronto), D.N. Burrows (PSU),
+J. D. Gropp (PSU), J.P. Osborne (U. Leicester), K.L. Page (U.
+Leicester), P. D'Avanzo (INAF-OAB), M.G. Bernardini (INAF-OAB) and P.A.
+Evans (U. Leicester) reports on behalf of the Swift-XRT team:
+
+Swift-XRT has performed follow-up observations of the MAXI-detected
+burst GRB 231129B in a series of observations tiled on the sky. The
+total exposure time is 2.0 ks, distributed over 7 tiles; the maximum
+exposure at a single sky location was 659 s. The data were collected
+between T0+12.3 ks and T0+18.0 ks, and are entirely in Photon Counting
+(PC) mode. 
+
+No X-ray sources have been detected. The 3-sigma upper limit in the
+field (not including the regions where the tiles overlap) ranges from
+~0.03 to ~0.07 ct s^-1, corresponding to a 0.3-10 keV observed flux of
+1.1e-12 to 2.7e-12 erg cm^-2 s^-1 (assuming a typical GRB spectrum).
+
+The results of the XRT-team automatic analysis of the tiled XRT
+observations, including a position-specific upper limit calculator, are
+available at https://www.swift.ac.uk/xrt_products/TILED_GRB00116.
+
+This circular is an official product of the Swift-XRT team.
+
+
+",https://gcn.nasa.gov/circulars/35247
+62,GRB 231128A: VZLUSAT-2 detection,2023-12-01T16:00:49Z,Marianna DafÄÃ­kovÃ¡ at Masaryk University <500025@mail.muni.cz>,Web form,"M. Dafcikova, J. Ripa (Masaryk U.), A. Pal (Konkoly Observatory),  N. Werner  (Masaryk U.), M. Ohno (Hiroshima U.),  L. Meszaros, B. Csak (Konkoly Observatory), H. Takahashi (Hiroshima U.), F. Munz , M. Topinka, F. Hroch, N. Husarikova, J.-P. Breuer (Masaryk U.), J. Hudec, J. Kapus, M. Frajt, M. Rezenov (Spacemanic s.r.o), R. Laszlo (Needronix), G. Galgoczi (Wigner Research Center/Eotvos U.), N. Uchida (ISAS/JAXA), T. Enoto (Kyoto U.), Zs. Frei (Eotvos U.), Y. Fukazawa, K. Hirose, H. Matake (Hiroshima U.), S. Hisadomi (Nagoya U.), Y. Ichinohe (Rikkyo U.), L. L. Kiss (Konkoly Observatory),  T. Mizuno (Hiroshima U.), K. Nakazawa (Nagoya U.), H. Odaka (Univ of Tokyo), K. Torigoe (Hiroshima U.), P. Svoboda, V. Daniel, J. Dudas, M. Junas, J. Gromes (VZLU), I. Vertat (FEL ZCU)  -- the VZLUSAT-2/GRB payload collaboration.
+
+The long-duration GRB 231128A (Fermi/GBM detection: GCN 35206) was detected by the GRB detector on board of the VZLUSAT-2 3U CubeSat (https://www.vzlusat2.cz/en/).
+
+The data acquisition was performed by the GRB detector unit no. 1. The detection was confirmed at the peak time 2023-11-28 11:44:15 UTC. The T90 duration is 24 s and the significance during T90 reaches 9.7 sigma.
+
+The light curve obtained by VZLUSAT-2 is available here:
+https://vzlusat2.konkoly.hu/static/share/GRB231128A_GCN_VZLUSAT2.pdf
+
+All VZLUSAT-2 detections are listed at: https://monoceros.physics.muni.cz/hea/VZLUSAT-2/
+The GRB detectors on VZLUSAT-2 are a demonstration payload for a future CubeSat constellation (Werner et al. Proc. SPIE 2018). Two GRB modules of VZLUSAT-2 are placed in a perpendicular manner and each consists of a 75 x 75 x 5 mm3 CsI scintillator read out by a SiPM array, covering the energy range from ~30 keV to ~1000 keV. VZLUSAT-2 was launched on 2022 January 13 from Cape Canaveral.
+
+",https://gcn.nasa.gov/circulars/35246
+63,"Optical transient in the field of Messier 31, likely a new blazar: back to bright state",2023-12-01T12:07:03Z,Gianluca Masi at Virtual Telescope Project <gianluca@bellatrixobservatory.org>,Web form,"We report that the new blazar candidate in the field of Messier 31 (NGC 224) reported by G. Masi in GCN 34819 is again on bright state, found at R=17.9 on 29.72 Nov. 2023.
+
+The optical source, which discovery is described in the GCN circular mentioned above,  has been brighter than R=19.0 since at least 10 Aug. 2023, showing an almost 1.5 mag. large amplitude in its light curve.
+
+Extensive, R-band photometry since 10 Aug. 2023 is available at the following web address:
+https://www.virtualtelescope.eu/2023/08/16/discovery-of-variability-of-the-optical-counterpart-of-the-nvss-j004354404634-radio-source-in-the-messier-31-field/
+
+Multi-wavelength observations are strongly encouraged. 
+
+Gianluca Masi
+Virtual Telescope Project
+",https://gcn.nasa.gov/circulars/35245
+64,GRB 231129C: AGILE detection,2023-12-01T11:28:51Z,Gabriele Panebianco <gabriele.panebianco@inaf.it>,Web form,"G. Panebianco (Univ. Bologna - INAF/OAS Bologna), A. Bulgarelli (INAF/OAS Bologna),
+C. Pittori, F. Verrecchia (SSDC, and INAF/OAR),
+M. Tavani (INAF/IAPS, and Univ. Roma Tor Vergata),
+A. Argan, M. Cardillo, C. Casentini, Y. Evangelista, L. Foffano, G. Piano (INAF/IAPS),
+L. Baroncelli, A. Ciabattoni, A. Di Piano, V. Fioretti, N. Parmiggiani (INAF/OAS-Bologna),
+F. Lucarelli (SSDC, and INAF/OAR),  M. Marisaldi (INAF/OAS-Bologna, and Bergen University),
+M. Pilia, A. Trois (INAF/OA-Cagliari), 
+F. Longo (Univ. Trieste, and INFN Trieste), A. Ursi (ASI and INAF/IAPS),
+I. Donnarumma, E. Menegoni (ASI),  A. Giuliani (INAF/IASF-Mi),
+P.W. Cattaneo (INFN Pavia), F.  Cutrona (Univ. Milano Bicocca) and P. Tempesta (TeleSpazio) 
+report on behalf of the AGILE Team:
+
+The AGILE satellite detected the bright and long GRB 231129C at T0 = 2023-11-29 19:10:18 s (UTC),
+reported by Fermi (GCNs #35217, #35221, #35227, #35238), BALROG (GCN #35222),
+MAXI/GSC (GCN #35223), Swift (GCNs #35225, #35234, #35242), CALET (GCN #35228),
+AstroSAT CZTI (GCN #35230), GECAM-B (GCN #35231), Glowbug (GCN #35235),
+GRBAlpha (GCN #35236), MASTER OT (#35240).
+
+The burst is clearly visible in the AGILE scientific ratemeters of the
+MiniCALorimeter (MCAL; 0.4-100 MeV), and AntiCoincidence (AC; 50-200 keV)
+detectors. The pulse lasted about 10 s and it released a total number
+of 7648 counts in the MCAL detector (above a background rate of 525 Hz)
+and 49403 counts in the AC-Top detector (above a background rate of 2900 Hz).
+
+The AGILE ratemeters light curves can be found at
+http://www.agilescienceapp.it/notices/GRB231129C_AGILE_RM_ND.png .
+
+At the detection time the GRB location was occulted by the Earth for the AGILE GRID instrument.
+
+Additional analysis of AGILE data is in progress. Automatic MCAL GRB alert Notices
+can be found at: https://gcn.gsfc.nasa.gov/agile_mcal.html
+",https://gcn.nasa.gov/circulars/35244
+65,GRB 231129A : MITSuME Akeno optical upper limits,2023-12-01T09:27:23Z,Narikazu Higuchi at Tokyo Tech <higuchi@hp.phys.titech.ac.jp>,Web form,"N. Higuchi, I. Takahashi, M. Sasada, M. Niwano, S. Sato, S. Hayatsu, H. Takei,  H. Seki, Y. Yatsu and N. Kawai  (Tokyo Tech) report on behalf of the MITSuME collaboration:
+
+We observed the field of GRB 231129A (Gropp et al. GCN 35208 and Mereghetti et al. GCN 35209) with the optical three-color (g', Rc, and Ic) CCD cameras attached to the MITSuME 50-cm telescope Akeno. 
+
+The observation started at 2023-11-29 08:01:47 UT (2.93 hours after the Swift/BAT and INTEGRAL/IBAS trigger). We stacked the images with good conditions. We did not detect any uncatalogued sources within the enhanced Swift/XRT error region (Goad et al. GCN 35220). We obtained the 5-sigma limits of the stacked images as follows.
+
+T0+[hour] | MID-UT | T-EXP[sec] | 5-sigma limits
+------------------------------------------------------------------------------------------------
+4.50 | 2023-11-29 09:35:41 | 7140 | g'>19.4, Rc>19.0, Ic>18.4
+------------------------------------------------------------------------------------------------
+T0+ : Elapsed time after the trigger
+T-EXP: Total Exposure time
+
+We used the PS1 catalog for flux calibration. The catalog magnitudes in PS1 g, r and i bands were converted to our g', Rc and Ic band magnitudes following Tonry et al. (2012), Table 6. The magnitudes are expressed in the AB system. The images were processed in real-time through the MITSuME GPU reduction pipeline (Niwano et al. 2021, PASJ, Vol.73, Issue 1, Pages 4-24; https://github.com/MNiwano/Eclaire).
+",https://gcn.nasa.gov/circulars/35243
+66,GRB 231129C: Swift/BAT-GUANO localization of a burst outside the coded FOV,2023-12-01T03:52:27Z,Jimmy DeLaunay at Penn State <delauj2@gmail.com>,Web form,"James DeLaunay (PSU), Aaron Tohuvavohu (U Toronto), Samuele Ronchini (PSU), Gayathri Raman (PSU), Jamie A. Kennea (PSU), Tyler Parsotan (NASA GSFC) report: 
+
+Swift/BAT did not localize GRB 231129C onboard (T0: 2023-11-29T19:10:15.02 UTC, CALET trig 1385320118 / GCN 35223 Fermi GBM trig 722460326 / GCN 35221, GECAM trig 238 / GCN 35231, MAXI-GSC GCN 35223, AstroSat GCN 35230, Glowbug GCN 35235, GRBAlpha GCN 35236, Fermi LAT GCN 35238) 
+
+The Fermi notice, distributed in near real-time, triggered the Swift Mission Operations Center operated Gamma-ray Urgent Archiver for Novel Opportunities (GUANO; Tohuvavohu et al. 2020, ApJ, 900, 1). 
+
+Upon trigger by this notice, GUANO sent a command to the Swift Burst Alert Telescope (BAT) to save 90 seconds of BAT event-mode data from [-50,+150] seconds around the time of the burst. All the requested event mode data was delivered to the ground. 
+
+The BAT likelihood search, NITRATES (DeLaunay + Tohuvavohu 2022, ApJ, 941, 169), performed on the temporal window [T0-20 s, T0+20 s], detects the burst with a sqrt(TS) of 92.6 in a 4.096 s analysis time bin, starting at T0 + 3.072 s. 
+
+NITRATES results are consistent with a burst coming from outside the FOV, with DeltaLLHOut of -477.
+
+See Section 9.1 and Figures 10 and 17 in the NITRATES paper for brief descriptions and interpretation of sqrt(TS), DeltaLLHPeak, and DeltaLLHOut. 
+
+A preliminary localization of this GRB was performed, finding a best fit position of 
+RA, Dec = 301.3, -80.4 deg
+With a roughly circular 90% error radius of 11.1 deg
+
+Calibration of systematics for localizations outside the coded field of view is not yet complete.
+
+GUANO is a fully autonomous, extremely low latency, spacecraft commanding pipeline designed for targeted recovery of BAT event mode data around the times of compelling astrophysical events to enable more sensitive GRB searches. 
+
+A live reporting of Swift/BAT event data recovered by GUANO can be found at: https://www.swift.psu.edu/guano/
+",https://gcn.nasa.gov/circulars/35242
+67,GRB 231129A: Swift-BAT refined analysis,2023-11-30T22:41:45Z,Sibasish Laha at GSFC <sibasish.laha@nasa.gov>,email,"D. M. Palmer (LANL), S. D. Barthelmy (GSFC),
+H. A. Krimm (NSF), S. Laha (GSFC/UMBC),
+A. Y. Lien (U Tampa), C. B. Markwardt (GSFC),
+M. Moss (GSFC), T. Parsotan (GSFC/UMBC),
+T. Sakamoto (AGU),M. Stamatikos (OSU)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-61 to T+243 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 231129A (trigger #1199764)
+(Gropp et al., GCN Circ. 35208).  The BAT ground-calculated position is
+RA, Dec = 317.541, 41.530 deg which is
+   RA(J2000)  =  21h 10m 09.8s
+   Dec(J2000) = +41d 31' 48.3""
+with an uncertainty of 1.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 46%.
+
+The BAT  light curve shows a complex structure with a duration of ~ 130 sec.
+T90 (15-350 keV) is 105.46 +- 1.83 sec (estimated error including systematics).
+
+The time-averaged spectrum from T-1.75 to T+118.97 sec is best fit by a power law
+with an exponential cutoff.  This fit gives a photon index 1.35 +- 0.17,
+and Epeak of 83.7 +- 14.6 keV (chi squared 51.44 for 56 d.o.f.).  For this
+model the total fluence in the 15-150 keV band is 1.3 +- 0.0 x 10^-05 erg/cm2
+and the 1-sec peak flux measured from T+88.71 sec in the 15-150 keV band is
+4.8 +- 0.3 ph/cm2/sec.  A fit to a simple power law gives a photon index
+of 1.78 +- 0.04 (chi squared 70.95 for 57 d.o.f.).  All the quoted errors
+are at the 90% confidence level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/1199764/BA/
+
+
+
+",https://gcn.nasa.gov/circulars/35241
+68,GRB 231129C: MASTER OT detection,2023-11-30T19:18:20Z,Vladimir Lipunov at Moscow State U/Krylov Obs <lipunov@xray.sai.msu.ru>,legacy email,"G.Antipov, V.Lipunov, E.Gorbovskoy (Lomonosov MSU), D.Buckley (SAAO),
+D.Svinkin (Ioffe Institute, Konus-Wind),
+Ya.Kechin, K.Zhirkov, A.Kuznetsov, D.Vlasenko, P.Balanutsa, Yu.Tselik, N.Tiurina, I.Gorbunov, V.Vladimirov,
+D.Zimnukhov, V.Senik, A.Yudin,A.Chasovnikov, D.Cheryasov, A.Sosnovskij (Lomonosov  MSU,SAI,PhysicsDepartment),
+O.A. Gres, N.M. Budnev (Irkutsk State University, API),
+C.Francile.  F. Podesta, R.Podesta (Observatorio Astronomico Felix Aguilar OAFA),
+R. Rebolo, M. Serra(The Instituto de Astrofisica de Canarias),
+A. Tlatov, D. Dormidontov (Kislovodsk Solar Station of the Pulkovo Observatory),
+A. Gabovich, V.Yurkov (Blagoveschensk Educational StateUniversity)
+
+MASTER Global robotic net (http://observ.pereplet.ru Lipunov et al.,2010,Advances in Astronomy,2010,30L)
+started GECAM-B (Ttrigger=2023-11-29 19:10:18.2, Tnotice_socket=2023-11-29  19:11:45.56 Zheng et al. GCN 35231) and
+ Fermi very bright GRB 231129C (Ttrigger=2023-11-29 19:10:18.11, Tnotice_socket=2023-11-29 19:19:40.72 Sharma et al. GCN 35227,
+GCN 35238, also  MAXI-GSC (GCN 35223), CALET (GCN 35228), AstroSat (GCN 35230))
+
+55 sec after notice time and 90 sec after trigger time at 2023-11-29 19:11:48 UT (Lipunov et al. GCN 35216)
+by MASTER-SAAO.
+
+There is OT source at R.A.,Dec(2000)=00:44:37.97 -81:59:48.75 +-4"" with  m_OT~17.6 at maximum (unfiltered) at first images with decay inside Swift XRT error-box (Evans et al. GCN 35225, Gropp  et al. GCN 35234)
+
+Reduction will be continued.
+
+
+
+
+
+
+
+
+",https://gcn.nasa.gov/circulars/35240
+69,GRB 231129A: BOOTES-5/JGT optical upper limit,2023-11-30T18:49:02Z,Youdong HU at IAA-CSIC <huyoudong072@hotmail.com>,Web form,"Y.-D. Hu, E. Fernandez-Garcia, A. J. Castro-Tirado, I. Perez-Garcia, M.D. Caballero-Garcia, S.-Y. Wu, R. Sanchez-Ramirez, S. Guziy (IAA-CSIC), D. Hiriart and W. H. Lee (UNAM), C. J. Perez del Pulgar (UMA) and I. M. Carrasco-Garcia (SMA) and I. H. Park (SKKU), on behalf of a larger collaboration, report:
+
+Following the detection of GRB 231129A by Swift (Gropp et al. GCNC 35208), INTEGRAL (Mereghetti et al. GCNC 35209) and GECAM-C (Zhang et al. GCNC 35210), the BOOTES-5/JGT 0.6m robotic telescope at Observatorio Astronomico Nacional in San Pedro Martir (Mexico) automatically observed the GRB location starting on Nov. 29, 05:07 UT (~ 61 s after trigger). No new optical source is detected on the co-added image (15 x 10 s, clear filter) within the Swift/XRT error region (Goad et al. GCNC 35220) down to 19.9 mag, which is consistent with reports from MASTER (Lipunov et al. GCNC 35212), Mondy (Belkin et al. GCNC 35232), UVOT (Breeveld et al. GCNC 35233) and JinShan (Liu et al. GCNC 35237).
+
+We thank the staff at Observatorio Astronomico Nacional in San Pedro Martir for their excellent support.
+",https://gcn.nasa.gov/circulars/35239
+70,GRB 231129C: Fermi-LAT detection,2023-11-30T18:39:08Z,Nicola Omodei at Stanford University <nicola.omodei@gmail.com>,email,"M. Arimoto (Kanazawa University), N. Omodei (Stanford University), D. Kocevski (NASA/MSFC) report on behalf of the Fermi-LAT Collaboration:
+
+On November 29, 2023 Fermi-LAT detected high-energy emission from GRB 231129C, which was also detected by Fermi-GBM (trigger 722977823 / 231129799, GCN 35221),  MAXI-GSC (GCN 35223), CALET (GCN 35228), AstroSat (GCN 35230),  GECAM-B (GCN 3523), Glowbug (GCN 35235), and GRBAlpha (GCN 35236).
+The best LAT on-ground location is found to be R.A., Dec. = 9.1, -81.9 (degrees, J2000) with an error radius of 0.7 deg (90% containment, statistical error only). 
+This was 49 deg from the LAT boresight at the time of the GBM trigger:
+T0 = 19:10:18.11 UT.
+The data from the Fermi-LAT show a significant increase in the event rate after the GBM trigger that is spatially correlated with the GBM emission with high significance. The photon flux above 100 MeV in the time interval 0-200 s after the GBM trigger is (3.2 +/- 0.9)E-4 ph/cm2/s.
+The estimated photon index above 100 MeV is -2.4 +/- 0.4. The highest-energy photon is a 0.7 GeV event which is observed 4 seconds after the GBM trigger.
+
+The Fermi-LAT point of contact for this burst is Feraol Fana Dirirsa (ffdirirsa@gmail.com)
+The Fermi-LAT is a pair conversion telescope designed to cover the energy band from 20 MeV to greater than 300 GeV. It is the product of an international collaboration between NASA and DOE in the U.S. and many scientific institutions across France, Italy, Japan and Sweden.
+
+
+
+
+
+
+",https://gcn.nasa.gov/circulars/35238
+71,GRB 231129A: JinShan optical upper limit,2023-11-30T16:47:03Z,Dong Xu at NAOC/CAS <dxu@nao.cas.cn>,email,"X. Liu, Z.P. Zhu, J. An, S.Q. Jiang, S.Y. Fu, T.H. Lu, D. Xu (NAOC), S.W Luo, M.M. Yang, Z. K. Feng, L.F. Huo (XJTS) report on behalf of a large collaboration:
+
+We observed the field of GRB 231129A detected by Swift (J.D. Gropp, GCN 35208), INTEGRAL (S.Mereghetti et al., GCN 35209), and GECAM-C (Wen-Long Zhang et al., GCN 35210), using the  100cm C telescope (100C) located at Altay, Xinjiang, China. Observations started at 12:13:36.29 UT on 2023-11-29, i.e., 7.13 hr after the Swift/BAT trigger, and 30*120s frames are obtained in the Sloan-r band.
+
+No credible optical transient is detected in our stacked images within the refined Swift/XRT error region (Burrows et al., GCN 35218), down to a 3-sigma upper limit of r > 21.6 mag, calibrated with nearby PanSTARRS stars and not corrected for Galactic extinction.
+
+
+",https://gcn.nasa.gov/circulars/35237
+72,GRB 231129C: GRBAlpha detection,2023-11-30T14:26:15Z,Marianna DafÄÃ­kovÃ¡ at Masaryk University <500025@mail.muni.cz>,Web form,"M. Dafcikova, J. Ripa (Masaryk U.), A. Pal (Konkoly Observatory), N. Werner (Masaryk U.), M. Ohno, H. Takahashi (Hiroshima U.), L. Meszaros, B. Csak (Konkoly Observatory), N. Husarikova, F. Munz , M. Topinka, M. Kolar, L. Szakszonova, J.-P. Breuer, F. Hroch (Masaryk U.), T. Urbanec, M. Kasal,  A. Povalac (Brno U. of Technology), J. Hudec, J. Kapus, M. Frajt (Spacemanic s.r.o), R. Laszlo, M. Koleda (Needronix s.r.o), M. Smelko, P. Hanak, P. Lipovsky (Technical U. of Kosice), G. Galgoczi (Wigner Research Center/Eotvos U.), Y. Uchida, H. Poon, H. Matake (Hiroshima U.), N. Uchida (ISAS/JAXA), T. Bozoki (Eotvos U.), G. Dalya (Eotvos U.), yyT. Enoto (Kyoto U.), Zs. Frei (Eotvos U.), G. Friss (Eotvos U.), Y. Fukazawa, K. Hirose (Hiroshima U.), S. Hisadomi (Nagoya U.), Y. Ichinohe (Rikkyo U.), K. Kapas (Eotvos U.), L. L. Kiss (Konkoly Observatory),  T. Mizuno (Hiroshima U.), K. Nakazawa (Nagoya U.), H. Odaka (Univ of Tokyo), J. Takatsy (Eotvos U.), K. Torigoe (Hiroshima U.), N. Kogiso, M. Yoneyama (Osaka Metropolitan U.), M. Moritaki (U. Tokyo), T. Kano (U. Michigan) -- the GRBAlpha collaboration.
+
+The bright long-duration GRB 231129C (Fermi/GBM detection: GCN 35217; MAXI/GSC detection: GCN 35223; CALET/CGBM detection: GCN 35228; AstroSat detection: GCN 35230; GECAM-B detection: GCN 35231; INTEGRAL/SPI-ACS peak detection at 2023-11-29 ~19:10:19 UT) was observed by the GRBAlpha 1U CubeSat (Pal et al. 2023, A&A, 677, 40; arXiv:2302.10048).
+
+The detection was confirmed at the peak time 2023-11-29 19:10:19 UTC. The T90 duration measured by GRBAlpha is 6 s and the overall significance during T90 reaches 93 sigma.
+
+The light curve obtained by GRBAlpha is available here: https://grbalpha.konkoly.hu/static/share/GRB231129C_GCN.pdf
+
+All GRBAlpha detections are listed at: https://monoceros.physics.muni.cz/hea/GRBAlpha/ 
+GRBAlpha, launched on 2021 March 22, is a demonstration mission for a future CubeSat constellation (Werner et al. Proc. SPIE 2018). The detector of GRBAlpha consists of a 75 x 75 x 5 mm3 CsI scintillator read out by a SiPM array, covering the energy range from ~50 keV to ~1000 keV. To increase the duty cycle and the downlink rate, the upgrade of the on-board data acquisition software stack is in progress. The ground segment is also supported by the radio amateur community and it takes advantage of the SatNOGS network for increased data downlink volume. 
+
+",https://gcn.nasa.gov/circulars/35236
+73,GRB 231129C: Glowbug gamma-ray detection,2023-11-30T14:25:52Z,C.C. Cheung at Naval Research Lab <Teddy.Cheung@nrl.navy.mil>,Web form,"C.C. Cheung, M. Kerr, J. E. Grove, R. Woolf (NRL), A. Goldstein (USRA), C.A. Wilson-Hodge (MSFC), and M.S. Briggs (UAH) report:                                                                                                                                                                                                                                                    
+
+The Glowbug gamma-ray telescope [1,2], operating on the International Space Station, reports the detection of GRB 231129C, which was also detected by Fermi/GBM, MAXI/GSC, CALET, AstroSat/CZTI, and GECAM-B (GCN 35217, 35221, 35222, 35223, 35227, 35228, 35230, 35231).
+
+Using an adaptive window with a resolution of 32-ms, the burst onset is determined to be 2023-11-29 19:10:16.184 with a duration of 8.19 s and a total significance of about 116 sigma.  The light curve comprises an initial triple-peaked structure from T0 to ~T0+4s, followed by fading emission.
+
+Using a standard power-law function with an exponential high-energy cutoff [3] to model the emission over this duration results in a photon index dN/dE~E^x of x=1.4 and a cutoff energy (""Epeak"") of 349 keV.  The modeled 10-10000 keV fluence is 1.5e-05 erg/cm^2.
+
+The analysis results presented here are preliminary and use a response function that lacks a detailed characterization of the surrounding passive structure of the ISS.
+
+Glowbug is a NASA-funded technology demonstrator for sensitive, low-cost gamma-ray transient telescopes developed, built, and operated by the U.S. Naval Research Laboratory (NRL) with support from the University of Alabama in Huntsville, USRA, and NASA MSFC.  It was launched on 2023 March 15 aboard the Department of Defense Space Test Programâs STP-H9 to the ISS.  The detector comprises 12 large-area (15 cm x 15 cm) CsI:Tl panels covering the surface of a half cube, and two hexagonal (5-cm diameter, 10-cm length) CLLB scintillators, giving it a large field of view (instantaneous FoV ~2/3 sky) over a wide energy band of 50 keV to >2 MeV.
+
+[1] Grove, J.E. et al. 2020, Proc. Yamada Conf. LXXI, arXiv:2009.11959
+[2] Woolf, R.S. et al. 2022, Proc. SPIE, 12181, id. 121811O
+[3] Goldstein, A. et al. 2020, ApJ 895, 40, arXiv :1909.03006
+
+Distribution Statement A: Approved for public release.  Distribution is unlimited.
+",https://gcn.nasa.gov/circulars/35235
+74,GRB 231129C: Swift-XRT observations,2023-11-30T13:59:14Z,Phil Evans at U of Leicester <pae9@star.le.ac.uk>,email,"J. D. Gropp (PSU), S. Dichiara (PSU), K.L. Page (U. Leicester), A.P.
+Beardmore (U. Leicester), M.G. Bernardini (INAF-OAB), E. Ambrosi 
+(INAF-IASFPA) , M. Capalbi (INAF-IASFPA), J.A. Kennea (PSU) and P.A.
+Evans (U. Leicester) reports on behalf of the Swift-XRT team:
+
+Swift-XRT has performed follow-up observations of the
+Fermi/GBM-detected burst GRB 231129C in a series of observations tiled
+on the sky. The total exposure time is 1.5 ks, distributed over 4
+tiles; the maximum exposure at a single sky location was 633 s. The
+data were collected between T0+19.3 ks and T0+35.4 ks, and are entirely
+in Photon Counting (PC) mode. 
+
+One uncatalogued X-ray source has been detected, it is below the RASS
+limit and shows no definitive signs of fading. Therefore, at the
+present time we cannot confirm this as the afterglow. Details of this
+source are given below:
+
+Source 2:
+  RA (J2000.0):  11.1769  =  00:44:42.45
+  Dec (J2000.0): -81.9936  =  -81:59:37.0
+  Error: 9.5 arcsec (radius, 90% conf.)
+  Count-rate: 0.0208 [+0.0113, -0.0084] ct s^-1   
+  Distance: 1341 arcsec from Fermi/GBM position.
+  Flux: (8.6 [+4.7, -3.5])e-13 erg cm^-2 s^-1 (observed, 0.3-10 keV)
+
+A catalogued source was also detected.
+
+The results of the XRT-team automatic analysis of the tiled XRT
+observations, including a position-specific upper limit calculator, are
+available at https://www.swift.ac.uk/xrt_products/TILED_GRB00117.
+
+This circular is an official product of the Swift-XRT team.
+
+
+",https://gcn.nasa.gov/circulars/35234
+75,GRB 231129A: Swift/UVOT Upper Limits,2023-11-30T13:17:20Z,Alice Breeveld at MSSL-UCL <a.breeveld@ucl.ac.uk>,email,"A. A. Breeveld (UCL-MSSL) and J. D. Gropp (PSU) report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 231129A (Gropp et al., GCN circ. 35208; Mereghetti et al., GCN circ. 35209; Zhang et al., GCN circ. 35210) 120 s after the BAT trigger (Gropp et al., GCN Circ. 35208).
+No optical afterglow consistent with the XRT position (Goad et al., GCN Circ. 35220) is detected in the initial UVOT exposures.
+Preliminary 3-sigma upper limits using the UVOT photometric system (Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the first finding chart (FC) exposure and subsequent exposures are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)         Mag
+
+white_FC           120          270          147         >20.5
+white              120         4158          344         >20.8
+v                 4369         4568          197         >18.9
+b                 3753         3953          197         >19.4
+u                  333         5122          275         >19.9
+w1                4780         4980          197         >18.8
+m2                4574         4773          197         >18.9
+w2                4164         4364          197         >19.2
+
+The magnitudes in the table are not corrected for the Galactic extinction due to the reddening of E(B-V) = 1.164 in the direction of the burst (Schlegel et al. 1998).
+
+",https://gcn.nasa.gov/circulars/35233
+76,GRB 231129A: optical upper limit in Mondy observatory,2023-11-30T11:05:26Z,"Alexei Pozanenko at IKI, Moscow <apozanen@iki.rssi.ru>",legacy email,"S. Belkin (IKI), E. Klunko (ISTP), A. Pozanenko (IKI), N. Pankov (IKI, HSE) report on behalf of GRB IKI FuN:
+
+We observed the field of Swift GRB 231129A (Gropp et al., GCN 35208; Mereghetti et al., GCN 35209; Zhang et al., GCN 35210) with AZT-33IK telescope of Mondy observatory in R-filter on 2023-11-29 starting (UT) 10:43:30. We do not detect any optical objects within the enhanced Swift-XRT error box (Goad et al., GCN 35220). Preliminary photometry of a stacked image is following
+
+Date        UT start   t-T0          Exp.  Filter  OT   Err. UL(3sigma)
+                                           (mid, days)  (s)
+
+2023-11-29  10:43:30   0.25730       33x120 R      n/d  n/d  23.1
+
+The photometry is based on nearby USNO-B1.0 stars.
+USNO-B1.0
+RA DEC R2
+21:10:16.6747200 +41:33:09.000000 17.36
+21:10:16.0548000 +41:32:49.822800 18.82
+
+
+",https://gcn.nasa.gov/circulars/35232
+77,GRB 231129C: GECAM-B detection of a bright burst,2023-11-30T10:03:59Z,yqzhang_cl@163.com,Web form,"GRB 231129C: GECAM-B detection of a bright burst
+
+Chao Zheng, Shaolin Xiong, report on behalf of the GECAM team:
+
+GECAM-B was triggered in-flight by a likely long burst, GRB 231129C,
+at 2023-11-29T19:10:18.200 UTC, which was also observed by 
+Fermi/GBM (Fermi/GBM team, GCN 35217 & 35227) and MAXI/GSC 
+(Y. Kawakubo et al., GCN 35223) and CALET (Y. Shimizu et al., GCN 35228)
+and AstroSat (G. Waratkar et al., GCN 35230).
+
+According to the realtime alert data of GECAM-B, this burst mainly consists 
+of a bright pulse with a total duration (T90) of about ~15 sec (20-1000 keV).
+
+The GECAM light curve could be found here: 
+http://twiki.ihep.ac.cn/pub/HXMT/GRBList/GRB231129C_LC.png
+
+GECAM location is consistent with that of MAXI/GSC within the error.
+We note that these results are based on realtime alert data and thus very preliminary. 
+Refined analysis will be reported later.
+
+Gravitational wave high-energy Electromagnetic Counterpart All-sky Monitor
+(GECAM) mission originally consists of two microsatellites (GECAM-A and GECAM-B)
+launched in Dec. 2020. As the third member of GECAM constellation, 
+GECAM-C was launched onboard SATech-01 experimental satellite in July 2022. 
+GECAM mission is funded by the Chinese Academy of Sciences (CAS).
+",https://gcn.nasa.gov/circulars/35231
+78,GRB 231129C: AstroSat CZTI detection,2023-11-30T09:47:31Z,Gaurav Waratkar at IIT Bombay <gauravwaratkar@iitb.ac.in>,Web form,"G. Waratkar (IITB), P. K. Navaneeth (IUCAA), A. Vibhute (IUCAA), V. Bhalerao (IITB), D. Bhattacharya (Ashoka University/IUCAA), A. R. Rao (IUCAA/TIFR), and S. Vadawale (PRL) report on behalf of the AstroSat CZTI collaboration:
+
+Analysis of AstroSat CZTI data with the CIFT framework (Sharma et al., 2021, JApA, 42, 73) showed the detection of an extremely bright long-duration GRB 231129C which was also detected by Fermi-GBM (Fermi GBM team, GCN Circ. 35217), MAXI/GSC (Kawakubo et al., GCN Circ. 35223), and CALET (Shimizu et al., GCN Circ. 35228).
+
+The source was clearly detected in the CZT detectors in the 20-200 keV energy range. Based on the orientation of the CZTI, the burst saturated two quadrants (A, B out of four). We report two versions of our analysis of CZT data: one from two unsaturated quadrants (C, D), and the other for all four quadrants by including unsaturated data segments from A, B. 
+
+For the two unsaturated quadrants C and D, the light curve peaks at 2023-11-29 19:10:18 UTC. The measured peak count rate associated with the burst is 1189 (+237, -8) counts/s above the background in the combined CD data, with a total of 3838 (+150, -144) counts. The local mean background count rate was 155.1 (+3.7, -5.9) counts/s. Using cumulative rates, we measure a T90 of 5.1 (+0.2, -0.2) s in these two quadrants. 
+
+Using unsaturated data segments from all four quadrants, we report that burst duration was 6.7 (+0.2, -0.2) s. We also report a minimum peak count rate of 4164.2 (+328.9, -329.3) counts/s at a local mean background count rate of 334.8 (+6.7, -7.4) count/s, with a total of at least 8061 (+195, -236) counts. In the preliminary analysis, we find 1362 Compton events associated with this event in all four quadrants.
+
+It was also clearly detected in the CsI anticoincidence (Veto) detector in the 100-500 keV energy range. The light curve peaks at 2023-11-29 19:10:18.69 UTC. The measured peak count rate is 4408 (+125, -126) counts/s above the background in the combined Veto data of all quadrants, with a total of 18860 (+406, - 410) counts. The local mean background count rate was 1511.3 (+6.5, -7.7) counts/s. We measure a T90 of 5.5 (+0.2, -0.2) s from the cumulative Veto light curve.
+
+CZTI is built by a TIFR-led consortium of institutes across India, including VSSC, URSC, IUCAA, SAC, and PRL. The Indian Space Research Organisation funded, managed, and facilitated the project.
+
+CZTI GRB detections are reported regularly on the payload site at:
+http://astrosat.iucaa.in/czti/?q=grb 
+
+",https://gcn.nasa.gov/circulars/35230
+79,GRB 231129C: iTelescope OT retraction,2023-11-30T07:25:40Z,Filipp Dmitrievich Romanov at Amateur astronomer <filipp.romanov.27.04.1997@gmail.com>,legacy email,"Retraction of GCN #35226. I did not have access to a computer to check
+in time that this object was a star with a high proper motion. I
+initially compared my images with archival images from the DSS Plate
+Finder, but now I have determined that AT 2023yph is a star
+#4631003097698452224 from the Gaia DR3.
+
+
+",https://gcn.nasa.gov/circulars/35229
+80,GRB 231129C: CALET Gamma-Ray Burst Monitor detection,2023-11-30T06:11:11Z,Yuta Kawakubo at Louisiana State University <kawakubo1@lsu.edu>,Web form,"Y. Shimizu (Kanagawa U), A. Yoshida, T. Sakamoto, S. Sugita (AGU),
+Y. Kawakubo (LSU), K. Yamaoka (Nagoya U), S. Nakahira (JAXA),
+Y. Asaoka (ICRR), S. Torii, Y. Akaike, K. Kobayashi (Waseda U),
+T. Tamura (Kanagawa U), N. Cannady (GSFC/UMBC),
+M. L. Cherry (LSU), S. Ricciarini (U of Florence),
+P. S. Marrocchesi (U of Siena),
+and the CALET collaboration:
+
+The long GRB 231129C (Fermi GBM Final Real-time Localization: Fermi GBM team,
+GCN Circ. 35217; Fermi GBM detection: Sharma at al., GCN Circ. 35221; BALROG 
+localization: Preis et al., GCN Circ 35222; MAXI/GSC detection: Kawakubo et al., 
+GCN Circ. 35223) triggered the CALET Gamma-ray Burst Monitor (CGBM) at 
+19:10:15.03 UTC on 29 November 2023
+(http://cgbm.calet.jp/cgbm_trigger/flight/1385320118/index.html).
+The burst signal was seen by all CGBM detectors.
+
+The burst light curve shows a single pulse that starts
+at T+3.1 sec, peaks at T+4.7 sec, and ends at T+8.9 sec.
+The T90 and T50 durations measured by the SGM data are 4.7 +/- 0.4 sec
+and 2.2 +/- 0.2 sec (40-1000 keV), respectively.
+
+The ground-processed light curve is available at
+
+http://cgbm.calet.jp/cgbm_trigger/ground/1385320118/index.html
+
+The CALET data used in this analysis are provided by
+the Waseda CALET Operation Center located at Waseda University.
+",https://gcn.nasa.gov/circulars/35228
+81,GRB 231129C: Fermi GBM Observation of a very bright GRB,2023-11-30T04:57:42Z,Vidushi Sharma at NASA GSFC/UMBC <vidushi.sharma@nasa.gov>,Web form,"V. Sharma (NASA-GSFC/UMBC), C. Fletcher (USRA) and C. Meegan (UAH) report on behalf of the Fermi Gamma-ray Burst Monitor Team:
+
+""At 19:10:18.11 UT on 29 November 2023, the Fermi Gamma-ray Burst Monitor (GBM) triggered and located GRB 231129C (trigger 722977823/231129799), which was also detected by MAXI/GSC (Y. Kawakubo et al. 2023, GCN 35223). The Fermi GBM Final Real-time Localization is reported (GCN 35221, GCN 35217).
+
+The angle from the Fermi LAT boresight at the GBM trigger time is 50 degrees.
+
+The GBM light curve shows a very bright, single pulse starting from about T0+0 s to T0+15 s. The calculated duration (T90) is about 6 s (50-300 keV). The time-averaged spectrum from T0+0 s to T0+7 s can be fit by a Band function with Epeak = 215 +/- 2 keV, alpha = -0.11 +/- 0.01, and beta = -2.79 +/- 0.03. 
+
+The event fluence (10-1000 keV) in this time interval is (8.41 +/- 0.04)E-05 erg/cm^2. The 1-sec peak photon flux measured starting from T0+1.8 s in the 10-1000 keV band is 102 +/- 1 ph/s/cm^2. 
+
+The spectral analysis results presented above are preliminary; final results will be published in the GBM GRB Catalog: https://heasarc.gsfc.nasa.gov/W3Browse/fermi/fermigbrst.html
+
+For Fermi GBM data and info, please visit the official Fermi GBM Support Page: https://fermi.gsfc.nasa.gov/ssc/data/access/gbm/""
+",https://gcn.nasa.gov/circulars/35227
+82,GRB 231129C: iTelescope likely optical afterglow AT 2023yph discovery,2023-11-30T04:57:40Z,Filipp Dmitrievich Romanov at Amateur astronomer <filipp.romanov.27.04.1997@gmail.com>,legacy email,"I observed the field of GRB 231129C (Fermi GBM Team, GCN Circ. 35217)
+near the MAXI (GCN Circ. 35223) sky region using remote telescope T72
+(0.51-m f/6.8 Corrected Dall-Kirkham + CCD) of iTelescope.Net in Deep
+Sky Chile at Rio Hurtado Valley, Chile. 9 images (with exposures 300
+seconds, BINx1) were obtained with Ic filter with midtime 02:27 UT. I
+detected an uncataloged source with position 00 49 17.780 -81 29 45.83
+and measured its brightness near +18 mag. Magnitude was not corrected
+for Galactic extinction. I am guessing this is an optical afterglow of
+GRB 231129C. Now it is AT 2023yph
+https://www.wis-tns.org/object/2023yph
+F. D. Romanov (AAVSO).
+
+
+",https://gcn.nasa.gov/circulars/35226
+83,GRB 231129C: Tiled Swift observations,2023-11-30T00:33:31Z,Phil Evans at U of Leicester <pae9@star.le.ac.uk>,email,"
+P. A. Evans (U. Leicester) reports on behalf of the Swift team:
+
+Swift has initiated a series of observations, tiled on the sky, of the
+Fermi/GBM GRB 231129C. Automated analysis of the XRT data will
+be presented online at http://www.swift.ac.uk/xrt_products/TILED_GRB00117
+
+Any uncatalogued X-ray sources detected in this analysis will be
+reported on this website and via GCN COUNTERPART notices. The probability of finding
+serendipitous sources, unrelated to the Fermi/GBM event is high: any X-ray source
+considered to be a probable afterglow candidate will be reported via a GCN Circular
+after manual consideration.
+
+Details of the XRT automated analysis methods are detailed in Evans et
+al. (2007, A&A, 469, 379; 2009, MNRAS, 397, 1177 and 2014, ApJS, 210, 8).
+
+This circular is an official product of the Swift-XRT team.
+
+
+",https://gcn.nasa.gov/circulars/35225
+84,GRB 231127A: GRBAlpha detection,2023-11-29T22:31:48Z,Marianna DafÄÃ­kovÃ¡ at Masaryk University <500025@mail.muni.cz>,Web form,"M. Dafcikova, J. Ripa (Masaryk U.), A. Pal (Konkoly Observatory), N. Werner (Masaryk U.), M. Ohno, H. Takahashi (Hiroshima U.), L. Meszaros, B. Csak (Konkoly Observatory), N. Husarikova, F. Munz , M. Topinka, M. Kolar, L. Szakszonova, J.-P. Breuer, F. Hroch (Masaryk U.), T. Urbanec, M. Kasal,  A. Povalac (Brno U. of Technology), J. Hudec, J. Kapus, M. Frajt (Spacemanic s.r.o), R. Laszlo, M. Koleda (Needronix s.r.o), M. Smelko, P. Hanak, P. Lipovsky (Technical U. of Kosice), G. Galgoczi (Wigner Research Center/Eotvos U.), Y. Uchida, H. Poon, H. Matake (Hiroshima U.), N. Uchida (ISAS/JAXA), T. Bozoki (Eotvos U.), G. Dalya (Eotvos U.), yyT. Enoto (Kyoto U.), Zs. Frei (Eotvos U.), G. Friss (Eotvos U.), Y. Fukazawa, K. Hirose (Hiroshima U.), S. Hisadomi (Nagoya U.), Y. Ichinohe (Rikkyo U.), K. Kapas (Eotvos U.), L. L. Kiss (Konkoly Observatory),  T. Mizuno (Hiroshima U.), K. Nakazawa (Nagoya U.), H. Odaka (Univ of Tokyo), J. Takatsy (Eotvos U.), K. Torigoe (Hiroshima U.), N. Kogiso, M. Yoneyama (Osaka Metropolitan U.), M. Moritaki (U. Tokyo), T. Kano (U. Michigan) -- the GRBAlpha collaboration.
+
+The long-duration GRB 231127A (AstroSat detection: GCN 35197; CALET/CGBM detection: GCN 35200; Konus/Wind trigger at 2023-11-27 05:14:24.085 UT; INTEGRAL/SPI-ACS peak detection at 2023-11-27 ~05:14:20 UT) was observed by the GRBAlpha 1U CubeSat (Pal et al. 2023, A&A, 677, 40; arXiv:2302.10048).
+
+The detection was confirmed at the peak time 2023-11-27 05:14:21 UTC. The T90 duration measured by GRBAlpha is 6 s and the overall significance during T90 reaches 14 sigma.
+
+The light curve obtained by GRBAlpha is available here: https://grbalpha.konkoly.hu/static/share/GRB231127A_GCN.pdf
+
+All GRBAlpha detections are listed at: https://monoceros.physics.muni.cz/hea/GRBAlpha/ 
+GRBAlpha, launched on 2021 March 22, is a demonstration mission for a future CubeSat constellation (Werner et al. Proc. SPIE 2018). The detector of GRBAlpha consists of a 75 x 75 x 5 mm3 CsI scintillator read out by a SiPM array, covering the energy range from ~50 keV to ~1000 keV. To increase the duty cycle and the downlink rate, the upgrade of the on-board data acquisition software stack is in progress. The ground segment is also supported by the radio amateur community and it takes advantage of the SatNOGS network for increased data downlink volume. 
+
+",https://gcn.nasa.gov/circulars/35224
+85,GRB 231129C: MAXI/GSC detection,2023-11-29T22:19:44Z,kurihara@ac.jaxa.jp,Web form,"Y. Kawakubo (LSU),
+H. Negoro, M. Nakajima, K. Kobayashi, M. Tanaka, Y. Soejima, Y. Kudo (Nihon U.),
+T. Mihara, T. Kawamuro, S. Yamada, T. Tamagawa, N. Kawai, M. Matsuoka (RIKEN),
+T. Sakamoto, M. Serino, S. Sugita, H. Hiramatsu, H. Nishikawa, A. Yoshida (AGU),
+Y. Tsuboi, S. Urabe, S. Nawa, N. Nemoto, E.Goto (Chuo U.),
+M. Shidatsu (Ehime U.),
+I. Takahashi, M. Niwano, S. Sato, N. Higuchi, Y. Yatsu (Tokyo Tech),
+S. Nakahira, S. Ueno, H. Tomida, M. Ishikawa, S. Ogawa, T. Kurihara (JAXA),
+Y. Ueda, K. Setoguchi, T. Yoshitake, Y. Nakatani, Y. Okada (Kyoto U.),
+M. Yamauchi, Y. Hagiwara, Y. Umeki, Y. Otsuki (Miyazaki U.),
+K. Yamaoka (Nagoya U.),
+M. Sugizaki (NAOC),
+W. Iwakiri (Chiba U.)
+report on behalf of the MAXI team:
+ 
+The MAXI/GSC nova alert system triggered a bright uncatalogued X-ray transient
+source at 2023/11/29 19:10:18 UT.
+Assuming that the source flux was constant over the transit,
+we obtain the source position at
+(R.A., Dec) = (11.910 deg, -81.636 deg) = (00 47 38, -81 38 09) (J2000)
+with a statistical 90% C.L. elliptical error region
+with long and short radii of 0.09 deg and 0.07 deg, respectively.
+The roll angle of long axis from the north direction is 90.0 deg counterclockwise.
+There is an additional systematic uncertainty of 0.1 deg (90% containment radius).
+The X-ray flux averaged over the scan was 1355 +- 82 mCrab
+(4.0-10.0keV, 1 sigma error).
+Without assumptions on the source constancy, we obtain a rectangular error
+box for the transient source with the following corners:
+(R.A., Dec) = (12.351, -81.744) deg = (00 49 24, -81 44 38) (J2000)
+(R.A., Dec) = (11.353, -81.663) deg = (00 45 24, -81 39 46) (J2000)
+(R.A., Dec) = (12.374, -81.394) deg = (00 49 29, -81 23 38) (J2000)
+(R.A., Dec) = (13.350, -81.472) deg = (00 53 23, -81 28 19) (J2000)
+There was no significant excess flux in the previous transit at 17:37 UT
+ with an upper limit of 20 mCrab for each.
+",https://gcn.nasa.gov/circulars/35223
+86,GRB 231129C: BALROG localization (Fermi Trigger  / GRB 231129799),2023-11-29T22:08:45Z,Jochen Greiner at MPE <jcgrog@mpe.mpg.de>,email,"T. Preis, B. Biltzinger, J. Burgess & J. Greiner (all MPE Garching) report:
+
+The public trigdat data of the Fermi Gamma-ray Burst Monitor (GBM) trigger
+ at 19:10:18 on 29 Nov. 2023 were automatically fitted for spectrum
+and sky location with BALROG (Burgess et al. 2018, MNRAS 476, 1427;
+Berlato et al. 2019, ApJ 873, 60).
+
+The best-fit position (1 sigma statistical errors) is:
+RA(2000.0) = 7.8+/-1.7 deg
+Decl.(2000.0) = -81.3+/-0.3 deg
+We estimate an additional systematic error of 2 deg.
+
+Further details are available at:
+https://grb.mpe.mpg.de/grb/GRB231129799/
+
+The Healpix map can be downloaded from:
+https://grb.mpe.mpg.de/grb/GRB231129799/healpix
+
+The location parameters are available as JSON at:
+https://grb.mpe.mpg.de/grb/GRB231129799/json
+
+                        
+
+",https://gcn.nasa.gov/circulars/35222
+87,GRB 231129C: Fermi GBM detection of a very bright burst,2023-11-29T21:13:24Z,Vidushi Sharma at NASA GSFC/UMBC <vidushi.sharma@nasa.gov>,Web form,"V. Sharma (NASA-GSFC/UMBC) and O. Roberts (NASA-MSFC/USRA) report on behalf of the Fermi GBM Team:
+
+""At 19:10:18.11 UT on 29 November 2023, the Fermi Gamma-ray Burst Monitor (GBM) triggered and located GRB 231129C (trigger 722977823/231129799).
+
+The GBM light curve consists of a very bright pulse, with a duration of about 15 seconds. This event, a likely, long GRB, is very bright and follow-up across all wavelengths is encouraged.
+
+The on-ground calculated location, using the Fermi GBM trigger data, is RA = 2.04, Dec = -81.53 (J2000 degrees, equivalent to J2000 00h 08m, -81d 32'), with a statistical uncertainty of 1.00 degree (radius, 1-sigma containment, statistical only; there is additionally a systematic error which we have characterized as a core-plus-tail model, with 90% of GRBs having a 3.7 deg error and a small tail suffering a larger than 10 deg systematic error. [Connaughton et al. 2015, ApJS, 216, 32]).
+
+The angle from the Fermi LAT boresight is 50 degrees.
+
+A full science circular is forthcoming. 
+
+The skymap can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2023/bn231129799/quicklook/glg_skymap_all_bn231129799.png
+
+The HEALPix FITS file, including the estimated localization systematic, can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2023/bn231129799/quicklook/glg_healpix_all_bn231129799.fit
+
+The GBM light curve can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2023/bn231129799/quicklook/glg_lc_medres34_bn231129799.gif.""
+",https://gcn.nasa.gov/circulars/35221
+88,GRB 231129A: Enhanced Swift-XRT position,2023-11-29T20:56:33Z,Phil Evans at U of Leicester <pae9@star.le.ac.uk>,email,"M.R. Goad, J.P. Osborne, A.P. Beardmore and P.A. Evans (U. Leicester) 
+report on behalf of the Swift-XRT team.
+
+Using 2261 s of XRT Photon Counting mode data and 6 UVOT
+images for GRB 231129A, we find an astrometrically corrected X-ray
+position (using the XRT-UVOT alignment and matching UVOT field sources
+to the USNO-B1 catalogue): RA, Dec = 317.54381, +41.52204 which is equivalent
+to:
+
+RA (J2000): 21h 10m 10.51s
+Dec (J2000): +41d 31' 19.4""
+
+with an uncertainty of 2.2 arcsec (radius, 90% confidence).
+
+This position may be improved as more data are received. The latest
+position can be viewed at http://www.swift.ac.uk/xrt_positions. Position
+enhancement is described by Goad et al. (2007, A&A, 476, 1401) and Evans
+et al. (2009, MNRAS, 397, 1177).
+
+This circular was automatically generated, and is an official product of the
+Swift-XRT team.
+
+",https://gcn.nasa.gov/circulars/35220
+89,LIGO/Virgo/KAGRA S231129ac: Updated Sky localization,2023-11-29T20:43:19Z,Michael Puerrer at University of Rhode Island <mpuerrer@uri.edu>,Web form,"The LIGO Scientific Collaboration, the Virgo Collaboration, and the KAGRA Collaboration report:
+
+We have conducted further analysis of the LIGO Hanford Observatory (H1) and LIGO Livingston Observatory (L1) data around the time of the compact binary merger (CBC) candidate S231129ac (GCN Circular 35211). Parameter estimation has been performed using Bilby [1] and a new sky map, Bilby.multiorder.fits,0, distributed via GCN Notice, is available for retrieval from the GraceDB event page:
+
+https://gracedb.ligo.org/superevents/S231129ac
+
+For the Bilby.multiorder.fits,0 sky map, the 90% credible region is 3089 deg2. Marginalized over the whole sky, the a posteriori luminosity distance estimate is 3964 +/- 1513 Mpc (a posteriori mean +/- standard deviation).
+
+For further information about analysis methodology and the contents of this alert, refer to the LIGO/Virgo KAGRA Public Alerts User Guide https://emfollow.docs.ligo.org/userguide/.
+
+After parameter estimation by RapidPE-RIFT [2], the updated classification of the GW signal, in order of descending probability is BBH (99%), Terrestrial (1%), NSBH (<1%), or BNS (<1%).
+
+ [1] Ashton et al. ApJS 241, 27 (2019) and Morisaki et al. arXiv:2307.13380 (2023)
+ [2] Rose et al. arXiv:2201.05263 (2022) and Pankow et al. PRD 92, 023002 (2015)
+",https://gcn.nasa.gov/circulars/35219
+90,GRB 231129A: Swift-XRT refined Analysis,2023-11-29T20:35:31Z,Phil Evans at U of Leicester <pae9@star.le.ac.uk>,email,"D.N. Burrows (PSU), J. D. Gropp (PSU), S. Dichiara (PSU), J.P. Osborne
+(U. Leicester), K.L. Page (U. Leicester), A.P. Beardmore (U.
+Leicester), P. D'Avanzo (INAF-OAB), M.G. Bernardini (INAF-OAB), E.
+Ambrosi  (INAF-IASFPA)	and P.A. Evans report on behalf of the
+Swift-XRT team:
+
+We have analysed 7.0 ks of XRT data for GRB 231129A, from 115 s to 43.8
+ks after the  BAT trigger. The data comprise 174 s in Windowed Timing
+(WT) mode with the remainder in Photon Counting (PC) mode. The refined
+XRT position is RA, Dec = 317.5437, +41.5206 which is equivalent to:
+
+RA (J2000): 21 10 10.49
+Dec(J2000): +41 31 14.2
+
+with an uncertainty of 3.5 arcsec (radius, 90% confidence).
+
+The light curve can be modelled with a series of power-law decays. The
+initial decay index is alpha=4.86 (+/-0.21). At T+165 s  the decay
+steepens to an alpha of 6.44 (+0.28, -0.24) before breaking again at
+T+308 s to a final decay with index alpha=0.83 (+0.05, -0.06).
+
+A spectrum formed from the WT mode data can be fitted with an absorbed
+power-law with a photon spectral index	of 1.83 (+/-0.07). The
+best-fitting absorption column is  1.09 (+/-0.08) x 10^22 cm^-2, in
+excess of the Galactic value of 5.9 x 10^21 cm^-2 (Willingale et al.
+2013). The PC mode spectrum has a photon index of 2.18 (+0.31, -0.29)
+and a best-fitting absorption column of 1.6 (+/-0.4) x 10^22 cm^-2. The
+counts to observed (unabsorbed) 0.3-10 keV flux conversion factor
+deduced from this spectrum  is 5.0 x 10^-11 (1.2 x 10^-10) erg cm^-2
+count^-1. 
+
+A summary of the PC-mode spectrum is thus:
+Total column:	     1.6 (+/-0.4) x 10^22 cm^-2
+Galactic foreground: 5.9 x 10^21 cm^-2
+Excess significance: 4.5 sigma
+Photon index:	     2.18 (+0.31, -0.29)
+
+If the light curve continues to decay with a power-law decay index of
+0.83, the count rate at T+24 hours will be 0.014 count s^-1,
+corresponding to an observed (unabsorbed) 0.3-10 keV flux of 7.2 x
+10^-13 (1.8 x 10^-12) erg cm^-2 s^-1.
+
+The results of the XRT-team automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/01199764.
+
+This circular is an official product of the Swift-XRT team.
+
+",https://gcn.nasa.gov/circulars/35218
+91,GRB 231129C: Fermi GBM Final Real-time Localization,2023-11-29T19:39:45Z,Fermi GBM Team at MSFC/Fermi-GBM <do_not_reply@GIOC.nsstc.nasa.gov>,email,"The Fermi GBM team reports the detection of a likely LONG GRB
+
+At 19:10:18 UT on 29 Nov 2023, the Fermi Gamma-ray Burst Monitor (GBM) triggered and located GRB 231129C (trigger 722977823.114938 / 231129799).
+
+The on-ground calculated location, using the Fermi GBM trigger data, is RA = 2.0, Dec = -81.5 (J2000 degrees, equivalent to J2000 00h 08m, -81d 30'), with a statistical uncertainty of 1.0 degrees.
+
+The angle from the Fermi LAT boresight is 50.0 degrees.
+
+The skymap can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2023/bn231129799/quicklook/glg_skymap_all_bn231129799.png
+
+The HEALPix FITS file, including the estimated localization systematic, can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2023/bn231129799/quicklook/glg_healpix_all_bn231129799.fit
+
+The GBM light curve can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2023/bn231129799/quicklook/glg_lc_medres34_bn231129799.gif
+
+
+",https://gcn.nasa.gov/circulars/35217
+92,Fermi  trigger No 722977823: Global MASTER-Net observations report,2023-11-29T19:30:42Z,Vladimir Lipunov at Moscow State U/Krylov Obs <lipunov@xray.sai.msu.ru>,legacy email,"V. Lipunov, V.Kornilov, E. Gorbovskoy, K. Zhirkov, N.Tyurina, P.Balanutsa, A.Kuznetsov, V.Senik,  D. Vlasenko,
+G.Antipov, D.Zimnukhov, E.Minkina, A.Chasovnikov, V.Topolev, D.Kuvshinov, D. Cheryasov, Ya.Kechin, Yu.Tselik, A. Sosnovskij
+(Lomonosov Moscow State University, SAI, Physics Department),
+
+R. Podesta, C.Lopez, F. Podesta, C.Francile
+(Observatorio Astronomico Felix Aguilar OAFA),
+
+R. Rebolo, M. Serra
+(The Instituto de Astrofisica de Canarias),
+
+D. Buckley
+(South African Astronomical Observatory),
+
+O.A. Gress, N.M. Budnev, O.Ershova
+(Irkutsk State University, API),
+
+L.Carrasco, J.R.Valdes, V.Chavushyan, V.M.Patino Alvarez, J.Martinez,
+A.R.Corella, L.H.Rodriguez
+(INAOE, Guillermo Haro Astrophysics Observatory),
+
+A. Tlatov, D. Dormidontov
+(Kislovodsk Solar Station of the Pulkovo Observatory),
+
+V. Yurkov, A. Gabovich
+(Blagoveschensk Educational State University)
+
+MASTER-SAAO robotic telescope  (Global MASTER-Net: http://observ.pereplet.ru, Lipunov et al., 2010, Advances in Astronomy, vol. 2010, 30L)  located in South Africa (South African Astronomical Observatory) started inspect of the Fermi GRB231129.80 (trigger No 722977823,00h 08m 09.60s , -81d 31m 48.0s, R=1) errorbox  55 sec after notice time and 90 sec after trigger time at 2023-11-29 19:11:48 UT, with upper limit up to  17.7 mag. The observations began at zenith distance = 51 deg. The sun  altitude  is -19.0 deg. 
+
+The galactic latitude b = -36 deg., longitude l = 305 deg.
+
+
+Real time updated cover map and OT discovered available here: 
+https://master.sai.msu.ru/site/master2/observ.php?id=2320014
+
+We obtain a following upper limits.  
+
+Tmid-T0  |      Date Time      |          Site       |             Coord (J2000)          |Filt.| Expt. | Limit| Comment
+_________|_____________________|_____________________|____________________________________|_____|_______|_______|________
+
+     100 | 2023-11-29 19:11:48 |         MASTER-SAAO | (23h 39m 27.13s , -82d 06m 14.3s) |   C |    20 | 16.5 |        
+     140 | 2023-11-29 19:12:27 |         MASTER-SAAO | (23h 39m 24.63s , -82d 07m 17.3s) |   C |    20 | 16.4 |        
+     184 | 2023-11-29 19:13:07 |         MASTER-SAAO | (23h 39m 31.17s , -82d 07m 02.6s) |   C |    30 | 16.7 |        
+     250 | 2023-11-29 19:14:07 |         MASTER-SAAO | (23h 39m 19.96s , -82d 05m 36.7s) |   C |    40 | 17.0 |        
+     319 | 2023-11-29 19:15:07 |         MASTER-SAAO | (23h 39m 27.39s , -82d 06m 53.3s) |   C |    60 | 17.1 |        
+     410 | 2023-11-29 19:16:38 |         MASTER-SAAO | (23h 39m 22.56s , -82d 05m 21.7s) |   C |    60 | 17.2 |        
+     604 | 2023-11-29 19:19:52 |         MASTER-SAAO | (00h 43m 33.05s , -81d 44m 16.2s) |  P/ |    60 | 17.5 |        
+     604 | 2023-11-29 19:19:52 |         MASTER-SAAO | (23h 35m 52.02s , -81d 32m 58.5s) | P\\ |    60 | 17.6 |        
+     696 | 2023-11-29 19:21:23 |         MASTER-SAAO | (00h 43m 29.45s , -81d 43m 15.4s) |  P/ |    60 | 17.4 |        
+     696 | 2023-11-29 19:21:23 |         MASTER-SAAO | (23h 35m 56.89s , -81d 31m 57.4s) | P\\ |    60 | 17.6 |        
+     775 | 2023-11-29 19:22:43 |         MASTER-SAAO | (00h 43m 40.41s , -81d 44m 12.7s) |  P/ |    60 | 17.5 |        
+     775 | 2023-11-29 19:22:43 |         MASTER-SAAO | (23h 36m 00.26s , -81d 32m 55.6s) | P\\ |    60 | 17.7 |        
+     866 | 2023-11-29 19:24:14 |         MASTER-SAAO | (23h 35m 51.32s , -81d 33m 53.0s) | P\\ |    60 | 17.7 |        
+Filter C is a clear (unfiltred) band. 
+
+
+The observation and reduction will continue. 
+The message may be cited.
+
+
+",https://gcn.nasa.gov/circulars/35216
+93,GRB 231129B: Tiled Swift observations,2023-11-29T17:28:07Z,Phil Evans at U of Leicester <pae9@star.le.ac.uk>,email,"
+P. A. Evans (U. Leicester) reports on behalf of the Swift team:
+
+Swift has initiated a series of observations, tiled on the sky, of the
+MAXI GRB 231129B. Automated analysis of the XRT data will
+be presented online at http://www.swift.ac.uk/xrt_products/TILED_GRB00116
+
+Any uncatalogued X-ray sources detected in this analysis will be
+reported on this website and via GCN COUNTERPART notices. The probability of finding
+serendipitous sources, unrelated to the MAXI event is high: any X-ray source
+considered to be a probable afterglow candidate will be reported via a GCN Circular
+after manual consideration.
+
+Details of the XRT automated analysis methods are detailed in Evans et
+al. (2007, A&A, 469, 379; 2009, MNRAS, 397, 1177 and 2014, ApJS, 210, 8).
+
+This circular is an official product of the Swift-XRT team.
+
+
+",https://gcn.nasa.gov/circulars/35215
+94,GRB 231129B: MAXI/GSC detection,2023-11-29T15:23:40Z,Motoko Serino at Aoyama Gakuin U. <serino@phys.aoyama.ac.jp>,Web form,"M. Kurihara (JAXA), H. Negoro (Nihon U.), M. Serino (AGU), W. Iwakiri (Chiba U.),
+M. Nakajima, K. Kobayashi, M. Tanaka, Y. Soejima, Y. Kudo (Nihon U.), 
+T. Mihara, T. Kawamuro, S. Yamada, T. Tamagawa, N. Kawai, M. Matsuoka (RIKEN), 
+T. Sakamoto, S. Sugita, H. Hiramatsu, H. Nishikawa, A. Yoshida (AGU), 
+Y. Tsuboi, S. Urabe, S. Nawa, N. Nemoto, E.Goto (Chuo U.), 
+M. Shidatsu (Ehime U.),
+I. Takahashi, M. Niwano, S. Sato, N. Higuchi, Y. Yatsu (Tokyo Tech), 
+S. Nakahira,  S. Ueno, H. Tomida, M. Ishikawa, S. Ogawa, M. Kurihara (JAXA), 
+Y. Ueda, K. Setoguchi, T. Yoshitake, Y. Nakatani, Y. Okada (Kyoto U.), 
+M. Yamauchi, Y. Hagiwara, Y. Umeki, Y. Otsuki (Miyazaki U.), 
+K. Yamaoka (Nagoya U.),
+Y. Kawakubo (LSU),
+M. Sugizaki (NAOC),
+report on behalf of the MAXI team:
+
+The MAXI/GSC nova alert system triggered a bright uncatalogued X-ray transient source at 14:03:05 UT on 29 November 2023.
+Assuming that the source flux was constant over the transit,
+we obtain the source position at
+(R.A., Dec) = (285.662 deg, 40.278 deg) = (19 02 38, +40 16 40) (J2000)
+with a statistical 90% C.L. elliptical error region
+with long and short radii of 0.39 deg and 0.26 deg, respectively.
+The roll angle of long axis from the north direction is 75.0 deg counterclockwise.
+Without assumptions on the source constancy, we obtain a rectangular error
+box for the transient source with the following corners:
+(283.889, 39.749) deg = (18 55 33, +39 44 56) (J2000)
+(284.232, 39.302) deg = (18 56 55, +39 18 07) (J2000)
+(286.730, 40.399) deg = (19 06 55, +40 23 56) (J2000)
+(286.398, 40.853) deg = (19 05 35, +40 51 10) (J2000)
+There is an additional systematic uncertainty of 0.1 deg (90% containment radius).
+
+The X-ray flux averaged over the scan was 141 +- 32 mCrab
+(4.0-10.0keV, 1 sigma error).
+There was no significant excess flux in the previous transit at 12:30 UT
+with an upper limit of 20 mCrab.
+",https://gcn.nasa.gov/circulars/35214
+95,Fermi-LAT gamma-ray observations of IceCube-231125A,2023-11-29T13:33:08Z,Leonard Pfeiffer at University of WÃ¼rzburg <pfeiffer.leo@gmail.com>,Web form,"L. Pfeiffer (Univ. of Wuerzburg), S. Buson (Univ. of Wuerzburg), S. Garrappa (Weizmann Institute of Science), C. Bartolini (INFN Bari) and J. Sinapius (DESY) on behalf of the Fermi-LAT collaboration:
+
+We report an analysis of observations of the vicinity of the IC231125A high-energy neutrino event (GCN 35194) with all-sky survey data from the Large Area Telescope (LAT), on board the Fermi Gamma-ray Space Telescope. The IceCube event was detected on 2023-11-25 at 22:34:56.64 UT (T0) with J2000 position RA = 177.53 (+3.99, -4.03) deg, Decl. = +53.62 (+1.57, -1.64) deg (90% PSF containment). There are two gamma-ray (>100 MeV; 4FGL-DR4, The Fermi-LAT collaboration 2023, arXiv:2307.12546) sources located within the 90% IC231125A localization region. These are:
+
+4FGL J1215.0+5351, associated with the BL LAC GB6 J1215+5349;
+4FGL J1208.9+5441, associated with the FSRQ TXS 1206+549
+
+We searched for intermediate (days to years) timescale emission from a new gamma-ray transient source. Preliminary analysis indicates no significant (> 5 sigma) new excess emission (> 100 MeV) at the IC231125A best-fit position. Assuming a power-law spectrum (photon index = 2.0 fixed) for a point source at the IC231125A best-fit position, the >100 MeV flux upper limit (95% confidence) is < 1.77e-10 ph cm^-2 s^-1 for ~15-years (2008-08-04 to 2023-11-26 UTC), and < 8.10e-9 (<8.91e-8) ph cm^-2 s^-1 for a 1-month (1-day) integration time before T0.
+
+Since Fermi normally operates in an all-sky scanning mode, regular monitoring of this region will continue. For these observations the Fermi-LAT contact person is L. Pfeiffer (leonard.pfeiffer at stud-mail.uni-wuerzburg.de). 
+
+The Fermi-LAT is a pair conversion telescope designed to cover the energy band from 20 MeV to greater than 300 GeV. It is the product of an international collaboration between NASA and DOE in the U.S. and many scientific institutions across France, Italy, Japan and Sweden.
+",https://gcn.nasa.gov/circulars/35213
+96,Integral GRB231129.21: Global MASTER-Net observations report,2023-11-29T10:57:31Z,Vladimir Lipunov at Moscow State U/Krylov Obs <lipunov@xray.sai.msu.ru>,legacy email,"V. Lipunov, V.Kornilov, E. Gorbovskoy, K. Zhirkov, N.Tyurina, P.Balanutsa, A.Kuznetsov, V.Senik,  D. Vlasenko,
+G.Antipov, D.Zimnukhov, E.Minkina, A.Chasovnikov, V.Topolev, D.Kuvshinov, D. Cheryasov, Ya.Kechin, Yu.Tselik, A. Sosnovskij
+(Lomonosov Moscow State University, SAI, Physics Department),
+
+R. Podesta, C.Lopez, F. Podesta, C.Francile
+(Observatorio Astronomico Felix Aguilar OAFA),
+
+R. Rebolo, M. Serra
+(The Instituto de Astrofisica de Canarias),
+
+D. Buckley
+(South African Astronomical Observatory),
+
+O.A. Gress, N.M. Budnev, O.Ershova
+(Irkutsk State University, API),
+
+L.Carrasco, J.R.Valdes, V.Chavushyan, V.M.Patino Alvarez, J.Martinez,
+A.R.Corella, L.H.Rodriguez
+(INAOE, Guillermo Haro Astrophysics Observatory),
+
+A. Tlatov, D. Dormidontov
+(Kislovodsk Solar Station of the Pulkovo Observatory),
+
+V. Yurkov, A. Gabovich
+(Blagoveschensk Educational State University)
+
+MASTER-Tunka robotic telescope  (Global MASTER-Net: http://observ.pereplet.ru, Lipunov et al., 2010, Advances in Astronomy, vol. 2010, 30L)  located in Russia (Applied Physics Institute, Irkutsk State University) was pointed to the Integral GRB231129.21 (trigger No 10436,21h 10m 18.76s , +41d 31m 39.2s, R=0.0528333) errorbox  17767 sec after notice time and 17792 sec after trigger time at 2023-11-29 10:02:31 UT, with upper limit up to  15.1 mag. Observations started at twilight.  The observations began at zenith distance =  9 deg. The sun  altitude  is -8.7 deg. 
+
+The galactic latitude b = -5 deg., longitude l = 85 deg.
+
+
+Real time updated cover map and OT discovered available here: 
+https://master.sai.msu.ru/site/master2/observ.php?id=2319548
+
+We obtain a following upper limits.  
+
+Tmid-T0  |          Site       |Filt.| Expt. | Limit| Comment
+_________|_____________________|_____|_______|______|________
+
+   17795 |        MASTER-Tunka |   C |     5 | 13.3 |        
+   17820 |        MASTER-Tunka |   C |     5 | 13.4 |        
+   17846 |        MASTER-Tunka |   C |    10 | 13.0 |        
+   17878 |        MASTER-Tunka |   C |    15 | 13.5 |        
+   17917 |        MASTER-Tunka |   C |    26 | 13.7 |        
+   17967 |        MASTER-Tunka |   C |    36 | 13.6 |        
+   18027 |        MASTER-Tunka |   C |    45 | 13.9 |        
+   18099 |        MASTER-Tunka |   C |    60 | 13.9 |        
+   18178 |        MASTER-Tunka |   C |    60 | 14.1 |        
+   18273 |        MASTER-Tunka |   C |    90 | 14.1 |        
+   18491 |        MASTER-Tunka |   C |    90 | 14.8 |        
+   18600 |        MASTER-Tunka |   C |    90 | 14.6 |        
+   18755 |        MASTER-Tunka |   C |   180 | 14.4 |        
+   19151 |        MASTER-Tunka |   C |   180 | 14.9 |        
+   20388 |        MASTER-Tunka |   C |   180 | 15.1 |        
+Filter C is a clear (unfiltred) band. 
+
+
+The observation and reduction will continue. 
+The message may be cited.
+
+
+",https://gcn.nasa.gov/circulars/35212
+97,LIGO/Virgo/KAGRA S231129ac: Identification of a GW compact binary merger candidate,2023-11-29T09:48:01Z,Pablo GarcÃ­a Abia at CIEMAT <pablo.garcia@ciemat.es>,Web form,"The LIGO Scientific Collaboration, the Virgo Collaboration, and the KAGRA Collaboration report:
+
+We identified the compact binary merger candidate S231129ac during real-time processing of data from LIGO Hanford Observatory (H1) and LIGO Livingston Observatory (L1) at 2023-11-29 08:17:45.643 UTC (GPS time: 1385281083.643). The candidate was found by the CWB [1], GstLAL [2], and SPIIR [3] analysis pipelines.
+
+S231129ac is an event of interest because its false alarm rate, as estimated by the online analysis, is 1.8e-08 Hz, or about one in 1 year, 9 months. The event's properties can be found at this URL:
+
+https://gracedb.ligo.org/superevents/S231129ac
+
+The classification of the GW signal, in order of descending probability, is BBH (99%), Terrestrial (1%), NSBH (<1%), or BNS (<1%).
+
+There was a high rate of noise transients (glitches) in the LIGO Hanford detector which may affect the parameters or the significance of the candidate.
+
+Assuming the candidate is astrophysical in origin, the probability that the lighter compact object is consistent with a neutron star mass (HasNS) is <1%. [4] Using the masses and spins inferred from the signal, the probability of matter outside the final compact object (HasRemnant) is <1%. [4] Both HasNS and HasRemnant consider the support of several neutron star equations of state. The probability that either of the binary components lies between 3 and 5 solar masses (HasMassgap) is <1%.
+
+Two sky maps are available at this time and can be retrieved from the GraceDB event page:
+ * bayestar.multiorder.fits,1, an initial localization generated by BAYESTAR [5], distributed via GCN notice about a minute after the candidate event time.
+ * bayestar.multiorder.fits,2, an initial localization generated by BAYESTAR [5], distributed via GCN notice about 5 minutes after the candidate event time.
+
+The preferred sky map at this time is bayestar.multiorder.fits,2. For the bayestar.multiorder.fits,2 sky map, the 90% credible region is 3175 deg2. Marginalized over the whole sky, the a posteriori luminosity distance estimate is 5958 +/- 1935 Mpc (a posteriori mean +/- standard deviation).
+
+For further information about analysis methodology and the contents of this alert, refer to the LIGO/Virgo/KAGRA Public Alerts User Guide https://emfollow.docs.ligo.org/userguide/.
+
+ [1] Klimenko et al. PRD 93, 042004 (2016)
+ [2] Tsukada et al. PRD 108, 043004 (2023) and Ewing et al. arXiv:2305.05625 (2023)
+ [3] Chu et al. PRD 105, 024023 (2022)
+ [4] Chatterjee et al. ApJ 896, 54 (2020)
+ [5] Singer & Price PRD 93, 024013 (2016)
+
+",https://gcn.nasa.gov/circulars/35211
+98,GRB 231129A: GECAM-C detection of a long burst ,2023-11-29T09:29:57Z,wenlongzhang2018@163.com,Web form,"Wen-Long Zhang, Shao-Lin Xiong report on behalf of the GECAM team:
+
+GECAM-C was triggered in-flight by a long burst, GRB 231129A, at 2023-11-29T05:06:01.850 UTC (T0), which was also observed by Swift/BAT (GCN #35208) and INTEGRAL (GCN #35209). 
+
+According to the realtime alert data, the GECAM-C light curve shows roughly two peaks with a total duration of ~80 sec (15-1050 keV). 
+
+The time-averaged spectrum of GECAM-C realtime data from about T0 to T0+4 s could be
+adequately fit by a cut-off power-law with a fluence about 1.84E-6 erg/cm^2 in 20-1000 keV. 
+
+GECAM location is consistent with that of Swift/BAT and INTEGRAL within the error.
+We note that these results are based on realtime alert data and thus very preliminary. Refined analysis will be reported later.
+
+Gravitational wave high-energy Electromagnetic Counterpart All-sky Monitor(GECAM) mission originally consists of two microsatellites (GECAM-A and GECAM-B) launched in Dec. 2020. As the third member of GECAM constellation, GECAM-C was launched onboard SATech-01 experimental satellite in July 2022. GECAM mission is funded by the Chinese Academy of Sciences (CAS).
+",https://gcn.nasa.gov/circulars/35210
+99,GRB 231129A: INTEGRAL detection of a long GRB,2023-11-29T08:37:29Z,Sandro Mereghetti at IASF-Milano/INAF <sandro.mereghetti@inaf.it>,Web form,"S.Mereghetti (INAF, IASF-Milano), D.Gotz (CEA, Saclay), C.Ferrigno, E.Bozzo, V.Savchenko (ISDC, Versoix), L.Ducci (IAAT, Germany and ISDC, Versoix) and J.Borkowski (CAMK, Torun) report:
+
+a gamma ray burst lasting about 150 s has been detected by IBAS in the  IBIS/ISGRI data at 05:05:59  UT of November 25, 2023.  The burst has also been detected by Swift (Gropp et al. GCN 35208)
+
+The refined coordinates (J2000) are:
+R.A.=  317.53411 deg
+DEC.=  +41.51942 deg
+with an uncertainty of 1.5  arcmin (90% c.l.).
+
+The burst had a peak flux of about 0.5 ph/cm2/s (20-200 keV, 1-s integration time) and a fluence in the same energy range of about 6e-7 erg/cmq.
+
+A plot of the light curve will  be posted at 
+http://ibas.iasf-milano.inaf.it/IBAS_Results.html
+
+",https://gcn.nasa.gov/circulars/35209
