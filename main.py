@@ -8,7 +8,7 @@ from pornstar import porn_star_collect, str_to_num, pre_pro
 # all links we need traverse
 urls = []
 urls.append('https://www.pornhub.com/pornstars')
-for i in range(2,101):
+for i in range(1,150):
     url = "https://www.pornhub.com/pornstars?page="+str(i)
     urls.append(url)
 
@@ -174,17 +174,19 @@ def overallSearch(url,index):
 
     print()
     print(file.head())
-    file.to_csv(f"pornstars/pornstars_{index}.csv",index=True)
+    file.to_csv(f"pornstars/pornstars_{index}.csv")
     print("Finished processing!")
     print("--------------------------Finished------------------------------------")
     return file
 
-files = overallSearch(urls[100],100)
-
+total_table = pd.read_csv("concat_data2.csv")
+#subtable = pd.read_csv("pornstars/pornstars_100.csv")
+files = pd.DataFrame()
 for i in range(101,150):
     file = overallSearch(urls[i],i)
-    files = pd.concat([files,file])
-
+    files = pd.concat([files,file],axis=0,ignore_index=True)
+    print("-----------------------HEAD------------------------")
+    print(files.head())
 files.columns = [
         "Names",
         "Links",
@@ -204,8 +206,21 @@ files.columns = [
         "Yearly Rank",
         "Subscribers"
     ]
-files.to_csv("concat_data.csv",index=True)
-print(files.head())
+total_table = pd.concat([total_table,files],axis=0,ignore_index=True)
+#total_table = total_table.drop(['unknow'],axis=1)
+total_table = total_table.drop(['Unnamed: 0'],axis=1)
+print(total_table.head())
+#files = overallSearch(urls[100],100)
+
+
+
+
+
+
+#files = pd.concat([total_table,files],axis=0,ignore_index=True)
+#files.drop(['Unnamed: 0'],axis=1)
+total_table.to_csv("concat_data3.csv")
+# print(total_table.head())
 
 
 """     print()
