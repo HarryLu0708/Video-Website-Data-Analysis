@@ -8,11 +8,11 @@ from pornstar import porn_star_collect, str_to_num, pre_pro
 # all links we need traverse
 urls = []
 urls.append('https://www.pornhub.com/pornstars')
-for i in range(1,150):
+for i in range(1,1700):
     url = "https://www.pornhub.com/pornstars?page="+str(i)
     urls.append(url)
 
-print(urls)
+#print(urls)
 
 
 def overallSearch(url,index):
@@ -179,10 +179,10 @@ def overallSearch(url,index):
     print("--------------------------Finished------------------------------------")
     return file
 
-total_table = pd.read_csv("concat_data2.csv")
+total_table = pd.read_csv("test_concat_data.csv")
 #subtable = pd.read_csv("pornstars/pornstars_100.csv")
 files = pd.DataFrame()
-for i in range(101,150):
+for i in range(247,500):
     file = overallSearch(urls[i],i)
     files = pd.concat([files,file],axis=0,ignore_index=True)
     print("-----------------------HEAD------------------------")
@@ -219,7 +219,7 @@ print(total_table.head())
 
 #files = pd.concat([total_table,files],axis=0,ignore_index=True)
 #files.drop(['Unnamed: 0'],axis=1)
-total_table.to_csv("concat_data3.csv")
+total_table.to_csv("concat_data5.csv")
 # print(total_table.head())
 
 
